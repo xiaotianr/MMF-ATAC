@@ -1,36 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/MMGraph_SW.svg" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MMF-ATAC</title>
-    <style>
-      .mycontainer {
-        width: 1520px;
-        /* height: 710px; */
-        overflow: auto;
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/MMGraph_SW.svg" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MMF-ATAC</title>
+  <style>
+    .mycontainer {
+      width: 100vw;
+      /* height: 710px; */
+      overflow: auto;
+    }
+  </style>
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true,
+        processEnvironments: true
+      },
+      svg: {
+        fontCache: 'global'
       }
-    </style>
-    <script>
-      window.MathJax = {
-        tex: {
-          inlineMath: [['$', '$'], ['\\(', '\\)']],
-          displayMath: [['$$', '$$'], ['\\[', '\\]']],
-          processEscapes: true,
-          processEnvironments: true
-        },
-        svg: {
-          fontCache: 'global'
-        }
-      };
-      
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>    
-  </head>
-  <body>
-    <div id="app" class="mycontainer"></div>
-    <script type="module" src="/src/main.js"></script>
-  </body>
+    };
+    window.addEventListener('DOMContentLoaded', function () {
+      var screenWidth = window.innerWidth;
+      var container = document.querySelector('.mycontainer');
+      container.style.width = screenWidth + 'px';
+    })
+
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
+</head>
+
+<body>
+  <div id="app" class="mycontainer"></div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+
 </html>
