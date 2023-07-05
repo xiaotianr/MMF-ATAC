@@ -8,7 +8,7 @@
           <div
             class="text-stone-50 flex items-center justify-start font-bold text-7xl my-6 mx-10"
           >
-            MMGraph-WS
+            MMF-ATAC
           </div>
         </div>
       </el-col>

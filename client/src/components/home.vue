@@ -3,17 +3,27 @@
     <div class="w-[100%] bg-blue-50">
       <div class="text-2xl rounded-xl card_cite w-[100%] model-overview">
         <p>
-          MMGraph is a robust and effective tool for finding multiple motifs from ATAC-seq
-          data. It leverages a Graph Neural Network (GNN) model and coexisting probability
-          of k-mers to identify transcription factor binding sites (TFBSs), which play a
-          crucial role in transcription factor regulations.
+          Assay for Transposase-Accessible Chromatin using sequencing (ATAC-seq) 
+          is employed for investigating the chromatin accessibility of the entire genome, 
+          generating DNA fragments suitable for sequencing by inserting the Tn5 transposase into open 
+          chromatin regions. When a TF binds to DNA, it prevents the Tn5 transposase from cutting the 
+          DNA sequence in that specific region, resulting in a protected area known as an ATAC-seq footprint. 
+          By detecting these footprints, multiple regions of TFs binding to the genome 
+          can be found from a single ATAC-seq dataset.
         </p>
         <p>
-          MMGraph has demonstrated superior performance in identifying TFBS-containing
-          sequences and discovering high-quality motifs in comparison to other existing
-          tools. In an experiment conducted on 88 ATAC-seq datasets, MMGraph achieved the
-          highest AEMR score of 2.31 with lenk=5 and found 207 higher-quality motifs
-          compared to four comparison tools.
+          We have developed a fully automated public web server called MMF-ATAC, 
+          by inputting the ATAC-seq peak bed file and corresponding bam file, 
+          MMF-ATAC will find motifs of various lengths and return them in multiple formats.
+          Results can be downloaded directly from the web page or sent to users' email. 
+          Upon registration and login, users can access their submission records 
+          and download historical submission results.
+        </p>
+        <p>
+        Motif finding experiments were conducted on all 459 ATAC-seq datasets available on ENCODE. 
+        Subsequently, the experimental results were analyzed by using FIMO and TOMTOM tools, 
+        and the identified motifs were visualized on our server in the form of motif logos 
+        and Position Probability Matrices (PPMs) based on these analyses.
         </p>
         <!-- <p>If you use the system, please cite:</p>
         <p>
@@ -38,7 +48,7 @@
       <el-col :span="6" class="flex items-center justify-center">
         <div class="homo_set h-[150px] w-[320px] flex items-center justify-center">
           <router-link :to="{ name: tobro, query: { species: 'homo', classify: '' } }">
-            <span class="text-2xl">370 Homo ATAC-seq datasets</span>
+            <span class="text-2xl">369 Homo ATAC-seq datasets</span>
           </router-link>
         </div>
       </el-col>
@@ -256,7 +266,7 @@ export default {
               url: "tissue",
             },
             {
-              value: 122,
+              value: 121,
               name: "cell line",
               url: "cell line",
             },

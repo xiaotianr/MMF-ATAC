@@ -10,9 +10,9 @@ import os
 import time
 import numpy as np
 from numpy.random import seed
-seed(1)
+seed(123)
 from tensorflow import set_random_seed
-set_random_seed(2)
+set_random_seed(20)
 import argparse
 ################
 parser = argparse.ArgumentParser(description="Process ATAC-seq data.")

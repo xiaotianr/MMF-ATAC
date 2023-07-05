@@ -3,7 +3,7 @@
     <div
       class="h-[80px] bg-[#fff0e8] my-[30px] mx-[50px] .rounded-md flex items-center justify-center text-4xl font-bold"
     >
-      MMGraph-WS : a web server for TFBSs prediction and multiple motifs finding
+      MMF-ATAC : a web server for TFBSs prediction and multiple motifs finding
     </div>
     <el-row class="h-[60px]">
       <el-col :span="2"></el-col>

@@ -5,16 +5,19 @@
                     Page</a></button> -->
       <h2 class="mume-header" id="introduction">Introduction</h2>
 
-      <h4 class="mume-header" id="1what-is-mmgraph-ws">1.What is MMGraph-WS?</h4>
+      <h4 class="mume-header" id="1what-is-mmf-atac">1.What is MMF-ATAC?</h4>
 
       <p>
-        MMGraph-WS is a web server that provides sequence classification and motifs
-        finding from our developed a homonymous motif prediction tool. This tool is based
-        on three-layer GNN and coexisting probability of k-mers to find multiple motifs
-        from ATAC-seq data. The performance of this tool was evaluated on the 88 ENCODE
-        ATAC-seq datasets and achieved the best performance on area of eight metrics radar
-        score of 2.31 and could find 207 higher-quality multiple motifs than other
-        existing tools. Our Server also provides the function of motif visualization.
+        Motif finding in Assay for Transposase-Accessible Chromatin using sequencing (ATAC-seq) data 
+        is crucial for understanding Transcription Factor Binding Sites (TFBSs) and 
+        their roles in gene regulation. To facilitate this process for experimental biologists, 
+        MMF-ATAC has been developed as a user-friendly web server that enables efficient f
+        inding multiple motifs in ATAC-seq data using a graph neural network-based tool. 
+        The web server is designed with a focus on usability and provides several key features, 
+        including ATAC-seq data querying, TFBSs prediction and motif finding job submission. 
+        Moreover, MMF-ATAC provides motif finding results and visualizations of 459 ENCODE ATAC-seq datasets. 
+        Overall, MMF-ATAC serves as a valuable resource for experimental biologists 
+        seeking a user-friendly tool to find motif from ATAC-seq data without the need for programming expertise.
       </p>
       <h4 class="mume-header" id="2what-is-mmgraph">2.What is MMGraph?</h4>
 
@@ -103,7 +106,12 @@
       <p class="flex items-center justify-center">
         <img src="../../src/images/Server_flow_chat.png" width="60%" />
       </p>
+      
       <h3 class="mume-header" id="input-files">Inputs</h3>
+      <p class="flex items-center justify-center">
+        <img src="/images/upload.png" width="45%" />
+        <img src="/images/upload2.png" width="45%" />
+      </p>
       <p>
         The following input files are required. These files contain ATAC-seq data from
         ENCODE, which is essential for the processing and analysis of the data.
@@ -167,8 +175,12 @@
         Provide an email address to receive the results via email without any waiting time
         on the current page.
       </p>
+      
       <h3 class="mume-header" id="output-results">Outputs</h3>
-
+      <p class="flex items-center justify-center">
+        <img src="/images/download.png" width="45%" />
+        <img src="/images/result.png" width="45%" />
+      </p>
       <h4 class="mume-header" id="1tasktfbss-prediction">1.MMGraph</h4>
       <p>
         The output results of MMGraph consist of a compressed file, which includes a
@@ -185,7 +197,7 @@
       <h4 class="mume-header" id="2taskmultiple-motifs-finding">2.HINT-ATAC</h4>
       <p>
         The output of HINT-ATAC is a BED file containing the coordinates and related
-        information of the predicted transcription factor binding sites. Each line
+        information of the footprint. Each line
         represents a TFBS and includes the chromosome, start position, end position, motif
         name (transcription factor name), score (indicating the binding strength with a
         range from 0 to 1000), and strand (either the positive strand "+" or the negative
@@ -224,7 +236,7 @@
       <h4 class="mume-header" id="1-precise-query-function">1. Precise query function</h4>
 
       <p>
-        MMGraphWS provides a precise query function for retrieving relevant information
+        MMF-ATAC provides a precise query function for retrieving relevant information
         about corresponding ATAC-seq data by entering a GEO number. This feature ensures
         that users can easily locate specific datasets of interest.
       </p>
@@ -318,7 +330,7 @@
         <li>
           <a href="#introduction">Introduction</a>
           <ul>
-            <li><a href="#1what-is-mmgraph-ws">1.What is MMGraph-WS?</a></li>
+            <li><a href="#1what-is-mmf-atac">1.What is MMF-ATAC?</a></li>
             <li><a href="#2what-is-mmgraph">2.What is MMGraph?</a></li>
             <li><a href="#3what-is-atac-seq">3.What is ATAC-seq?</a></li>
             <li>
@@ -402,22 +414,6 @@
   </div>
 </template>
 <style>
-/* .snowflake_help {
-    color: #fff;
-    position: absolute;
-    top: -20px;
-    animation: fall_help linear forwards;
-}
-
-@keyframes fall_help {
-    from {
-        transform: translateX(0px) translateY(0px);
-    }
-
-    to {
-        transform: translateX(0px) translateY(2240px);
-    }
-} */
 </style>
 <style scoped>
 @import url("https://fonts.googleapis.com/css?family=Roboto+Mono|Source+Sans+Pro:300,400,600");

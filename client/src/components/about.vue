@@ -4,7 +4,7 @@
       <div class="text-2xl rounded-xl card_cite w-[100%] model-overview">
         <p class="pt-[80px] pb-[50px] text-4xl ml-[-60px] font-bold">About</p>
         <p>
-          The MMGraph_WS has been developed by Xiaotian Wu (School of Artificial
+          The MMF-ATAC has been developed by Xiaotian Wu (School of Artificial
           Intelligence, Jilin University, Changchun, China) and Shuangquan Zhang (Nanjing
           University of Science and Technology, Wuxi, China).
         </p>
