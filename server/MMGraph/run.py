@@ -47,9 +47,12 @@ def run6(name,genome):
     cmd3 = 'python ./MMGraph/compute_meme.py --hash '+name
     print(cmd3)
     os.system(cmd3)
-    cmd4 = 'python ./MMGraph/getimg.py --hash '+name
+    cmd4='python ./MMGraph/gettomtom.py --hash '+name+' --genome '+genome
     print(cmd4)
     os.system(cmd4)
+    cmd5 = 'python ./MMGraph/getimg.py --hash '+name
+    print(cmd5)
+    os.system(cmd5)
 
 def main():
     name = sys.argv[1]
@@ -58,6 +61,14 @@ def main():
     genome = 'hg38'
     if species == 'mus':
         genome = 'mm10'
+    elif species == 'homo_hg19':
+        genome='hg19'
+    elif species == 'mus_mm9':
+        genome=='mm9'
+    elif species == 'danio_zv10':
+        genome='zv10'
+    elif species == 'danio_zv10':
+        genome=='zv9'
     if schedule == '1':
         run1(name,genome)
     elif schedule == '2':

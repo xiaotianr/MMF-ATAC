@@ -26,8 +26,6 @@ def read_fa(fa):
     nrow=len(data[1].strip('\n'))
     ncol=len(data)
     matrix=[]
-    # print(nrow,ncol,data)
-    # return
     for i in range(nrow):
         tt=[t[i] for t in data[:]]
         nums=Counter(tt)
@@ -52,7 +50,7 @@ def read_fa(fa):
 def get_meme(fa):
     names=fa.split('.fa')[0].split('/')[-1]
     # print(names)
-    name='./download/'+args.hash+'/letter-probability-matrix/'+names+'.meme'
+    name='./download/'+args.hash+'/motif_PPMs/'+names+'.meme'
     # print(name)
     # read_fa(fa)
     # return 
@@ -62,7 +60,7 @@ def get_meme(fa):
     file = open(name,'w')
     file.writelines('MEME version 4'+'\n')
     file.writelines('ALPHABET= ACGT'+'\n')
-    file.writelines('MOTIF '+'motif1'+'\n')
+    file.writelines('MOTIF '+names+'\n')
     file.writelines('\n')
     file.writelines(letter)
     s=''
@@ -88,10 +86,10 @@ def obtain(path,l):
     
 if __name__=='__main__':
     name=args.hash
-    ppmpath='./download/'+args.hash+'/letter-probability-matrix/'
+    ppmpath='./download/'+args.hash+'/motif_PPMs/'
     if not os.path.exists(ppmpath):
         os.mkdir(ppmpath)
-    path='./save/'+name+'/fasta_file/'
+    path='./download/'+name+'/motif_fasta/'
     files=os.listdir(path)
     for i in files:
         name=path+i

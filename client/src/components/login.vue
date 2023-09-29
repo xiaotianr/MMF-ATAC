@@ -2,7 +2,7 @@
   <el-row class="h-[500px] flex items-center justify-center" id="login">
     <el-col :lg="6"></el-col>
     <el-col :lg="12" class="flex items-center justify-center flex-col">
-      <h2 class="font-bold text-5xl text-gray-800 my-[50px]">Welcome to MMGraph</h2>
+      <h2 class="font-bold text-5xl text-gray-800 my-[50px]">Welcome to MMF-ATAC</h2>
       <!-- <div class="flex items-center justify-center my-5 text-stone-500 space-x-2">
         <span class="h-[1px] w-16 bg-gray-200"></span>
         <span>Account Password Login</span>
@@ -48,7 +48,7 @@
         </el-form-item>
         <el-form-item>
           <el-button round class="w-[400px] button_login text-2xl" @click="login"
-            >Log in</el-button
+            >Sign in</el-button
           >
         </el-form-item>
         <el-form-item>

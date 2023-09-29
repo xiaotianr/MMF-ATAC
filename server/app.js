@@ -929,7 +929,7 @@ app.post('/loadmotif', (req, res) => {
     console.log('loadmotif');
     const formval = req.body;
     const geonumber = formval.gse;
-    const query = `SELECT * FROM gse_tf WHERE GEO_number = '${geonumber}' UNION SELECT * FROM gse_tf_mus_90 WHERE GEO_number = '${geonumber}'`; // 构造SQL查询语句
+    const query = `SELECT * FROM new_gse_tf_human WHERE GEO_number = '${geonumber}' UNION SELECT * FROM gse_tf_mus_90 WHERE GEO_number = '${geonumber}'`; // 构造SQL查询语句
     // const db = pool.getConnection()
     db.query(query, (err, results) => {
         if (err) {
@@ -969,7 +969,8 @@ app.post('/getppm', (req, res) => {
         // console.log(jsondata);
         const response = {
             alphabet: jsondata["alphabet"],
-            ppm: jsondata["ppm"]
+            ppm: jsondata["ppm"],
+            nsites:jsondata["nsites"]
         }
         res.send(response);
     })
@@ -1047,10 +1048,137 @@ app.post('/getimg', (req, res) => {
     //     })
 })
 
+app.post('/upload_enrich', async (req, res) => {
+    try {
+        let {
+            fields,
+            files
+        } = await multiparty_upload(req);
+        // let  HASH = files.filename;
+        let file = (files.file && files.file[0]) || {},
+            filename = (fields.filename && fields.filename[0]) || "",
+            HASH = (fields.hash && fields.hash[0]) || "";
+            
+        let path = `${uploadDir}/${HASH}`;
+        !fs.existsSync(path) ? fs.mkdirSync(path) : null;
+        path = `${uploadDir}/${HASH}/${filename}`;
+        writeFile(res, path, file, filename, true);
+    } catch (err) {
+        res.send({
+            code: 1,
+            codeText: err
+        });
+    }
 
+})
 
+app.post("/motif_enrich", (req, res, next) => {
+    const model = './ame/run.py',
+        filename = req.body.name,
+        username = req.body.username,
+        hash=req.body.hash,
+        task_content=req.body.task,
+        species = req.body.species;
 
+    console.log(filename, species, task_content, username,hash)
+    let py6 = spawn('python', [model, filename, hash, species]);
+    py6.stdout.on('data', function (data) {
+        console.log('stdout: py6:' + data);
+    })
+    py6.stderr.on('data', (data) => {
+        console.error(`错误输出：${data}`);
+    });
+    py6.on('close', function (code) {
+        fs.access(`${downloadDir}/${hash}.zip`, fs.constants.F_OK, (err) => {
+            if (err) {
+                zip_file(hash)
+            }
+        });
+        if (username) {
+            console.log('insert start')
+            db.query(`insert into task values (?,?,?,?,?)`, [hash, username, 'AME', species, task_content], (err, results, fields) => {
+                if (err) throw err;
+                else {
+                    console.log('insert end')
+                }
+            })
+        }
+        let modeldel = './MMGraph/delete.py'
+        let pydel = spawn('python', [modeldel, hash]);
+        pydel.on('close', function (code) { res.send({
+            code: 0,
+            codeText: 'enrich complete',
+        }); })
+    })
+                 
 
+});
+
+app.post('/upload_fun', async (req, res) => {
+    try {
+        let {
+            fields,
+            files
+        } = await multiparty_upload(req);
+        // let  HASH = files.filename;
+        let file = (files.file && files.file[0]) || {},
+            filename = (fields.filename && fields.filename[0]) || "",
+            HASH = (fields.hash && fields.hash[0]) || "";
+            
+        let path = `${uploadDir}/${HASH}`;
+        !fs.existsSync(path) ? fs.mkdirSync(path) : null;
+        path = `${uploadDir}/${HASH}/${filename}`;
+        writeFile(res, path, file, filename, true);
+    } catch (err) {
+        res.send({
+            code: 1,
+            codeText: err
+        });
+    }
+
+})
+
+app.post("/motif_fun", (req, res, next) => {
+    const model = './gomo/run.py',
+        filename = req.body.name,
+        username = req.body.username,
+        hash=req.body.hash,
+        task_content=req.body.task,
+        species = req.body.species;
+
+    console.log(filename, species, task_content, username,hash)
+    let py6 = spawn('python', [model, filename, hash, species]);
+    py6.stdout.on('data', function (data) {
+        console.log('stdout: py6:' + data);
+    })
+    py6.stderr.on('data', (data) => {
+        console.error(`错误输出：${data}`);
+    });
+    py6.on('close', function (code) {
+        fs.access(`${downloadDir}/${hash}.zip`, fs.constants.F_OK, (err) => {
+            if (err) {
+                zip_file(hash)
+            }
+        });
+        if (username) {
+            console.log('insert start')
+            db.query(`insert into task values (?,?,?,?,?)`, [hash, username, 'AME', species, task_content], (err, results, fields) => {
+                if (err) throw err;
+                else {
+                    console.log('insert end')
+                }
+            })
+        }
+        let modeldel = './MMGraph/delete.py'
+        let pydel = spawn('python', [modeldel, hash]);
+        pydel.on('close', function (code) { res.send({
+            code: 0,
+            codeText: 'enrich complete',
+        }); })
+    })
+                 
+
+});
 
 app.post('/login', (req, res) => {
     let formval = req.body;
@@ -1183,11 +1311,11 @@ let transporter = nodemailer.createTransport({
 function sendMail(mail, hash) {
     // 发送的配置项
     let mailOptions = {
-        from: '"MMGraph" <mmgraph@163.com>', // 发送方
+        from: '"MMF-ATAC" <mmgraph@163.com>', // 发送方
         to: mail, //接收者邮箱，多个邮箱用逗号间隔
-        subject: '欢迎来到"MMGraph_WS"', // 标题
-        text: 'Hello MMGraphWS', // 文本内容
-        html: '<p>这里是"MMGraph_WS"详情请点击:</p><a href="http://www.mmgraphws.com/">点击跳转</a>', //页面内容
+        subject: '欢迎来到"MMF-ATAC"', // 标题
+        text: 'Hello MMF-ATAC', // 文本内容
+        html: '<p>这里是"MMF-ATAC"详情请点击:</p><a href="https://www.mmgraphws.com/">点击跳转</a>', //页面内容
         attachments: [{//发送文件
             // 		filename: 'index.html', //文件名字
             // 		path: './index.html' //文件路径

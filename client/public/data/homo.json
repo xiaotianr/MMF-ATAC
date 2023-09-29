@@ -1,1 +1,2954 @@
-[{"id": "1", "Experiment_ID": "ENCSR409YCK", "GEO_number": "GSE172962", "Biosample_Type": "cell line", "Biosample_Summary": "GM19043", "url": "https://www.encodeproject.org/experiments/ENCSR409YCK/"}, {"id": "2", "Experiment_ID": "ENCSR357WQH", "GEO_number": "GSE172805", "Biosample_Type": "cell line", "Biosample_Summary": "GM18508", "url": "https://www.encodeproject.org/experiments/ENCSR357WQH/"}, {"id": "3", "Experiment_ID": "ENCSR580JBA", "GEO_number": "GSE172696", "Biosample_Type": "cell line", "Biosample_Summary": "GM18868", "url": "https://www.encodeproject.org/experiments/ENCSR580JBA/"}, {"id": "4", "Experiment_ID": "ENCSR359HFH", "GEO_number": "GSE172814", "Biosample_Type": "cell line", "Biosample_Summary": "HG03095", "url": "https://www.encodeproject.org/experiments/ENCSR359HFH/"}, {"id": "5", "Experiment_ID": "ENCSR376YMU", "GEO_number": "GSE172867", "Biosample_Type": "cell line", "Biosample_Summary": "HG03439", "url": "https://www.encodeproject.org/experiments/ENCSR376YMU/"}, {"id": "6", "Experiment_ID": "ENCSR063UNG", "GEO_number": "GSE172646", "Biosample_Type": "cell line", "Biosample_Summary": "HG03196", "url": "https://www.encodeproject.org/experiments/ENCSR063UNG/"}, {"id": "7", "Experiment_ID": "ENCSR706GDQ", "GEO_number": "GSE173023", "Biosample_Type": "cell line", "Biosample_Summary": "GM19455", "url": "https://www.encodeproject.org/experiments/ENCSR706GDQ/"}, {"id": "8", "Experiment_ID": "ENCSR839IAD", "GEO_number": "GSE172768", "Biosample_Type": "cell line", "Biosample_Summary": "GM19397", "url": "https://www.encodeproject.org/experiments/ENCSR839IAD/"}, {"id": "9", "Experiment_ID": "ENCSR641KNU", "GEO_number": "GSE172841", "Biosample_Type": "cell line", "Biosample_Summary": "GM21825", "url": "https://www.encodeproject.org/experiments/ENCSR641KNU/"}, {"id": "10", "Experiment_ID": "ENCSR624CTU", "GEO_number": "GSE172804", "Biosample_Type": "cell line", "Biosample_Summary": "HG03520", "url": "https://www.encodeproject.org/experiments/ENCSR624CTU/"}, {"id": "11", "Experiment_ID": "ENCSR253QLW", "GEO_number": "GSE172518", "Biosample_Type": "cell line", "Biosample_Summary": "GM18511", "url": "https://www.encodeproject.org/experiments/ENCSR253QLW/"}, {"id": "12", "Experiment_ID": "ENCSR404OEO", "GEO_number": "GSE172952", "Biosample_Type": "cell line", "Biosample_Summary": "HG02763", "url": "https://www.encodeproject.org/experiments/ENCSR404OEO/"}, {"id": "13", "Experiment_ID": "ENCSR038WVV", "GEO_number": "GSE172634", "Biosample_Type": "cell line", "Biosample_Summary": "HG02973", "url": "https://www.encodeproject.org/experiments/ENCSR038WVV/"}, {"id": "14", "Experiment_ID": "ENCSR260LAN", "GEO_number": "GSE215625", "Biosample_Type": "primary cell", "Biosample_Summary": "naive thymus-derived CD4-positive, alpha-beta T cell male adult (48 years)", "url": "https://www.encodeproject.org/experiments/ENCSR260LAN/"}, {"id": "15", "Experiment_ID": "ENCSR983HXF", "GEO_number": "GSE187937", "Biosample_Type": "primary cell", "Biosample_Summary": "activated naive CD8-positive, alpha-beta T cell nuclear fraction male adult (30 years) treated with anti-CD3 and anti-CD28 coated beads for 7 days, 10 ng/mL Interleukin-2 for 5 days", "url": "https://www.encodeproject.org/experiments/ENCSR983HXF/"}, {"id": "16", "Experiment_ID": "ENCSR977LVI", "GEO_number": "GSE187916", "Biosample_Type": "primary cell", "Biosample_Summary": "T-cell female adult (21 years)", "url": "https://www.encodeproject.org/experiments/ENCSR977LVI/"}, {"id": "17", "Experiment_ID": "ENCSR102RXG", "GEO_number": "GSE187329", "Biosample_Type": "primary cell", "Biosample_Summary": "T-cell female adult (33 years)", "url": "https://www.encodeproject.org/experiments/ENCSR102RXG/"}, {"id": "18", "Experiment_ID": "ENCSR044ATC", "GEO_number": "GSE187174", "Biosample_Type": "primary cell", "Biosample_Summary": "natural killer cell female adult (41 years)", "url": "https://www.encodeproject.org/experiments/ENCSR044ATC/"}, {"id": "19", "Experiment_ID": "ENCSR685OFR", "GEO_number": "GSE188165", "Biosample_Type": "primary cell", "Biosample_Summary": "naive B cell female adult (39 years)", "url": "https://www.encodeproject.org/experiments/ENCSR685OFR/"}, {"id": "20", "Experiment_ID": "ENCSR305XRF", "GEO_number": "GSE172679", "Biosample_Type": "cell line", "Biosample_Summary": "HG03175", "url": "https://www.encodeproject.org/experiments/ENCSR305XRF/"}, {"id": "21", "Experiment_ID": "ENCSR492FJO", "GEO_number": "GSE172566", "Biosample_Type": "cell line", "Biosample_Summary": "GM18867", "url": "https://www.encodeproject.org/experiments/ENCSR492FJO/"}, {"id": "22", "Experiment_ID": "ENCSR322SBN", "GEO_number": "GSE172720", "Biosample_Type": "cell line", "Biosample_Summary": "HG03457", "url": "https://www.encodeproject.org/experiments/ENCSR322SBN/"}, {"id": "23", "Experiment_ID": "ENCSR214EIV", "GEO_number": "GSE173002", "Biosample_Type": "cell line", "Biosample_Summary": "GM21619", "url": "https://www.encodeproject.org/experiments/ENCSR214EIV/"}, {"id": "24", "Experiment_ID": "ENCSR487SOP", "GEO_number": "GSE172559", "Biosample_Type": "cell line", "Biosample_Summary": "HG03064", "url": "https://www.encodeproject.org/experiments/ENCSR487SOP/"}, {"id": "25", "Experiment_ID": "ENCSR608KJD", "GEO_number": "GSE172760", "Biosample_Type": "cell line", "Biosample_Summary": "HG03097", "url": "https://www.encodeproject.org/experiments/ENCSR608KJD/"}, {"id": "26", "Experiment_ID": "ENCSR144ZXR", "GEO_number": "GSE172826", "Biosample_Type": "cell line", "Biosample_Summary": "HG02759", "url": "https://www.encodeproject.org/experiments/ENCSR144ZXR/"}, {"id": "27", "Experiment_ID": "ENCSR835WBW", "GEO_number": "GSE172757", "Biosample_Type": "cell line", "Biosample_Summary": "HG03565", "url": "https://www.encodeproject.org/experiments/ENCSR835WBW/"}, {"id": "28", "Experiment_ID": "ENCSR422RPD", "GEO_number": "GSE172979", "Biosample_Type": "cell line", "Biosample_Summary": "GM21717", "url": "https://www.encodeproject.org/experiments/ENCSR422RPD/"}, {"id": "29", "Experiment_ID": "ENCSR408IVU", "GEO_number": "GSE172959", "Biosample_Type": "cell line", "Biosample_Summary": "GM21526", "url": "https://www.encodeproject.org/experiments/ENCSR408IVU/"}, {"id": "30", "Experiment_ID": "ENCSR092SRS", "GEO_number": "GSE187298", "Biosample_Type": "primary cell", "Biosample_Summary": "activated T-cell male adult (42 years) treated with 50 U/mL Interleukin-2 for 4 hours, anti-CD3 and anti-CD28 coated beads for 4 hours", "url": "https://www.encodeproject.org/experiments/ENCSR092SRS/"}, {"id": "31", "Experiment_ID": "ENCSR712ZRY", "GEO_number": "GSE173027", "Biosample_Type": "cell line", "Biosample_Summary": "GM19463", "url": "https://www.encodeproject.org/experiments/ENCSR712ZRY/"}, {"id": "32", "Experiment_ID": "ENCSR821JHD", "GEO_number": "GSE172722", "Biosample_Type": "cell line", "Biosample_Summary": "HG02623", "url": "https://www.encodeproject.org/experiments/ENCSR821JHD/"}, {"id": "33", "Experiment_ID": "ENCSR660WSB", "GEO_number": "GSE172903", "Biosample_Type": "cell line", "Biosample_Summary": "DND-41", "url": "https://www.encodeproject.org/experiments/ENCSR660WSB/"}, {"id": "34", "Experiment_ID": "ENCSR411NFB", "GEO_number": "GSE187468", "Biosample_Type": "primary cell", "Biosample_Summary": "activated T-cell female adult (33 years) treated with 50 U/mL Interleukin-2 for 4 hours, anti-CD3 and anti-CD28 coated beads for 4 hours", "url": "https://www.encodeproject.org/experiments/ENCSR411NFB/"}, {"id": "35", "Experiment_ID": "ENCSR080SNF", "GEO_number": "GSE172699", "Biosample_Type": "cell line", "Biosample_Summary": "RWPE2", "url": "https://www.encodeproject.org/experiments/ENCSR080SNF/"}, {"id": "36", "Experiment_ID": "ENCSR541KFY", "GEO_number": "GSE187636", "Biosample_Type": "cell line", "Biosample_Summary": "WTC11", "url": "https://www.encodeproject.org/experiments/ENCSR541KFY/"}, {"id": "37", "Experiment_ID": "ENCSR924SDV", "GEO_number": "GSE172913", "Biosample_Type": "cell line", "Biosample_Summary": "GM18498", "url": "https://www.encodeproject.org/experiments/ENCSR924SDV/"}, {"id": "38", "Experiment_ID": "ENCSR345NVR", "GEO_number": "GSE172766", "Biosample_Type": "cell line", "Biosample_Summary": "HG03460", "url": "https://www.encodeproject.org/experiments/ENCSR345NVR/"}, {"id": "39", "Experiment_ID": "ENCSR241VGH", "GEO_number": "GSE173046", "Biosample_Type": "cell line", "Biosample_Summary": "GM18502", "url": "https://www.encodeproject.org/experiments/ENCSR241VGH/"}, {"id": "40", "Experiment_ID": "ENCSR454UTH", "GEO_number": "GSE173043", "Biosample_Type": "cell line", "Biosample_Summary": "GM19452", "url": "https://www.encodeproject.org/experiments/ENCSR454UTH/"}, {"id": "41", "Experiment_ID": "ENCSR902CFR", "GEO_number": "GSE172869", "Biosample_Type": "cell line", "Biosample_Summary": "GM21423", "url": "https://www.encodeproject.org/experiments/ENCSR902CFR/"}, {"id": "42", "Experiment_ID": "ENCSR442OAV", "GEO_number": "GSE173014", "Biosample_Type": "cell line", "Biosample_Summary": "GM18517", "url": "https://www.encodeproject.org/experiments/ENCSR442OAV/"}, {"id": "43", "Experiment_ID": "ENCSR331JFZ", "GEO_number": "GSE172731", "Biosample_Type": "cell line", "Biosample_Summary": "HG03575", "url": "https://www.encodeproject.org/experiments/ENCSR331JFZ/"}, {"id": "44", "Experiment_ID": "ENCSR123WME", "GEO_number": "GSE172797", "Biosample_Type": "cell line", "Biosample_Summary": "HG02943", "url": "https://www.encodeproject.org/experiments/ENCSR123WME/"}, {"id": "45", "Experiment_ID": "ENCSR134OSR", "GEO_number": "GSE172811", "Biosample_Type": "cell line", "Biosample_Summary": "GM19438", "url": "https://www.encodeproject.org/experiments/ENCSR134OSR/"}, {"id": "46", "Experiment_ID": "ENCSR424KQH", "GEO_number": "GSE172982", "Biosample_Type": "cell line", "Biosample_Summary": "GM21447", "url": "https://www.encodeproject.org/experiments/ENCSR424KQH/"}, {"id": "47", "Experiment_ID": "ENCSR299LSN", "GEO_number": "GSE187379", "Biosample_Type": "primary cell", "Biosample_Summary": "T-cell male adult (42 years)", "url": "https://www.encodeproject.org/experiments/ENCSR299LSN/"}, {"id": "48", "Experiment_ID": "ENCSR858GTE", "GEO_number": "GSE172806", "Biosample_Type": "cell line", "Biosample_Summary": "HG03442", "url": "https://www.encodeproject.org/experiments/ENCSR858GTE/"}, {"id": "49", "Experiment_ID": "ENCSR248ZAC", "GEO_number": "GSE215614", "Biosample_Type": "primary cell", "Biosample_Summary": "T-helper 17 cell male adult (42 years)", "url": "https://www.encodeproject.org/experiments/ENCSR248ZAC/"}, {"id": "50", "Experiment_ID": "ENCSR392YGP", "GEO_number": "GSE187421", "Biosample_Type": "primary cell", "Biosample_Summary": "effector memory CD8-positive, alpha-beta T cell male adult (33 years)", "url": "https://www.encodeproject.org/experiments/ENCSR392YGP/"}, {"id": "51", "Experiment_ID": "ENCSR165FYY", "GEO_number": "GSE215647", "Biosample_Type": "primary cell", "Biosample_Summary": "central memory CD8-positive, alpha-beta T cell male adult (36 years)", "url": "https://www.encodeproject.org/experiments/ENCSR165FYY/"}, {"id": "52", "Experiment_ID": "ENCSR830ALP", "GEO_number": "GSE188057", "Biosample_Type": "primary cell", "Biosample_Summary": "activated T-cell male adult (43 years) treated with anti-CD3 and anti-CD28 coated beads for 72 hours, 50 U/mL Interleukin-2 for 72 hours", "url": "https://www.encodeproject.org/experiments/ENCSR830ALP/"}, {"id": "53", "Experiment_ID": "ENCSR094QFZ", "GEO_number": "GSE187312", "Biosample_Type": "primary cell", "Biosample_Summary": "activated CD4-positive, CD25-positive, alpha-beta regulatory T cell male adult (38 years) treated with anti-CD3 and anti-CD28 coated beads for 24 hours, 50 U/mL Interleukin-2 for 24 hours", "url": "https://www.encodeproject.org/experiments/ENCSR094QFZ/"}, {"id": "54", "Experiment_ID": "ENCSR614JAG", "GEO_number": "GSE187659", "Biosample_Type": "primary cell", "Biosample_Summary": "naive thymus-derived CD8-positive, alpha-beta T cell male adult (36 years)", "url": "https://www.encodeproject.org/experiments/ENCSR614JAG/"}, {"id": "55", "Experiment_ID": "ENCSR808HWS", "GEO_number": "GSE188031", "Biosample_Type": "primary cell", "Biosample_Summary": "natural killer cell female adult (41 years) treated with 100 ng/mL Interleukin-18 for 72 hours, 100 ng/mL Interleukin-12 subunit beta for 72 hours, 100 ng/mL Interleukin-15 for 72 hours, 100 ng/mL Interleukin-12 subunit alpha for 72 hours", "url": "https://www.encodeproject.org/experiments/ENCSR808HWS/"}, {"id": "56", "Experiment_ID": "ENCSR305QTE", "GEO_number": "GSE187426", "Biosample_Type": "primary cell", "Biosample_Summary": "natural killer cell male adult (47 years)", "url": "https://www.encodeproject.org/experiments/ENCSR305QTE/"}, {"id": "57", "Experiment_ID": "ENCSR802GEV", "GEO_number": "GSE170195", "Biosample_Type": "tissue", "Biosample_Summary": "cerebellum tissue male adult (20 years)", "url": "https://www.encodeproject.org/experiments/ENCSR802GEV/"}, {"id": "58", "Experiment_ID": "ENCSR854TTM", "GEO_number": "GSE187753", "Biosample_Type": "primary cell", "Biosample_Summary": "natural killer cell male adult (47 years) treated with 100 ng/mL Interleukin-12 subunit alpha for 72 hours, 100 ng/mL Interleukin-15 for 72 hours, 100 ng/mL Interleukin-12 subunit beta for 72 hours, 100 ng/mL Interleukin-18 for 72 hours", "url": "https://www.encodeproject.org/experiments/ENCSR854TTM/"}, {"id": "59", "Experiment_ID": "ENCSR032MEH", "GEO_number": "GSE215517", "Biosample_Type": "primary cell", "Biosample_Summary": "T-cell male adult (43 years)", "url": "https://www.encodeproject.org/experiments/ENCSR032MEH/"}, {"id": "60", "Experiment_ID": "ENCSR379NMT", "GEO_number": "GSE187378", "Biosample_Type": "primary cell", "Biosample_Summary": "stimulated activated naive B cell male adult (40 years) treated with 1 \u03bcg/mL anti-CD40 for 72 hours, 10 \u03bcg/mL anti-IgM for 72 hours, 100 ng/mL Interleukin-4 for 72 hours", "url": "https://www.encodeproject.org/experiments/ENCSR379NMT/"}, {"id": "61", "Experiment_ID": "ENCSR373NFA", "GEO_number": "GSE187335", "Biosample_Type": "primary cell", "Biosample_Summary": "activated naive CD4-positive, alpha-beta T cell male adult (50 years) treated with anti-CD3 and anti-CD28 coated beads for 72 hours, 50 U/mL Interleukin-2 for 72 hours", "url": "https://www.encodeproject.org/experiments/ENCSR373NFA/"}, {"id": "62", "Experiment_ID": "ENCSR115OIV", "GEO_number": "GSE187046", "Biosample_Type": "primary cell", "Biosample_Summary": "activated T-helper 17 cell male adult (50 years) treated with anti-CD3 and anti-CD28 coated beads for 72 hours, 50 U/mL Interleukin-2 for 72 hours", "url": "https://www.encodeproject.org/experiments/ENCSR115OIV/"}, {"id": "63", "Experiment_ID": "ENCSR903WVU", "GEO_number": "GSE188076", "Biosample_Type": "primary cell", "Biosample_Summary": "naive B cell male adult (40 years)", "url": "https://www.encodeproject.org/experiments/ENCSR903WVU/"}, {"id": "64", "Experiment_ID": "ENCSR863TVR", "GEO_number": "GSE215522", "Biosample_Type": "primary cell", "Biosample_Summary": "stimulated activated naive CD8-positive, alpha-beta T cell male adult (33 years) treated with anti-CD3 and anti-CD28 coated beads for 72 hours, 100 ng/mL Interleukin-15 for 72 hours", "url": "https://www.encodeproject.org/experiments/ENCSR863TVR/"}, {"id": "65", "Experiment_ID": "ENCSR637OPZ", "GEO_number": "GSE187710", "Biosample_Type": "primary cell", "Biosample_Summary": "stimulated activated naive CD8-positive, alpha-beta T cell male adult (36 years) treated with 100 ng/mL Interleukin-15 for 72 hours, anti-CD3 and anti-CD28 coated beads for 72 hours", "url": "https://www.encodeproject.org/experiments/ENCSR637OPZ/"}, {"id": "66", "Experiment_ID": "ENCSR302PTB", "GEO_number": "GSE187422", "Biosample_Type": "primary cell", "Biosample_Summary": "stimulated activated memory B cell male adult (40 years) treated with 10 \u03bcg/mL anti-IgM for 72 hours, 1 \u03bcg/mL anti-CD40 for 72 hours, 100 ng/mL Interleukin-4 for 72 hours", "url": "https://www.encodeproject.org/experiments/ENCSR302PTB/"}, {"id": "67", "Experiment_ID": "ENCSR610AQP", "GEO_number": "GSE187646", "Biosample_Type": "primary cell", "Biosample_Summary": "memory B cell male adult (40 years)", "url": "https://www.encodeproject.org/experiments/ENCSR610AQP/"}, {"id": "68", "Experiment_ID": "ENCSR356KRQ", "GEO_number": "GSE172802", "Biosample_Type": "primary cell", "Biosample_Summary": "foreskin keratinocyte male newborn (2-4 days)", "url": "https://www.encodeproject.org/experiments/ENCSR356KRQ/"}, {"id": "69", "Experiment_ID": "ENCSR249FXU", "GEO_number": "GSE173067", "Biosample_Type": "cell line", "Biosample_Summary": "HG03045", "url": "https://www.encodeproject.org/experiments/ENCSR249FXU/"}, {"id": "70", "Experiment_ID": "ENCSR939EVW", "GEO_number": "GSE172934", "Biosample_Type": "cell line", "Biosample_Summary": "GM21528", "url": "https://www.encodeproject.org/experiments/ENCSR939EVW/"}, {"id": "71", "Experiment_ID": "ENCSR278JWM", "GEO_number": "GSE172594", "Biosample_Type": "cell line", "Biosample_Summary": "HG03558", "url": "https://www.encodeproject.org/experiments/ENCSR278JWM/"}, {"id": "72", "Experiment_ID": "ENCSR122NDR", "GEO_number": "GSE172796", "Biosample_Type": "cell line", "Biosample_Summary": "GM21576", "url": "https://www.encodeproject.org/experiments/ENCSR122NDR/"}, {"id": "73", "Experiment_ID": "ENCSR512YXO", "GEO_number": "GSE172603", "Biosample_Type": "cell line", "Biosample_Summary": "GM21381", "url": "https://www.encodeproject.org/experiments/ENCSR512YXO/"}, {"id": "74", "Experiment_ID": "ENCSR159GFS", "GEO_number": "GSE187134", "Biosample_Type": "primary cell", "Biosample_Summary": "CD4-positive, CD25-positive, alpha-beta regulatory T cell male adult (42 years)", "url": "https://www.encodeproject.org/experiments/ENCSR159GFS/"}, {"id": "75", "Experiment_ID": "ENCSR261PWP", "GEO_number": "GSE187217", "Biosample_Type": "primary cell", "Biosample_Summary": "activated CD4-positive, CD25-positive, alpha-beta regulatory T cell male adult (42 years) treated with anti-CD3 and anti-CD28 coated beads for 24 hours, 50 U/mL Interleukin-2 for 24 hours", "url": "https://www.encodeproject.org/experiments/ENCSR261PWP/"}, {"id": "76", "Experiment_ID": "ENCSR775KMA", "GEO_number": "GSE187915", "Biosample_Type": "primary cell", "Biosample_Summary": "activated T-cell male adult (38 years) treated with 50 U/mL Interleukin-2 for 4 hours, anti-CD3 and anti-CD28 coated beads for 4 hours", "url": "https://www.encodeproject.org/experiments/ENCSR775KMA/"}, {"id": "77", "Experiment_ID": "ENCSR905PWV", "GEO_number": "GSE172879", "Biosample_Type": "cell line", "Biosample_Summary": "HG02610", "url": "https://www.encodeproject.org/experiments/ENCSR905PWV/"}, {"id": "78", "Experiment_ID": "ENCSR024WOD", "GEO_number": "GSE172620", "Biosample_Type": "cell line", "Biosample_Summary": "GM21390", "url": "https://www.encodeproject.org/experiments/ENCSR024WOD/"}, {"id": "79", "Experiment_ID": "ENCSR163KRG", "GEO_number": "GSE172888", "Biosample_Type": "cell line", "Biosample_Summary": "HG03469", "url": "https://www.encodeproject.org/experiments/ENCSR163KRG/"}, {"id": "80", "Experiment_ID": "ENCSR635CAC", "GEO_number": "GSE172833", "Biosample_Type": "cell line", "Biosample_Summary": "GM19467", "url": "https://www.encodeproject.org/experiments/ENCSR635CAC/"}, {"id": "81", "Experiment_ID": "ENCSR854ZBA", "GEO_number": "GSE172793", "Biosample_Type": "cell line", "Biosample_Summary": "HG02840", "url": "https://www.encodeproject.org/experiments/ENCSR854ZBA/"}, {"id": "82", "Experiment_ID": "ENCSR025MEO", "GEO_number": "GSE172623", "Biosample_Type": "cell line", "Biosample_Summary": "HG03354", "url": "https://www.encodeproject.org/experiments/ENCSR025MEO/"}, {"id": "83", "Experiment_ID": "ENCSR312UCH", "GEO_number": "GSE172700", "Biosample_Type": "cell line", "Biosample_Summary": "GM18519", "url": "https://www.encodeproject.org/experiments/ENCSR312UCH/"}, {"id": "84", "Experiment_ID": "ENCSR096VEO", "GEO_number": "GSE172761", "Biosample_Type": "cell line", "Biosample_Summary": "HG03135", "url": "https://www.encodeproject.org/experiments/ENCSR096VEO/"}, {"id": "85", "Experiment_ID": "ENCSR372IGW", "GEO_number": "GSE172856", "Biosample_Type": "cell line", "Biosample_Summary": "GM19395", "url": "https://www.encodeproject.org/experiments/ENCSR372IGW/"}, {"id": "86", "Experiment_ID": "ENCSR275LCF", "GEO_number": "GSE172592", "Biosample_Type": "cell line", "Biosample_Summary": "GM21786", "url": "https://www.encodeproject.org/experiments/ENCSR275LCF/"}, {"id": "87", "Experiment_ID": "ENCSR189VFC", "GEO_number": "GSE172954", "Biosample_Type": "cell line", "Biosample_Summary": "HG02588", "url": "https://www.encodeproject.org/experiments/ENCSR189VFC/"}, {"id": "88", "Experiment_ID": "ENCSR084FHK", "GEO_number": "GSE172702", "Biosample_Type": "cell line", "Biosample_Summary": "GM18505", "url": "https://www.encodeproject.org/experiments/ENCSR084FHK/"}, {"id": "89", "Experiment_ID": "ENCSR315QWI", "GEO_number": "GSE172710", "Biosample_Type": "cell line", "Biosample_Summary": "GM21737", "url": "https://www.encodeproject.org/experiments/ENCSR315QWI/"}, {"id": "90", "Experiment_ID": "ENCSR554WGQ", "GEO_number": "GSE172669", "Biosample_Type": "cell line", "Biosample_Summary": "HG03280", "url": "https://www.encodeproject.org/experiments/ENCSR554WGQ/"}, {"id": "91", "Experiment_ID": "ENCSR231BZU", "GEO_number": "GSE173041", "Biosample_Type": "cell line", "Biosample_Summary": "GM19351", "url": "https://www.encodeproject.org/experiments/ENCSR231BZU/"}, {"id": "92", "Experiment_ID": "ENCSR105SCQ", "GEO_number": "GSE172775", "Biosample_Type": "cell line", "Biosample_Summary": "GM21360", "url": "https://www.encodeproject.org/experiments/ENCSR105SCQ/"}, {"id": "93", "Experiment_ID": "ENCSR604YEQ", "GEO_number": "GSE172751", "Biosample_Type": "cell line", "Biosample_Summary": "HG02884", "url": "https://www.encodeproject.org/experiments/ENCSR604YEQ/"}, {"id": "94", "Experiment_ID": "ENCSR637MUF", "GEO_number": "GSE172839", "Biosample_Type": "cell line", "Biosample_Summary": "GM19035", "url": "https://www.encodeproject.org/experiments/ENCSR637MUF/"}, {"id": "95", "Experiment_ID": "ENCSR762YFD", "GEO_number": "GSE172575", "Biosample_Type": "cell line", "Biosample_Summary": "GM18520", "url": "https://www.encodeproject.org/experiments/ENCSR762YFD/"}, {"id": "96", "Experiment_ID": "ENCSR917WJS", "GEO_number": "GSE172890", "Biosample_Type": "cell line", "Biosample_Summary": "GM18909", "url": "https://www.encodeproject.org/experiments/ENCSR917WJS/"}, {"id": "97", "Experiment_ID": "ENCSR011NJP", "GEO_number": "GSE172553", "Biosample_Type": "cell line", "Biosample_Summary": "GM18858", "url": "https://www.encodeproject.org/experiments/ENCSR011NJP/"}, {"id": "98", "Experiment_ID": "ENCSR648JJT", "GEO_number": "GSE94202", "Biosample_Type": "in vitro differentiated cells", "Biosample_Summary": "dendritic cell treated with 100 ng/mL lipopolysaccharide for 30 minutes", "url": "https://www.encodeproject.org/experiments/ENCSR648JJT/"}, {"id": "99", "Experiment_ID": "ENCSR000RBT", "GEO_number": "GSE172546", "Biosample_Type": "cell line", "Biosample_Summary": "HG03571", "url": "https://www.encodeproject.org/experiments/ENCSR000RBT/"}, {"id": "100", "Experiment_ID": "ENCSR528YDD", "GEO_number": "GSE172631", "Biosample_Type": "cell line", "Biosample_Summary": "HG03342", "url": "https://www.encodeproject.org/experiments/ENCSR528YDD/"}, {"id": "101", "Experiment_ID": "ENCSR615YIL", "GEO_number": "GSE172772", "Biosample_Type": "cell line", "Biosample_Summary": "HG03139", "url": "https://www.encodeproject.org/experiments/ENCSR615YIL/"}, {"id": "102", "Experiment_ID": "ENCSR940YDN", "GEO_number": "GSE172949", "Biosample_Type": "cell line", "Biosample_Summary": "HG03159", "url": "https://www.encodeproject.org/experiments/ENCSR940YDN/"}, {"id": "103", "Experiment_ID": "ENCSR833ACP", "GEO_number": "GSE172752", "Biosample_Type": "cell line", "Biosample_Summary": "HG03103", "url": "https://www.encodeproject.org/experiments/ENCSR833ACP/"}, {"id": "104", "Experiment_ID": "ENCSR821QHC", "GEO_number": "GSE172727", "Biosample_Type": "cell line", "Biosample_Summary": "HG02642", "url": "https://www.encodeproject.org/experiments/ENCSR821QHC/"}, {"id": "105", "Experiment_ID": "ENCSR208HAP", "GEO_number": "GSE172977", "Biosample_Type": "cell line", "Biosample_Summary": "HG02981", "url": "https://www.encodeproject.org/experiments/ENCSR208HAP/"}, {"id": "106", "Experiment_ID": "ENCSR400ISH", "GEO_number": "GSE172945", "Biosample_Type": "cell line", "Biosample_Summary": "HG02571", "url": "https://www.encodeproject.org/experiments/ENCSR400ISH/"}, {"id": "107", "Experiment_ID": "ENCSR954BDA", "GEO_number": "GSE172966", "Biosample_Type": "cell line", "Biosample_Summary": "GM21529", "url": "https://www.encodeproject.org/experiments/ENCSR954BDA/"}, {"id": "108", "Experiment_ID": "ENCSR920FQJ", "GEO_number": "GSE172894", "Biosample_Type": "cell line", "Biosample_Summary": "HG02938", "url": "https://www.encodeproject.org/experiments/ENCSR920FQJ/"}, {"id": "109", "Experiment_ID": "ENCSR410DWV", "GEO_number": "GSE187462", "Biosample_Type": "in vitro differentiated cells", "Biosample_Summary": "from a donor with amyotrophic lateral sclerosis; motor neuron", "url": "https://www.encodeproject.org/experiments/ENCSR410DWV/"}, {"id": "110", "Experiment_ID": "ENCSR095QNB", "GEO_number": "GSE170245", "Biosample_Type": "cell line", "Biosample_Summary": "GM12878", "url": "https://www.encodeproject.org/experiments/ENCSR095QNB/"}, {"id": "111", "Experiment_ID": "ENCSR459PVP", "GEO_number": "GSE187876", "Biosample_Type": "in vitro differentiated cells", "Biosample_Summary": "from a donor with amyotrophic lateral sclerosis; motor neuron", "url": "https://www.encodeproject.org/experiments/ENCSR459PVP/"}, {"id": "112", "Experiment_ID": "ENCSR812ZKP", "GEO_number": "GSE188037", "Biosample_Type": "in vitro differentiated cells", "Biosample_Summary": "from a donor with amyotrophic lateral sclerosis; motor neuron", "url": "https://www.encodeproject.org/experiments/ENCSR812ZKP/"}, {"id": "113", "Experiment_ID": "ENCSR634WYX", "GEO_number": "GSE187695", "Biosample_Type": "in vitro differentiated cells", "Biosample_Summary": "from a donor with amyotrophic lateral sclerosis; motor neuron", "url": "https://www.encodeproject.org/experiments/ENCSR634WYX/"}, {"id": "114", "Experiment_ID": "ENCSR335LHS", "GEO_number": "GSE187195", "Biosample_Type": "primary cell", "Biosample_Summary": "stimulated activated effector memory CD8-positive, alpha-beta T cell male adult (33 years) treated with 100 ng/mL Interleukin-12 subunit alpha for 72 hours, 100 ng/mL Interleukin-12 subunit beta for 72 hours, anti-CD3 and anti-CD28 coated beads for 72 hours", "url": "https://www.encodeproject.org/experiments/ENCSR335LHS/"}, {"id": "115", "Experiment_ID": "ENCSR558ZSN", "GEO_number": "GSE187697", "Biosample_Type": "primary cell", "Biosample_Summary": "activated T-cell female adult (21 years) treated with anti-CD3 and anti-CD28 coated beads for 72 hours, 50 U/mL Interleukin-2 for 72 hours", "url": "https://www.encodeproject.org/experiments/ENCSR558ZSN/"}, {"id": "116", "Experiment_ID": "ENCSR283LPH", "GEO_number": "GSE187330", "Biosample_Type": "primary cell", "Biosample_Summary": "naive thymus-derived CD8-positive, alpha-beta T cell nuclear fraction male adult (30 years)", "url": "https://www.encodeproject.org/experiments/ENCSR283LPH/"}, {"id": "117", "Experiment_ID": "ENCSR915MTG", "GEO_number": "GSE188102", "Biosample_Type": "primary cell", "Biosample_Summary": "activated CD8-positive, alpha-beta memory T cell nuclear fraction male adult (30 years) treated with anti-CD3 and anti-CD28 coated beads for 7 days, 10 ng/mL Interleukin-2 for 5 days", "url": "https://www.encodeproject.org/experiments/ENCSR915MTG/"}, {"id": "118", "Experiment_ID": "ENCSR545UJP", "GEO_number": "GSE187647", "Biosample_Type": "primary cell", "Biosample_Summary": "activated CD8-positive, alpha-beta T cell nuclear fraction male adult (21 years) treated with anti-CD3 and anti-CD28 coated beads for 7 days, 10 ng/mL Interleukin-2 for 5 days", "url": "https://www.encodeproject.org/experiments/ENCSR545UJP/"}, {"id": "119", "Experiment_ID": "ENCSR670REK", "GEO_number": "GSE170959", "Biosample_Type": "tissue", "Biosample_Summary": "gastroesophageal sphincter tissue female adult (53 years)", "url": "https://www.encodeproject.org/experiments/ENCSR670REK/"}, {"id": "120", "Experiment_ID": "ENCSR934AWQ", "GEO_number": "GSE188147", "Biosample_Type": "primary cell", "Biosample_Summary": "T-cell male adult (38 years)", "url": "https://www.encodeproject.org/experiments/ENCSR934AWQ/"}, {"id": "121", "Experiment_ID": "ENCSR839UOB", "GEO_number": "GSE172773", "Biosample_Type": "cell line", "Biosample_Summary": "HG03432", "url": "https://www.encodeproject.org/experiments/ENCSR839UOB/"}, {"id": "122", "Experiment_ID": "ENCSR859USB", "GEO_number": "GSE215513", "Biosample_Type": "cell line", "Biosample_Summary": "K562", "url": "https://www.encodeproject.org/experiments/ENCSR859USB/"}, {"id": "123", "Experiment_ID": "ENCSR956DNB", "GEO_number": "GSE215595", "Biosample_Type": "cell line", "Biosample_Summary": "K562", "url": "https://www.encodeproject.org/experiments/ENCSR956DNB/"}, {"id": "124", "Experiment_ID": "ENCSR509JPT", "GEO_number": "GSE172593", "Biosample_Type": "cell line", "Biosample_Summary": "GM21367", "url": "https://www.encodeproject.org/experiments/ENCSR509JPT/"}, {"id": "125", "Experiment_ID": "ENCSR993XED", "GEO_number": "GSE187976", "Biosample_Type": "primary cell", "Biosample_Summary": "activated T-cell male adult (38 years) treated with 50 U/mL Interleukin-2 for 4 hours, anti-CD3 and anti-CD28 coated beads for 4 hours", "url": "https://www.encodeproject.org/experiments/ENCSR993XED/"}, {"id": "126", "Experiment_ID": "ENCSR258RSH", "GEO_number": "GSE187196", "Biosample_Type": "primary cell", "Biosample_Summary": "T-cell male adult (38 years)", "url": "https://www.encodeproject.org/experiments/ENCSR258RSH/"}, {"id": "127", "Experiment_ID": "ENCSR960KGO", "GEO_number": "GSE172986", "Biosample_Type": "cell line", "Biosample_Summary": "GM21515", "url": "https://www.encodeproject.org/experiments/ENCSR960KGO/"}, {"id": "128", "Experiment_ID": "ENCSR635AIF", "GEO_number": "GSE172829", "Biosample_Type": "cell line", "Biosample_Summary": "GM19468", "url": "https://www.encodeproject.org/experiments/ENCSR635AIF/"}, {"id": "129", "Experiment_ID": "ENCSR304ZDQ", "GEO_number": "GSE172674", "Biosample_Type": "cell line", "Biosample_Summary": "GM18873", "url": "https://www.encodeproject.org/experiments/ENCSR304ZDQ/"}, {"id": "130", "Experiment_ID": "ENCSR628PLS", "GEO_number": "GSE172816", "Biosample_Type": "cell line", "Biosample_Summary": "GM18861", "url": "https://www.encodeproject.org/experiments/ENCSR628PLS/"}, {"id": "131", "Experiment_ID": "ENCSR470ZNM", "GEO_number": "GSE172538", "Biosample_Type": "cell line", "Biosample_Summary": "HG03060", "url": "https://www.encodeproject.org/experiments/ENCSR470ZNM/"}, {"id": "132", "Experiment_ID": "ENCSR621JYI", "GEO_number": "GSE172788", "Biosample_Type": "cell line", "Biosample_Summary": "HG02885", "url": "https://www.encodeproject.org/experiments/ENCSR621JYI/"}, {"id": "133", "Experiment_ID": "ENCSR524CPZ", "GEO_number": "GSE172626", "Biosample_Type": "cell line", "Biosample_Summary": "HG02798", "url": "https://www.encodeproject.org/experiments/ENCSR524CPZ/"}, {"id": "134", "Experiment_ID": "ENCSR335JVB", "GEO_number": "GSE172735", "Biosample_Type": "cell line", "Biosample_Summary": "GM19372", "url": "https://www.encodeproject.org/experiments/ENCSR335JVB/"}, {"id": "135", "Experiment_ID": "ENCSR040PBN", "GEO_number": "GSE172638", "Biosample_Type": "cell line", "Biosample_Summary": "HG03066", "url": "https://www.encodeproject.org/experiments/ENCSR040PBN/"}, {"id": "136", "Experiment_ID": "ENCSR700HPA", "GEO_number": "GSE173011", "Biosample_Type": "cell line", "Biosample_Summary": "GM18499", "url": "https://www.encodeproject.org/experiments/ENCSR700HPA/"}, {"id": "137", "Experiment_ID": "ENCSR419UYY", "GEO_number": "GSE172970", "Biosample_Type": "cell line", "Biosample_Summary": "GM19025", "url": "https://www.encodeproject.org/experiments/ENCSR419UYY/"}, {"id": "138", "Experiment_ID": "ENCSR425WQW", "GEO_number": "GSE172990", "Biosample_Type": "cell line", "Biosample_Summary": "GM19324", "url": "https://www.encodeproject.org/experiments/ENCSR425WQW/"}, {"id": "139", "Experiment_ID": "ENCSR233HSC", "GEO_number": "GSE173044", "Biosample_Type": "cell line", "Biosample_Summary": "GM21723", "url": "https://www.encodeproject.org/experiments/ENCSR233HSC/"}, {"id": "140", "Experiment_ID": "ENCSR857MCZ", "GEO_number": "GSE172803", "Biosample_Type": "cell line", "Biosample_Summary": "HG02970", "url": "https://www.encodeproject.org/experiments/ENCSR857MCZ/"}, {"id": "141", "Experiment_ID": "ENCSR594TMY", "GEO_number": "GSE172719", "Biosample_Type": "cell line", "Biosample_Summary": "HG03521", "url": "https://www.encodeproject.org/experiments/ENCSR594TMY/"}, {"id": "142", "Experiment_ID": "ENCSR420RVW", "GEO_number": "GSE172976", "Biosample_Type": "cell line", "Biosample_Summary": "HG02870", "url": "https://www.encodeproject.org/experiments/ENCSR420RVW/"}, {"id": "143", "Experiment_ID": "ENCSR512FHU", "GEO_number": "GSE172598", "Biosample_Type": "cell line", "Biosample_Summary": "GM19023", "url": "https://www.encodeproject.org/experiments/ENCSR512FHU/"}, {"id": "144", "Experiment_ID": "ENCSR452COS", "GEO_number": "GSE187858", "Biosample_Type": "primary cell", "Biosample_Summary": "naive thymus-derived CD4-positive, alpha-beta T cell male adult (50 years)", "url": "https://www.encodeproject.org/experiments/ENCSR452COS/"}, {"id": "145", "Experiment_ID": "ENCSR803FKU", "GEO_number": "GSE215470", "Biosample_Type": "primary cell", "Biosample_Summary": "T-helper 17 cell male adult (38 years)", "url": "https://www.encodeproject.org/experiments/ENCSR803FKU/"}, {"id": "146", "Experiment_ID": "ENCSR653VSR", "GEO_number": "GSE187780", "Biosample_Type": "primary cell", "Biosample_Summary": "stimulated activated naive B cell female adult (39 years) treated with 1 \u03bcg/mL anti-CD40 for 72 hours, 10 \u03bcg/mL anti-IgM for 72 hours, 100 ng/mL Interleukin-4 for 72 hours", "url": "https://www.encodeproject.org/experiments/ENCSR653VSR/"}, {"id": "147", "Experiment_ID": "ENCSR477YSU", "GEO_number": "GSE187942", "Biosample_Type": "primary cell", "Biosample_Summary": "activated naive CD8-positive, alpha-beta T cell male adult (42 years) treated with anti-CD3 and anti-CD28 coated beads for 24 hours, 50 U/mL Interleukin-2 for 24 hours", "url": "https://www.encodeproject.org/experiments/ENCSR477YSU/"}, {"id": "148", "Experiment_ID": "ENCSR019XCN", "GEO_number": "GSE215490", "Biosample_Type": "primary cell", "Biosample_Summary": "effector memory CD8-positive, alpha-beta T cell male adult (36 years)", "url": "https://www.encodeproject.org/experiments/ENCSR019XCN/"}, {"id": "149", "Experiment_ID": "ENCSR901IEQ", "GEO_number": "GSE94216", "Biosample_Type": "in vitro differentiated cells", "Biosample_Summary": "dendritic cell treated with 100 ng/mL lipopolysaccharide for 4 hours", "url": "https://www.encodeproject.org/experiments/ENCSR901IEQ/"}, {"id": "150", "Experiment_ID": "ENCSR628SXX", "GEO_number": "GSE94201", "Biosample_Type": "in vitro differentiated cells", "Biosample_Summary": "dendritic cell treated with 100 ng/mL lipopolysaccharide for 2 hours", "url": "https://www.encodeproject.org/experiments/ENCSR628SXX/"}, {"id": "151", "Experiment_ID": "ENCSR566LZT", "GEO_number": "GSE94196", "Biosample_Type": "in vitro differentiated cells", "Biosample_Summary": "dendritic cell treated with lipopolysaccharide", "url": "https://www.encodeproject.org/experiments/ENCSR566LZT/"}, {"id": "152", "Experiment_ID": "ENCSR326ESM", "GEO_number": "GSE187043", "Biosample_Type": "primary cell", "Biosample_Summary": "stimulated activated naive CD8-positive, alpha-beta T cell male adult (42 years) treated with anti-CD3 and anti-CD28 coated beads for 24 hours, 50 U/mL Interleukin-2 for 24 hours, 100 ng/mL Interleukin-15 for 24 hours", "url": "https://www.encodeproject.org/experiments/ENCSR326ESM/"}, {"id": "153", "Experiment_ID": "ENCSR329XFZ", "GEO_number": "GSE94179", "Biosample_Type": "in vitro differentiated cells", "Biosample_Summary": "dendritic cell treated with 100 ng/mL lipopolysaccharide for 30 minutes", "url": "https://www.encodeproject.org/experiments/ENCSR329XFZ/"}, {"id": "154", "Experiment_ID": "ENCSR611BQR", "GEO_number": "GSE187657", "Biosample_Type": "primary cell", "Biosample_Summary": "T-helper 17 cell male adult (50 years)", "url": "https://www.encodeproject.org/experiments/ENCSR611BQR/"}, {"id": "155", "Experiment_ID": "ENCSR335XRZ", "GEO_number": "GSE215706", "Biosample_Type": "primary cell", "Biosample_Summary": "stimulated activated effector memory CD8-positive, alpha-beta T cell male adult (36 years) treated with 100 ng/mL Interleukin-12 subunit alpha for 72 hours, 100 ng/mL Interleukin-12 subunit beta for 72 hours, anti-CD3 and anti-CD28 coated beads for 72 hours", "url": "https://www.encodeproject.org/experiments/ENCSR335XRZ/"}, {"id": "156", "Experiment_ID": "ENCSR504OUW", "GEO_number": "GSE187518", "Biosample_Type": "primary cell", "Biosample_Summary": "CD4-positive, CD25-positive, alpha-beta regulatory T cell male adult (38 years)", "url": "https://www.encodeproject.org/experiments/ENCSR504OUW/"}, {"id": "157", "Experiment_ID": "ENCSR204FCV", "GEO_number": "GSE94173", "Biosample_Type": "in vitro differentiated cells", "Biosample_Summary": "dendritic cell treated with lipopolysaccharide", "url": "https://www.encodeproject.org/experiments/ENCSR204FCV/"}, {"id": "158", "Experiment_ID": "ENCSR174SUM", "GEO_number": "GSE187201", "Biosample_Type": "primary cell", "Biosample_Summary": "activated naive CD4-positive, alpha-beta T cell male adult (48 years) treated with anti-CD3 and anti-CD28 coated beads for 72 hours, 50 U/mL Interleukin-2 for 72 hours", "url": "https://www.encodeproject.org/experiments/ENCSR174SUM/"}, {"id": "159", "Experiment_ID": "ENCSR605EGR", "GEO_number": "GSE94200", "Biosample_Type": "in vitro differentiated cells", "Biosample_Summary": "dendritic cell treated with 100 ng/mL lipopolysaccharide for 30 minutes", "url": "https://www.encodeproject.org/experiments/ENCSR605EGR/"}, {"id": "160", "Experiment_ID": "ENCSR962ITF", "GEO_number": "GSE173003", "Biosample_Type": "cell line", "Biosample_Summary": "HG03108", "url": "https://www.encodeproject.org/experiments/ENCSR962ITF/"}, {"id": "161", "Experiment_ID": "ENCSR368FYV", "GEO_number": "GSE172846", "Biosample_Type": "cell line", "Biosample_Summary": "HG02852", "url": "https://www.encodeproject.org/experiments/ENCSR368FYV/"}, {"id": "162", "Experiment_ID": "ENCSR383RDZ", "GEO_number": "GSE172904", "Biosample_Type": "cell line", "Biosample_Summary": "GM19328", "url": "https://www.encodeproject.org/experiments/ENCSR383RDZ/"}, {"id": "163", "Experiment_ID": "ENCSR381LJX", "GEO_number": "GSE172878", "Biosample_Type": "cell line", "Biosample_Summary": "HG03039", "url": "https://www.encodeproject.org/experiments/ENCSR381LJX/"}, {"id": "164", "Experiment_ID": "ENCSR824DUE", "GEO_number": "GSE172739", "Biosample_Type": "cell line", "Biosample_Summary": "HG03378", "url": "https://www.encodeproject.org/experiments/ENCSR824DUE/"}, {"id": "165", "Experiment_ID": "ENCSR673ZMQ", "GEO_number": "GSE172939", "Biosample_Type": "cell line", "Biosample_Summary": "HG03025", "url": "https://www.encodeproject.org/experiments/ENCSR673ZMQ/"}, {"id": "166", "Experiment_ID": "ENCSR684KUG", "GEO_number": "GSE172975", "Biosample_Type": "cell line", "Biosample_Summary": "GM18870", "url": "https://www.encodeproject.org/experiments/ENCSR684KUG/"}, {"id": "167", "Experiment_ID": "ENCSR487QSB", "GEO_number": "GSE172556", "Biosample_Type": "cell line", "Biosample_Summary": "GM18907", "url": "https://www.encodeproject.org/experiments/ENCSR487QSB/"}, {"id": "168", "Experiment_ID": "ENCSR180HEL", "GEO_number": "GSE172925", "Biosample_Type": "cell line", "Biosample_Summary": "HG02678", "url": "https://www.encodeproject.org/experiments/ENCSR180HEL/"}, {"id": "169", "Experiment_ID": "ENCSR491VXJ", "GEO_number": "GSE170280", "Biosample_Type": "tissue", "Biosample_Summary": "mucosa of descending colon tissue male adult (26 years)", "url": "https://www.encodeproject.org/experiments/ENCSR491VXJ/"}, {"id": "170", "Experiment_ID": "ENCSR533WFB", "GEO_number": "GSE215665", "Biosample_Type": "tissue", "Biosample_Summary": "sciatic nerve tissue female adult (41 years)", "url": "https://www.encodeproject.org/experiments/ENCSR533WFB/"}, {"id": "171", "Experiment_ID": "ENCSR295TFY", "GEO_number": "GSE215643", "Biosample_Type": "tissue", "Biosample_Summary": "aorta tissue female child (16 years)", "url": "https://www.encodeproject.org/experiments/ENCSR295TFY/"}, {"id": "172", "Experiment_ID": "ENCSR325NFE", "GEO_number": "GSE215700", "Biosample_Type": "tissue", "Biosample_Summary": "bile duct tissue female child (16 years)", "url": "https://www.encodeproject.org/experiments/ENCSR325NFE/"}, {"id": "173", "Experiment_ID": "ENCSR237VSF", "GEO_number": "GSE94177", "Biosample_Type": "in vitro differentiated cells", "Biosample_Summary": "dendritic cell treated with lipopolysaccharide", "url": "https://www.encodeproject.org/experiments/ENCSR237VSF/"}, {"id": "174", "Experiment_ID": "ENCSR630REB", "GEO_number": "GSE170909", "Biosample_Type": "tissue", "Biosample_Summary": "tibial artery tissue male adult (54 years)", "url": "https://www.encodeproject.org/experiments/ENCSR630REB/"}, {"id": "175", "Experiment_ID": "ENCSR955JSO", "GEO_number": "GSE172981", "Biosample_Type": "tissue", "Biosample_Summary": "breast epithelium tissue male adult (54 years)", "url": "https://www.encodeproject.org/experiments/ENCSR955JSO/"}, {"id": "176", "Experiment_ID": "ENCSR260ZIV", "GEO_number": "GSE172558", "Biosample_Type": "tissue", "Biosample_Summary": "gastroesophageal sphincter tissue female adult (51 years)", "url": "https://www.encodeproject.org/experiments/ENCSR260ZIV/"}, {"id": "177", "Experiment_ID": "ENCSR926GDT", "GEO_number": "GSE94219", "Biosample_Type": "in vitro differentiated cells", "Biosample_Summary": "dendritic cell treated with 100 ng/mL lipopolysaccharide for 4 hours", "url": "https://www.encodeproject.org/experiments/ENCSR926GDT/"}, {"id": "178", "Experiment_ID": "ENCSR729FNL", "GEO_number": "GSE169891", "Biosample_Type": "tissue", "Biosample_Summary": "posterior cingulate cortex tissue male adult (20 years)", "url": "https://www.encodeproject.org/experiments/ENCSR729FNL/"}, {"id": "179", "Experiment_ID": "ENCSR513EVP", "GEO_number": "GSE215621", "Biosample_Type": "primary cell", "Biosample_Summary": "naive thymus-derived CD8-positive, alpha-beta T cell male adult (42 years)", "url": "https://www.encodeproject.org/experiments/ENCSR513EVP/"}, {"id": "180", "Experiment_ID": "ENCSR705RZX", "GEO_number": "GSE215635", "Biosample_Type": "tissue", "Biosample_Summary": "uterus tissue female adult (46 years)", "url": "https://www.encodeproject.org/experiments/ENCSR705RZX/"}, {"id": "181", "Experiment_ID": "ENCSR913OWV", "GEO_number": "GSE188100", "Biosample_Type": "in vitro differentiated cells", "Biosample_Summary": "from a donor with amyotrophic lateral sclerosis; motor neuron", "url": "https://www.encodeproject.org/experiments/ENCSR913OWV/"}, {"id": "182", "Experiment_ID": "ENCSR704VZY", "GEO_number": "GSE187737", "Biosample_Type": "in vitro differentiated cells", "Biosample_Summary": "from a donor with amyotrophic lateral sclerosis; motor neuron", "url": "https://www.encodeproject.org/experiments/ENCSR704VZY/"}, {"id": "183", "Experiment_ID": "ENCSR133WJY", "GEO_number": "GSE170444", "Biosample_Type": "tissue", "Biosample_Summary": "left ventricle myocardium superior tissue male adult (60 years)", "url": "https://www.encodeproject.org/experiments/ENCSR133WJY/"}, {"id": "184", "Experiment_ID": "ENCSR872MAO", "GEO_number": "GSE215530", "Biosample_Type": "tissue", "Biosample_Summary": "ovary tissue female adult (41 years)", "url": "https://www.encodeproject.org/experiments/ENCSR872MAO/"}, {"id": "185", "Experiment_ID": "ENCSR330WUK", "GEO_number": "GSE215704", "Biosample_Type": "tissue", "Biosample_Summary": "left cardiac atrium tissue male adult (60 years)", "url": "https://www.encodeproject.org/experiments/ENCSR330WUK/"}, {"id": "186", "Experiment_ID": "ENCSR918TVE", "GEO_number": "GSE170632", "Biosample_Type": "tissue", "Biosample_Summary": "pancreas tissue female adult (47 years)", "url": "https://www.encodeproject.org/experiments/ENCSR918TVE/"}, {"id": "187", "Experiment_ID": "ENCSR647AOY", "GEO_number": "GSE172864", "Biosample_Type": "tissue", "Biosample_Summary": "lung tissue female adult (47 years)", "url": "https://www.encodeproject.org/experiments/ENCSR647AOY/"}, {"id": "188", "Experiment_ID": "ENCSR745CGG", "GEO_number": "GSE215720", "Biosample_Type": "tissue", "Biosample_Summary": "heart left ventricle tissue male adult (54 years)", "url": "https://www.encodeproject.org/experiments/ENCSR745CGG/"}, {"id": "189", "Experiment_ID": "ENCSR940QJU", "GEO_number": "GSE94222", "Biosample_Type": "in vitro differentiated cells", "Biosample_Summary": "dendritic cell treated with lipopolysaccharide", "url": "https://www.encodeproject.org/experiments/ENCSR940QJU/"}, {"id": "190", "Experiment_ID": "ENCSR131CHJ", "GEO_number": "GSE94168", "Biosample_Type": "in vitro differentiated cells", "Biosample_Summary": "dendritic cell treated with 100 ng/mL lipopolysaccharide for 2 hours", "url": "https://www.encodeproject.org/experiments/ENCSR131CHJ/"}, {"id": "191", "Experiment_ID": "ENCSR535NOD", "GEO_number": "GSE94193", "Biosample_Type": "in vitro differentiated cells", "Biosample_Summary": "dendritic cell treated with 100 ng/mL lipopolysaccharide for 2 hours", "url": "https://www.encodeproject.org/experiments/ENCSR535NOD/"}, {"id": "192", "Experiment_ID": "ENCSR290AUK", "GEO_number": "GSE94178", "Biosample_Type": "in vitro differentiated cells", "Biosample_Summary": "dendritic cell treated with 100 ng/mL lipopolysaccharide for 4 hours", "url": "https://www.encodeproject.org/experiments/ENCSR290AUK/"}, {"id": "193", "Experiment_ID": "ENCSR156FDX", "GEO_number": "GSE94170", "Biosample_Type": "in vitro differentiated cells", "Biosample_Summary": "dendritic cell treated with 100 ng/mL lipopolysaccharide for 30 minutes", "url": "https://www.encodeproject.org/experiments/ENCSR156FDX/"}, {"id": "194", "Experiment_ID": "ENCSR182EZJ", "GEO_number": "GSE172943", "Biosample_Type": "cell line", "Biosample_Summary": "SK-N-SH treated with 6 \u03bcM all-trans-retinoic acid for 48 hours", "url": "https://www.encodeproject.org/experiments/ENCSR182EZJ/"}, {"id": "195", "Experiment_ID": "ENCSR370QWN", "GEO_number": "GSE94182", "Biosample_Type": "in vitro differentiated cells", "Biosample_Summary": "dendritic cell treated with lipopolysaccharide", "url": "https://www.encodeproject.org/experiments/ENCSR370QWN/"}, {"id": "196", "Experiment_ID": "ENCSR679NRJ", "GEO_number": "GSE94206", "Biosample_Type": "in vitro differentiated cells", "Biosample_Summary": "dendritic cell treated with 100 ng/mL lipopolysaccharide for 1 hour", "url": "https://www.encodeproject.org/experiments/ENCSR679NRJ/"}, {"id": "197", "Experiment_ID": "ENCSR327DCG", "GEO_number": "GSE215703", "Biosample_Type": "tissue", "Biosample_Summary": "heart right ventricle tissue male adult (46 years)", "url": "https://www.encodeproject.org/experiments/ENCSR327DCG/"}, {"id": "198", "Experiment_ID": "ENCSR490MSG", "GEO_number": "GSE172563", "Biosample_Type": "tissue", "Biosample_Summary": "ovary tissue female adult (53 years)", "url": "https://www.encodeproject.org/experiments/ENCSR490MSG/"}, {"id": "199", "Experiment_ID": "ENCSR571JFO", "GEO_number": "GSE215690", "Biosample_Type": "tissue", "Biosample_Summary": "ovary tissue female child (16 years)", "url": "https://www.encodeproject.org/experiments/ENCSR571JFO/"}, {"id": "200", "Experiment_ID": "ENCSR496PPU", "GEO_number": "GSE170309", "Biosample_Type": "tissue", "Biosample_Summary": "mucosa of descending colon tissue female adult (61 years)", "url": "https://www.encodeproject.org/experiments/ENCSR496PPU/"}, {"id": "201", "Experiment_ID": "ENCSR895SEG", "GEO_number": "GSE215552", "Biosample_Type": "tissue", "Biosample_Summary": "upper lobe of left lung tissue male adult (60 years)", "url": "https://www.encodeproject.org/experiments/ENCSR895SEG/"}, {"id": "202", "Experiment_ID": "ENCSR996ZCR", "GEO_number": "GSE170869", "Biosample_Type": "tissue", "Biosample_Summary": "ovary tissue female adult (46 years)", "url": "https://www.encodeproject.org/experiments/ENCSR996ZCR/"}, {"id": "203", "Experiment_ID": "ENCSR392UJM", "GEO_number": "GSE170765", "Biosample_Type": "tissue", "Biosample_Summary": "ovary tissue female adult (61 years)", "url": "https://www.encodeproject.org/experiments/ENCSR392UJM/"}, {"id": "204", "Experiment_ID": "ENCSR167SYF", "GEO_number": "GSE215650", "Biosample_Type": "tissue", "Biosample_Summary": "cardiac septum tissue female adult (41 years)", "url": "https://www.encodeproject.org/experiments/ENCSR167SYF/"}, {"id": "205", "Experiment_ID": "ENCSR774NXA", "GEO_number": "GSE170039", "Biosample_Type": "tissue", "Biosample_Summary": "psoas muscle tissue female adult (61 years)", "url": "https://www.encodeproject.org/experiments/ENCSR774NXA/"}, {"id": "206", "Experiment_ID": "ENCSR476WNA", "GEO_number": "GSE215548", "Biosample_Type": "tissue", "Biosample_Summary": "ovary tissue female adult (47 years)", "url": "https://www.encodeproject.org/experiments/ENCSR476WNA/"}, {"id": "207", "Experiment_ID": "ENCSR923VTG", "GEO_number": "GSE215567", "Biosample_Type": "tissue", "Biosample_Summary": "lower lobe of right lung tissue male adult (60 years)", "url": "https://www.encodeproject.org/experiments/ENCSR923VTG/"}, {"id": "208", "Experiment_ID": "ENCSR926TFY", "GEO_number": "GSE94220", "Biosample_Type": "in vitro differentiated cells", "Biosample_Summary": "dendritic cell treated with 100 ng/mL lipopolysaccharide for 4 hours", "url": "https://www.encodeproject.org/experiments/ENCSR926TFY/"}, {"id": "209", "Experiment_ID": "ENCSR589ROM", "GEO_number": "GSE94198", "Biosample_Type": "in vitro differentiated cells", "Biosample_Summary": "dendritic cell treated with 100 ng/mL lipopolysaccharide for 4 hours", "url": "https://www.encodeproject.org/experiments/ENCSR589ROM/"}, {"id": "210", "Experiment_ID": "ENCSR459AYS", "GEO_number": "GSE94187", "Biosample_Type": "in vitro differentiated cells", "Biosample_Summary": "dendritic cell treated with 100 ng/mL lipopolysaccharide for 2 hours", "url": "https://www.encodeproject.org/experiments/ENCSR459AYS/"}, {"id": "211", "Experiment_ID": "ENCSR204PZT", "GEO_number": "GSE215477", "Biosample_Type": "tissue", "Biosample_Summary": "heart left ventricle tissue female adult (41 years)", "url": "https://www.encodeproject.org/experiments/ENCSR204PZT/"}, {"id": "212", "Experiment_ID": "ENCSR846VPV", "GEO_number": "GSE172783", "Biosample_Type": "tissue", "Biosample_Summary": "heart left ventricle tissue female adult (66 years)", "url": "https://www.encodeproject.org/experiments/ENCSR846VPV/"}, {"id": "213", "Experiment_ID": "ENCSR200OML", "GEO_number": "GSE169767", "Biosample_Type": "cell line", "Biosample_Summary": "IMR-90 nuclear fraction and unspecified fraction", "url": "https://www.encodeproject.org/experiments/ENCSR200OML/"}, {"id": "214", "Experiment_ID": "ENCSR065CER", "GEO_number": "GSE187257", "Biosample_Type": "in vitro differentiated cells", "Biosample_Summary": "from a donor with amyotrophic lateral sclerosis; motor neuron", "url": "https://www.encodeproject.org/experiments/ENCSR065CER/"}, {"id": "215", "Experiment_ID": "ENCSR659SFK", "GEO_number": "GSE187830", "Biosample_Type": "primary cell", "Biosample_Summary": "activated B cell male adult (22 years) treated with 0.5 \u03bcM CpG ODN for 24 hours", "url": "https://www.encodeproject.org/experiments/ENCSR659SFK/"}, {"id": "216", "Experiment_ID": "ENCSR603LVR", "GEO_number": "GSE187631", "Biosample_Type": "primary cell", "Biosample_Summary": "B cell male adult (22 years)", "url": "https://www.encodeproject.org/experiments/ENCSR603LVR/"}, {"id": "217", "Experiment_ID": "ENCSR689SDA", "GEO_number": "GSE172991", "Biosample_Type": "tissue", "Biosample_Summary": "gastrocnemius medialis tissue female adult (53 years)", "url": "https://www.encodeproject.org/experiments/ENCSR689SDA/"}, {"id": "218", "Experiment_ID": "ENCSR096BPX", "GEO_number": "GSE172741", "Biosample_Type": "tissue", "Biosample_Summary": "esophagus squamous epithelium tissue female adult (51 years)", "url": "https://www.encodeproject.org/experiments/ENCSR096BPX/"}, {"id": "219", "Experiment_ID": "ENCSR238VHV", "GEO_number": "GSE215600", "Biosample_Type": "tissue", "Biosample_Summary": "fallopian tube tissue female adult (46 years)", "url": "https://www.encodeproject.org/experiments/ENCSR238VHV/"}, {"id": "220", "Experiment_ID": "ENCSR452OSK", "GEO_number": "GSE173031", "Biosample_Type": "tissue", "Biosample_Summary": "right cardiac atrium tissue male adult (40 years)", "url": "https://www.encodeproject.org/experiments/ENCSR452OSK/"}, {"id": "221", "Experiment_ID": "ENCSR705KEB", "GEO_number": "GSE169809", "Biosample_Type": "tissue", "Biosample_Summary": "pancreas tissue female adult (59 years)", "url": "https://www.encodeproject.org/experiments/ENCSR705KEB/"}, {"id": "222", "Experiment_ID": "ENCSR851EBF", "GEO_number": "GSE172786", "Biosample_Type": "tissue", "Biosample_Summary": "heart left ventricle tissue female adult (53 years)", "url": "https://www.encodeproject.org/experiments/ENCSR851EBF/"}, {"id": "223", "Experiment_ID": "ENCSR133CMC", "GEO_number": "GSE170433", "Biosample_Type": "tissue", "Biosample_Summary": "heart right ventricle tissue male adult (69 years)", "url": "https://www.encodeproject.org/experiments/ENCSR133CMC/"}, {"id": "224", "Experiment_ID": "ENCSR154UWN", "GEO_number": "GSE215642", "Biosample_Type": "tissue", "Biosample_Summary": "psoas muscle tissue female child (16 years)", "url": "https://www.encodeproject.org/experiments/ENCSR154UWN/"}, {"id": "225", "Experiment_ID": "ENCSR654UYP", "GEO_number": "GSE172884", "Biosample_Type": "tissue", "Biosample_Summary": "breast epithelium tissue female adult (53 years)", "url": "https://www.encodeproject.org/experiments/ENCSR654UYP/"}, {"id": "226", "Experiment_ID": "ENCSR979TCG", "GEO_number": "GSE215656", "Biosample_Type": "tissue", "Biosample_Summary": "spleen tissue female adult (47 years)", "url": "https://www.encodeproject.org/experiments/ENCSR979TCG/"}, {"id": "227", "Experiment_ID": "ENCSR952SPO", "GEO_number": "GSE170761", "Biosample_Type": "tissue", "Biosample_Summary": "right lobe of liver tissue female child (16 years)", "url": "https://www.encodeproject.org/experiments/ENCSR952SPO/"}, {"id": "228", "Experiment_ID": "ENCSR555ZDH", "GEO_number": "GSE170676", "Biosample_Type": "tissue", "Biosample_Summary": "lower lobe of left lung tissue male adult (60 years)", "url": "https://www.encodeproject.org/experiments/ENCSR555ZDH/"}, {"id": "229", "Experiment_ID": "ENCSR437OOJ", "GEO_number": "GSE170010", "Biosample_Type": "tissue", "Biosample_Summary": "heart right ventricle tissue female adult (59 years)", "url": "https://www.encodeproject.org/experiments/ENCSR437OOJ/"}, {"id": "230", "Experiment_ID": "ENCSR072UYN", "GEO_number": "GSE170146", "Biosample_Type": "tissue", "Biosample_Summary": "sciatic nerve tissue female child (16 years)", "url": "https://www.encodeproject.org/experiments/ENCSR072UYN/"}, {"id": "231", "Experiment_ID": "ENCSR651SOJ", "GEO_number": "GSE170937", "Biosample_Type": "tissue", "Biosample_Summary": "adrenal gland tissue female adult (47 years)", "url": "https://www.encodeproject.org/experiments/ENCSR651SOJ/"}, {"id": "232", "Experiment_ID": "ENCSR548SSP", "GEO_number": "GSE215678", "Biosample_Type": "tissue", "Biosample_Summary": "mucosa of urinary bladder tissue female adult (47 years)", "url": "https://www.encodeproject.org/experiments/ENCSR548SSP/"}, {"id": "233", "Experiment_ID": "ENCSR848TMJ", "GEO_number": "GSE215505", "Biosample_Type": "tissue", "Biosample_Summary": "heart left ventricle tissue male adult (69 years)", "url": "https://www.encodeproject.org/experiments/ENCSR848TMJ/"}, {"id": "234", "Experiment_ID": "ENCSR177JWR", "GEO_number": "GSE170630", "Biosample_Type": "tissue", "Biosample_Summary": "right cardiac atrium tissue female adult (59 years)", "url": "https://www.encodeproject.org/experiments/ENCSR177JWR/"}, {"id": "235", "Experiment_ID": "ENCSR593YFB", "GEO_number": "GSE215697", "Biosample_Type": "tissue", "Biosample_Summary": "heart left ventricle tissue female adult (42 years)", "url": "https://www.encodeproject.org/experiments/ENCSR593YFB/"}, {"id": "236", "Experiment_ID": "ENCSR552QUA", "GEO_number": "GSE170616", "Biosample_Type": "tissue", "Biosample_Summary": "posterior vena cava tissue female adult (47 years)", "url": "https://www.encodeproject.org/experiments/ENCSR552QUA/"}, {"id": "237", "Experiment_ID": "ENCSR814RGG", "GEO_number": "GSE215482", "Biosample_Type": "tissue", "Biosample_Summary": "ureter tissue female adult (47 years)", "url": "https://www.encodeproject.org/experiments/ENCSR814RGG/"}, {"id": "238", "Experiment_ID": "ENCSR415LEB", "GEO_number": "GSE215497", "Biosample_Type": "tissue", "Biosample_Summary": "jejunum tissue female adult (59 years)", "url": "https://www.encodeproject.org/experiments/ENCSR415LEB/"}, {"id": "239", "Experiment_ID": "ENCSR017RQC", "GEO_number": "GSE172595", "Biosample_Type": "tissue", "Biosample_Summary": "Peyer's patch tissue female adult (53 years)", "url": "https://www.encodeproject.org/experiments/ENCSR017RQC/"}, {"id": "240", "Experiment_ID": "ENCSR855BMI", "GEO_number": "GSE170321", "Biosample_Type": "tissue", "Biosample_Summary": "Right ventricle myocardium inferior tissue male adult (60 years)", "url": "https://www.encodeproject.org/experiments/ENCSR855BMI/"}, {"id": "241", "Experiment_ID": "ENCSR344ZTM", "GEO_number": "GSE172765", "Biosample_Type": "tissue", "Biosample_Summary": "thoracic aorta tissue male adult (54 years)", "url": "https://www.encodeproject.org/experiments/ENCSR344ZTM/"}, {"id": "242", "Experiment_ID": "ENCSR685ZMP", "GEO_number": "GSE170971", "Biosample_Type": "tissue", "Biosample_Summary": "right lobe of liver tissue female adult (41 years)", "url": "https://www.encodeproject.org/experiments/ENCSR685ZMP/"}, {"id": "243", "Experiment_ID": "ENCSR222SCA", "GEO_number": "GSE94175", "Biosample_Type": "in vitro differentiated cells", "Biosample_Summary": "dendritic cell treated with 100 ng/mL lipopolysaccharide for 4 hours", "url": "https://www.encodeproject.org/experiments/ENCSR222SCA/"}, {"id": "244", "Experiment_ID": "ENCSR886VCC", "GEO_number": "GSE170491", "Biosample_Type": "tissue", "Biosample_Summary": "psoas muscle tissue female adult (47 years)", "url": "https://www.encodeproject.org/experiments/ENCSR886VCC/"}, {"id": "245", "Experiment_ID": "ENCSR117PYB", "GEO_number": "GSE172792", "Biosample_Type": "tissue", "Biosample_Summary": "heart left ventricle tissue female adult (51 years)", "url": "https://www.encodeproject.org/experiments/ENCSR117PYB/"}, {"id": "246", "Experiment_ID": "ENCSR925LGW", "GEO_number": "GSE170652", "Biosample_Type": "tissue", "Biosample_Summary": "heart left ventricle tissue female adult (59 years)", "url": "https://www.encodeproject.org/experiments/ENCSR925LGW/"}, {"id": "247", "Experiment_ID": "ENCSR913FZQ", "GEO_number": "GSE215558", "Biosample_Type": "tissue", "Biosample_Summary": "posterior vena cava tissue female child (16 years)", "url": "https://www.encodeproject.org/experiments/ENCSR913FZQ/"}, {"id": "248", "Experiment_ID": "ENCSR731ODJ", "GEO_number": "GSE173039", "Biosample_Type": "tissue", "Biosample_Summary": "left cardiac atrium tissue female adult (58 years)", "url": "https://www.encodeproject.org/experiments/ENCSR731ODJ/"}, {"id": "249", "Experiment_ID": "ENCSR775SYU", "GEO_number": "GSE170053", "Biosample_Type": "tissue", "Biosample_Summary": "uterus tissue female adult (59 years)", "url": "https://www.encodeproject.org/experiments/ENCSR775SYU/"}, {"id": "250", "Experiment_ID": "ENCSR158KCS", "GEO_number": "GSE215645", "Biosample_Type": "tissue", "Biosample_Summary": "spleen tissue female adult (61 years)", "url": "https://www.encodeproject.org/experiments/ENCSR158KCS/"}, {"id": "251", "Experiment_ID": "ENCSR551CSY", "GEO_number": "GSE170604", "Biosample_Type": "tissue", "Biosample_Summary": "mesenteric fat pad tissue male adult (26 years)", "url": "https://www.encodeproject.org/experiments/ENCSR551CSY/"}, {"id": "252", "Experiment_ID": "ENCSR310RJN", "GEO_number": "GSE170318", "Biosample_Type": "tissue", "Biosample_Summary": "heart left ventricle tissue male adult (43 years)", "url": "https://www.encodeproject.org/experiments/ENCSR310RJN/"}, {"id": "253", "Experiment_ID": "ENCSR946MAI", "GEO_number": "GSE215582", "Biosample_Type": "tissue", "Biosample_Summary": "left ventricle myocardium inferior tissue male adult (60 years)", "url": "https://www.encodeproject.org/experiments/ENCSR946MAI/"}, {"id": "254", "Experiment_ID": "ENCSR607BTF", "GEO_number": "GSE170876", "Biosample_Type": "tissue", "Biosample_Summary": "right lobe of liver tissue male adult (45 years)", "url": "https://www.encodeproject.org/experiments/ENCSR607BTF/"}, {"id": "255", "Experiment_ID": "ENCSR522FGI", "GEO_number": "GSE170470", "Biosample_Type": "tissue", "Biosample_Summary": "heart right ventricle tissue male adult (43 years)", "url": "https://www.encodeproject.org/experiments/ENCSR522FGI/"}, {"id": "256", "Experiment_ID": "ENCSR624ODL", "GEO_number": "GSE170899", "Biosample_Type": "tissue", "Biosample_Summary": "left lobe of liver tissue female adult (61 years)", "url": "https://www.encodeproject.org/experiments/ENCSR624ODL/"}, {"id": "257", "Experiment_ID": "ENCSR153IUB", "GEO_number": "GSE170508", "Biosample_Type": "tissue", "Biosample_Summary": "mucosa of urinary bladder tissue male adult (26 years)", "url": "https://www.encodeproject.org/experiments/ENCSR153IUB/"}, {"id": "258", "Experiment_ID": "ENCSR710SMN", "GEO_number": "GSE169829", "Biosample_Type": "tissue", "Biosample_Summary": "heart right ventricle tissue female adult (58 years)", "url": "https://www.encodeproject.org/experiments/ENCSR710SMN/"}, {"id": "259", "Experiment_ID": "ENCSR241OBO", "GEO_number": "GSE169983", "Biosample_Type": "tissue", "Biosample_Summary": "adrenal gland tissue female adult (59 years)", "url": "https://www.encodeproject.org/experiments/ENCSR241OBO/"}, {"id": "260", "Experiment_ID": "ENCSR773USD", "GEO_number": "GSE172607", "Biosample_Type": "tissue", "Biosample_Summary": "body of pancreas tissue female adult (51 years)", "url": "https://www.encodeproject.org/experiments/ENCSR773USD/"}, {"id": "261", "Experiment_ID": "ENCSR864ADD", "GEO_number": "GSE170353", "Biosample_Type": "tissue", "Biosample_Summary": "adrenal gland tissue female adult (41 years)", "url": "https://www.encodeproject.org/experiments/ENCSR864ADD/"}, {"id": "262", "Experiment_ID": "ENCSR120MOY", "GEO_number": "GSE170354", "Biosample_Type": "tissue", "Biosample_Summary": "sciatic nerve tissue male adult (26 years)", "url": "https://www.encodeproject.org/experiments/ENCSR120MOY/"}, {"id": "263", "Experiment_ID": "ENCSR653ZWW", "GEO_number": "GSE215524", "Biosample_Type": "tissue", "Biosample_Summary": "bile duct tissue female adult (47 years)", "url": "https://www.encodeproject.org/experiments/ENCSR653ZWW/"}, {"id": "264", "Experiment_ID": "ENCSR152PSA", "GEO_number": "GSE172855", "Biosample_Type": "tissue", "Biosample_Summary": "body of pancreas tissue male adult (37 years)", "url": "https://www.encodeproject.org/experiments/ENCSR152PSA/"}, {"id": "265", "Experiment_ID": "ENCSR515CDW", "GEO_number": "GSE172605", "Biosample_Type": "tissue", "Biosample_Summary": "body of pancreas tissue female adult (53 years)", "url": "https://www.encodeproject.org/experiments/ENCSR515CDW/"}, {"id": "266", "Experiment_ID": "ENCSR182VGJ", "GEO_number": "GSE215668", "Biosample_Type": "tissue", "Biosample_Summary": "spleen tissue female adult (59 years)", "url": "https://www.encodeproject.org/experiments/ENCSR182VGJ/"}, {"id": "267", "Experiment_ID": "ENCSR846VLJ", "GEO_number": "GSE170300", "Biosample_Type": "tissue", "Biosample_Summary": "sigmoid colon tissue female adult (53 years)", "url": "https://www.encodeproject.org/experiments/ENCSR846VLJ/"}, {"id": "268", "Experiment_ID": "ENCSR297VGU", "GEO_number": "GSE215649", "Biosample_Type": "tissue", "Biosample_Summary": "kidney tissue female adult (47 years)", "url": "https://www.encodeproject.org/experiments/ENCSR297VGU/"}, {"id": "269", "Experiment_ID": "ENCSR788TRR", "GEO_number": "GSE172635", "Biosample_Type": "tissue", "Biosample_Summary": "omental fat pad tissue female adult (51 years)", "url": "https://www.encodeproject.org/experiments/ENCSR788TRR/"}, {"id": "270", "Experiment_ID": "ENCSR213DBU", "GEO_number": "GSE215494", "Biosample_Type": "tissue", "Biosample_Summary": "posterior vena cava tissue male adult (26 years)", "url": "https://www.encodeproject.org/experiments/ENCSR213DBU/"}, {"id": "271", "Experiment_ID": "ENCSR040DJK", "GEO_number": "GSE169990", "Biosample_Type": "tissue", "Biosample_Summary": "psoas muscle tissue female adult (59 years)", "url": "https://www.encodeproject.org/experiments/ENCSR040DJK/"}, {"id": "272", "Experiment_ID": "ENCSR619LHF", "GEO_number": "GSE215492", "Biosample_Type": "tissue", "Biosample_Summary": "sciatic nerve tissue female adult (47 years)", "url": "https://www.encodeproject.org/experiments/ENCSR619LHF/"}, {"id": "273", "Experiment_ID": "ENCSR831KAH", "GEO_number": "GSE172747", "Biosample_Type": "tissue", "Biosample_Summary": "tibial nerve tissue female adult (51 years)", "url": "https://www.encodeproject.org/experiments/ENCSR831KAH/"}, {"id": "274", "Experiment_ID": "ENCSR822BAD", "GEO_number": "GSE215493", "Biosample_Type": "tissue", "Biosample_Summary": "right cardiac atrium tissue female adult (46 years)", "url": "https://www.encodeproject.org/experiments/ENCSR822BAD/"}, {"id": "275", "Experiment_ID": "ENCSR540BML", "GEO_number": "GSE172647", "Biosample_Type": "tissue", "Biosample_Summary": "subcutaneous adipose tissue tissue female adult (53 years)", "url": "https://www.encodeproject.org/experiments/ENCSR540BML/"}, {"id": "276", "Experiment_ID": "ENCSR032RGS", "GEO_number": "GSE169955", "Biosample_Type": "cell line", "Biosample_Summary": "A549", "url": "https://www.encodeproject.org/experiments/ENCSR032RGS/"}, {"id": "277", "Experiment_ID": "ENCSR483RKN", "GEO_number": "GSE170214", "Biosample_Type": "cell line", "Biosample_Summary": "K562", "url": "https://www.encodeproject.org/experiments/ENCSR483RKN/"}, {"id": "278", "Experiment_ID": "ENCSR516CPW", "GEO_number": "GSE170430", "Biosample_Type": "tissue", "Biosample_Summary": "right lobe of liver tissue female adult (47 years)", "url": "https://www.encodeproject.org/experiments/ENCSR516CPW/"}, {"id": "279", "Experiment_ID": "ENCSR390SLL", "GEO_number": "GSE170758", "Biosample_Type": "tissue", "Biosample_Summary": "left cardiac atrium tissue female adult (42 years)", "url": "https://www.encodeproject.org/experiments/ENCSR390SLL/"}, {"id": "280", "Experiment_ID": "ENCSR544YXV", "GEO_number": "GSE94195", "Biosample_Type": "in vitro differentiated cells", "Biosample_Summary": "dendritic cell treated with 100 ng/mL lipopolysaccharide for 1 hour", "url": "https://www.encodeproject.org/experiments/ENCSR544YXV/"}, {"id": "281", "Experiment_ID": "ENCSR399OSE", "GEO_number": "GSE170791", "Biosample_Type": "tissue", "Biosample_Summary": "heart left ventricle tissue female adult (47 years)", "url": "https://www.encodeproject.org/experiments/ENCSR399OSE/"}, {"id": "282", "Experiment_ID": "ENCSR890DWH", "GEO_number": "GSE170518", "Biosample_Type": "tissue", "Biosample_Summary": "psoas muscle tissue female adult (41 years)", "url": "https://www.encodeproject.org/experiments/ENCSR890DWH/"}, {"id": "283", "Experiment_ID": "ENCSR208NBF", "GEO_number": "GSE94174", "Biosample_Type": "in vitro differentiated cells", "Biosample_Summary": "dendritic cell treated with 100 ng/mL lipopolysaccharide for 2 hours", "url": "https://www.encodeproject.org/experiments/ENCSR208NBF/"}, {"id": "284", "Experiment_ID": "ENCSR174MLD", "GEO_number": "GSE215655", "Biosample_Type": "tissue", "Biosample_Summary": "bile duct tissue female adult (41 years)", "url": "https://www.encodeproject.org/experiments/ENCSR174MLD/"}, {"id": "285", "Experiment_ID": "ENCSR042AWH", "GEO_number": "GSE170012", "Biosample_Type": "cell line", "Biosample_Summary": "HepG2", "url": "https://www.encodeproject.org/experiments/ENCSR042AWH/"}, {"id": "286", "Experiment_ID": "ENCSR059IHA", "GEO_number": "GSE94163", "Biosample_Type": "in vitro differentiated cells", "Biosample_Summary": "dendritic cell treated with 100 ng/mL lipopolysaccharide for 30 minutes", "url": "https://www.encodeproject.org/experiments/ENCSR059IHA/"}, {"id": "287", "Experiment_ID": "ENCSR904UKR", "GEO_number": "GSE94217", "Biosample_Type": "in vitro differentiated cells", "Biosample_Summary": "dendritic cell treated with 100 ng/mL lipopolysaccharide for 6 hours", "url": "https://www.encodeproject.org/experiments/ENCSR904UKR/"}, {"id": "288", "Experiment_ID": "ENCSR694OWY", "GEO_number": "GSE215622", "Biosample_Type": "tissue", "Biosample_Summary": "spleen tissue male adult (26 years)", "url": "https://www.encodeproject.org/experiments/ENCSR694OWY/"}, {"id": "289", "Experiment_ID": "ENCSR213YPO", "GEO_number": "GSE169805", "Biosample_Type": "tissue", "Biosample_Summary": "right cardiac atrium tissue male adult (60 years)", "url": "https://www.encodeproject.org/experiments/ENCSR213YPO/"}, {"id": "290", "Experiment_ID": "ENCSR990NNX", "GEO_number": "GSE170862", "Biosample_Type": "tissue", "Biosample_Summary": "upper lobe of right lung tissue male adult (60 years)", "url": "https://www.encodeproject.org/experiments/ENCSR990NNX/"}, {"id": "291", "Experiment_ID": "ENCSR074WMH", "GEO_number": "GSE172675", "Biosample_Type": "tissue", "Biosample_Summary": "Right ventricle myocardium superior tissue male adult (60 years)", "url": "https://www.encodeproject.org/experiments/ENCSR074WMH/"}, {"id": "292", "Experiment_ID": "ENCSR124NNL", "GEO_number": "GSE215589", "Biosample_Type": "tissue", "Biosample_Summary": "liver tissue male adult (67 years)", "url": "https://www.encodeproject.org/experiments/ENCSR124NNL/"}, {"id": "293", "Experiment_ID": "ENCSR310UDW", "GEO_number": "GSE170327", "Biosample_Type": "tissue", "Biosample_Summary": "left cardiac atrium tissue male adult (40 years)", "url": "https://www.encodeproject.org/experiments/ENCSR310UDW/"}, {"id": "294", "Experiment_ID": "ENCSR242QRV", "GEO_number": "GSE215609", "Biosample_Type": "tissue", "Biosample_Summary": "upper lobe of left lung tissue female adult (61 years)", "url": "https://www.encodeproject.org/experiments/ENCSR242QRV/"}, {"id": "295", "Experiment_ID": "ENCSR204SMO", "GEO_number": "GSE169772", "Biosample_Type": "tissue", "Biosample_Summary": "heart right ventricle tissue male adult (46 years)", "url": "https://www.encodeproject.org/experiments/ENCSR204SMO/"}, {"id": "296", "Experiment_ID": "ENCSR718HWW", "GEO_number": "GSE187823", "Biosample_Type": "primary cell", "Biosample_Summary": "activated CD8-positive, alpha-beta T cell male adult (21 years) treated with anti-CD3 and anti-CD28 coated beads for 36 hours", "url": "https://www.encodeproject.org/experiments/ENCSR718HWW/"}, {"id": "297", "Experiment_ID": "ENCSR736CIN", "GEO_number": "GSE215713", "Biosample_Type": "tissue", "Biosample_Summary": "left cardiac atrium tissue female adult (66 years)", "url": "https://www.encodeproject.org/experiments/ENCSR736CIN/"}, {"id": "298", "Experiment_ID": "ENCSR991PBP", "GEO_number": "GSE187973", "Biosample_Type": "primary cell", "Biosample_Summary": "activated CD4-positive, alpha-beta T cell male adult (20 years) treated with anti-CD3 and anti-CD28 coated beads for 36 hours", "url": "https://www.encodeproject.org/experiments/ENCSR991PBP/"}, {"id": "299", "Experiment_ID": "ENCSR291GJU", "GEO_number": "GSE170251", "Biosample_Type": "cell line", "Biosample_Summary": "HepG2", "url": "https://www.encodeproject.org/experiments/ENCSR291GJU/"}, {"id": "300", "Experiment_ID": "ENCSR565DSD", "GEO_number": "GSE215687", "Biosample_Type": "tissue", "Biosample_Summary": "fallopian tube tissue female adult (61 years)", "url": "https://www.encodeproject.org/experiments/ENCSR565DSD/"}, {"id": "301", "Experiment_ID": "ENCSR637XSC", "GEO_number": "GSE170918", "Biosample_Type": "cell line", "Biosample_Summary": "GM12878", "url": "https://www.encodeproject.org/experiments/ENCSR637XSC/"}, {"id": "302", "Experiment_ID": "ENCSR157OSO", "GEO_number": "GSE170517", "Biosample_Type": "tissue", "Biosample_Summary": "heart right ventricle tissue female adult (47 years)", "url": "https://www.encodeproject.org/experiments/ENCSR157OSO/"}, {"id": "303", "Experiment_ID": "ENCSR303PWB", "GEO_number": "GSE170282", "Biosample_Type": "tissue", "Biosample_Summary": "esophagus mucosa tissue female adult (47 years)", "url": "https://www.encodeproject.org/experiments/ENCSR303PWB/"}, {"id": "304", "Experiment_ID": "ENCSR553LAZ", "GEO_number": "GSE170643", "Biosample_Type": "tissue", "Biosample_Summary": "adrenal gland tissue female child (16 years)", "url": "https://www.encodeproject.org/experiments/ENCSR553LAZ/"}, {"id": "305", "Experiment_ID": "ENCSR227FVE", "GEO_number": "GSE169879", "Biosample_Type": "tissue", "Biosample_Summary": "ovary tissue female adult (59 years)", "url": "https://www.encodeproject.org/experiments/ENCSR227FVE/"}, {"id": "306", "Experiment_ID": "ENCSR404LLJ", "GEO_number": "GSE169798", "Biosample_Type": "tissue", "Biosample_Summary": "transverse colon tissue female adult (53 years)", "url": "https://www.encodeproject.org/experiments/ENCSR404LLJ/"}, {"id": "307", "Experiment_ID": "ENCSR851SBY", "GEO_number": "GSE172791", "Biosample_Type": "tissue", "Biosample_Summary": "stomach tissue male adult (54 years)", "url": "https://www.encodeproject.org/experiments/ENCSR851SBY/"}, {"id": "308", "Experiment_ID": "ENCSR422SUG", "GEO_number": "GSE169929", "Biosample_Type": "cell line", "Biosample_Summary": "MCF-7", "url": "https://www.encodeproject.org/experiments/ENCSR422SUG/"}, {"id": "309", "Experiment_ID": "ENCSR201FIW", "GEO_number": "GSE169771", "Biosample_Type": "tissue", "Biosample_Summary": "thyroid gland tissue female adult (51 years)", "url": "https://www.encodeproject.org/experiments/ENCSR201FIW/"}, {"id": "310", "Experiment_ID": "ENCSR530XBF", "GEO_number": "GSE170507", "Biosample_Type": "tissue", "Biosample_Summary": "pancreas tissue female child (16 years)", "url": "https://www.encodeproject.org/experiments/ENCSR530XBF/"}, {"id": "311", "Experiment_ID": "ENCSR841LHT", "GEO_number": "GSE215502", "Biosample_Type": "primary cell", "Biosample_Summary": "CD4-positive, alpha-beta T cell male adult (20 years)", "url": "https://www.encodeproject.org/experiments/ENCSR841LHT/"}, {"id": "312", "Experiment_ID": "ENCSR476VJY", "GEO_number": "GSE187933", "Biosample_Type": "primary cell", "Biosample_Summary": "CD8-positive, alpha-beta T cell male adult (21 years)", "url": "https://www.encodeproject.org/experiments/ENCSR476VJY/"}, {"id": "313", "Experiment_ID": "ENCSR868FGK", "GEO_number": "GSE170378", "Biosample_Type": "cell line", "Biosample_Summary": "K562", "url": "https://www.encodeproject.org/experiments/ENCSR868FGK/"}, {"id": "314", "Experiment_ID": "ENCSR225FZH", "GEO_number": "GSE215583", "Biosample_Type": "tissue", "Biosample_Summary": "heart left ventricle tissue male adult (55 years)", "url": "https://www.encodeproject.org/experiments/ENCSR225FZH/"}, {"id": "315", "Experiment_ID": "ENCSR251POP", "GEO_number": "GSE170023", "Biosample_Type": "tissue", "Biosample_Summary": "pancreas tissue female adult (61 years)", "url": "https://www.encodeproject.org/experiments/ENCSR251POP/"}, {"id": "316", "Experiment_ID": "ENCSR308HPZ", "GEO_number": "GSE170304", "Biosample_Type": "tissue", "Biosample_Summary": "gastrocnemius medialis tissue male adult (54 years)", "url": "https://www.encodeproject.org/experiments/ENCSR308HPZ/"}, {"id": "317", "Experiment_ID": "ENCSR914DTI", "GEO_number": "GSE172883", "Biosample_Type": "tissue", "Biosample_Summary": "thyroid gland tissue female adult (53 years)", "url": "https://www.encodeproject.org/experiments/ENCSR914DTI/"}, {"id": "318", "Experiment_ID": "ENCSR761TKU", "GEO_number": "GSE172574", "Biosample_Type": "tissue", "Biosample_Summary": "transverse colon tissue male adult (54 years)", "url": "https://www.encodeproject.org/experiments/ENCSR761TKU/"}, {"id": "319", "Experiment_ID": "ENCSR212LYK", "GEO_number": "GSE173000", "Biosample_Type": "tissue", "Biosample_Summary": "heart right ventricle tissue female adult (46 years)", "url": "https://www.encodeproject.org/experiments/ENCSR212LYK/"}, {"id": "320", "Experiment_ID": "ENCSR439TZT", "GEO_number": "GSE170014", "Biosample_Type": "tissue", "Biosample_Summary": "heart right ventricle tissue male adult (66 years)", "url": "https://www.encodeproject.org/experiments/ENCSR439TZT/"}, {"id": "321", "Experiment_ID": "ENCSR212LAZ", "GEO_number": "GSE169789", "Biosample_Type": "tissue", "Biosample_Summary": "fallopian tube tissue female adult (59 years)", "url": "https://www.encodeproject.org/experiments/ENCSR212LAZ/"}, {"id": "322", "Experiment_ID": "ENCSR899YEP", "GEO_number": "GSE215555", "Biosample_Type": "tissue", "Biosample_Summary": "heart left ventricle tissue male adult (61 years)", "url": "https://www.encodeproject.org/experiments/ENCSR899YEP/"}, {"id": "323", "Experiment_ID": "ENCSR999NKW", "GEO_number": "GSE173068", "Biosample_Type": "tissue", "Biosample_Summary": "prostate gland tissue male adult (54 years)", "url": "https://www.encodeproject.org/experiments/ENCSR999NKW/"}, {"id": "324", "Experiment_ID": "ENCSR872WGW", "GEO_number": "GSE170407", "Biosample_Type": "cell line", "Biosample_Summary": "HCT116", "url": "https://www.encodeproject.org/experiments/ENCSR872WGW/"}, {"id": "325", "Experiment_ID": "ENCSR451JSB", "GEO_number": "GSE215518", "Biosample_Type": "tissue", "Biosample_Summary": "heart left ventricle tissue female adult (56 years)", "url": "https://www.encodeproject.org/experiments/ENCSR451JSB/"}, {"id": "326", "Experiment_ID": "ENCSR474XFV", "GEO_number": "GSE170176", "Biosample_Type": "tissue", "Biosample_Summary": "thyroid gland tissue male adult (54 years)", "url": "https://www.encodeproject.org/experiments/ENCSR474XFV/"}, {"id": "327", "Experiment_ID": "ENCSR609GST", "GEO_number": "GSE172764", "Biosample_Type": "tissue", "Biosample_Summary": "esophagus muscularis mucosa tissue male adult (54 years)", "url": "https://www.encodeproject.org/experiments/ENCSR609GST/"}, {"id": "328", "Experiment_ID": "ENCSR113MBR", "GEO_number": "GSE170314", "Biosample_Type": "tissue", "Biosample_Summary": "adrenal gland tissue male adult (54 years)", "url": "https://www.encodeproject.org/experiments/ENCSR113MBR/"}, {"id": "329", "Experiment_ID": "ENCSR548KIL", "GEO_number": "GSE170578", "Biosample_Type": "tissue", "Biosample_Summary": "adrenal gland tissue male adult (37 years)", "url": "https://www.encodeproject.org/experiments/ENCSR548KIL/"}, {"id": "330", "Experiment_ID": "ENCSR668VCT", "GEO_number": "GSE172936", "Biosample_Type": "tissue", "Biosample_Summary": "transverse colon tissue male adult (37 years)", "url": "https://www.encodeproject.org/experiments/ENCSR668VCT/"}, {"id": "331", "Experiment_ID": "ENCSR542RNG", "GEO_number": "GSE170550", "Biosample_Type": "tissue", "Biosample_Summary": "adrenal gland tissue male adult (26 years)", "url": "https://www.encodeproject.org/experiments/ENCSR542RNG/"}, {"id": "332", "Experiment_ID": "ENCSR403GBR", "GEO_number": "GSE215478", "Biosample_Type": "tissue", "Biosample_Summary": "heart right ventricle tissue male adult (55 years)", "url": "https://www.encodeproject.org/experiments/ENCSR403GBR/"}, {"id": "333", "Experiment_ID": "ENCSR414DVK", "GEO_number": "GSE172963", "Biosample_Type": "tissue", "Biosample_Summary": "adrenal gland tissue female adult (51 years)", "url": "https://www.encodeproject.org/experiments/ENCSR414DVK/"}, {"id": "334", "Experiment_ID": "ENCSR584AXZ", "GEO_number": "GSE172701", "Biosample_Type": "tissue", "Biosample_Summary": "coronary artery tissue female adult (51 years)", "url": "https://www.encodeproject.org/experiments/ENCSR584AXZ/"}, {"id": "335", "Experiment_ID": "ENCSR948MQC", "GEO_number": "GSE170747", "Biosample_Type": "tissue", "Biosample_Summary": "lower lobe of right lung tissue female adult (65 years)", "url": "https://www.encodeproject.org/experiments/ENCSR948MQC/"}, {"id": "336", "Experiment_ID": "ENCSR062SVK", "GEO_number": "GSE139692", "Biosample_Type": "tissue", "Biosample_Summary": "right atrium auricular region tissue female adult (51 years)", "url": "https://www.encodeproject.org/experiments/ENCSR062SVK/"}, {"id": "337", "Experiment_ID": "ENCSR836FIL", "GEO_number": "GSE170250", "Biosample_Type": "tissue", "Biosample_Summary": "right lobe of liver tissue male adult (40 years)", "url": "https://www.encodeproject.org/experiments/ENCSR836FIL/"}, {"id": "338", "Experiment_ID": "ENCSR600ZHS", "GEO_number": "GSE170848", "Biosample_Type": "tissue", "Biosample_Summary": "left colon tissue female adult (46 years)", "url": "https://www.encodeproject.org/experiments/ENCSR600ZHS/"}, {"id": "339", "Experiment_ID": "ENCSR078EBD", "GEO_number": "GSE172685", "Biosample_Type": "tissue", "Biosample_Summary": "spleen tissue female adult (51 years)", "url": "https://www.encodeproject.org/experiments/ENCSR078EBD/"}, {"id": "340", "Experiment_ID": "ENCSR355SGJ", "GEO_number": "GSE172790", "Biosample_Type": "tissue", "Biosample_Summary": "sigmoid colon tissue female adult (51 years)", "url": "https://www.encodeproject.org/experiments/ENCSR355SGJ/"}, {"id": "341", "Experiment_ID": "ENCSR086OGH", "GEO_number": "GSE172711", "Biosample_Type": "tissue", "Biosample_Summary": "sigmoid colon tissue male adult (54 years)", "url": "https://www.encodeproject.org/experiments/ENCSR086OGH/"}, {"id": "342", "Experiment_ID": "ENCSR695FLC", "GEO_number": "GSE170988", "Biosample_Type": "tissue", "Biosample_Summary": "mucosa of gallbladder tissue female child (16 years)", "url": "https://www.encodeproject.org/experiments/ENCSR695FLC/"}, {"id": "343", "Experiment_ID": "ENCSR709QRD", "GEO_number": "GSE187790", "Biosample_Type": "in vitro differentiated cells", "Biosample_Summary": "from a donor with amyotrophic lateral sclerosis; motor neuron", "url": "https://www.encodeproject.org/experiments/ENCSR709QRD/"}, {"id": "344", "Experiment_ID": "ENCSR131HOY", "GEO_number": "GSE187084", "Biosample_Type": "in vitro differentiated cells", "Biosample_Summary": "from a donor with amyotrophic lateral sclerosis; motor neuron", "url": "https://www.encodeproject.org/experiments/ENCSR131HOY/"}, {"id": "345", "Experiment_ID": "ENCSR516YAD", "GEO_number": "GSE187543", "Biosample_Type": "in vitro differentiated cells", "Biosample_Summary": "from a donor with amyotrophic lateral sclerosis; motor neuron", "url": "https://www.encodeproject.org/experiments/ENCSR516YAD/"}, {"id": "346", "Experiment_ID": "ENCSR808ZMK", "GEO_number": "GSE170216", "Biosample_Type": "tissue", "Biosample_Summary": "pancreas tissue female adult (41 years)", "url": "https://www.encodeproject.org/experiments/ENCSR808ZMK/"}, {"id": "347", "Experiment_ID": "ENCSR373GMM", "GEO_number": "GSE187325", "Biosample_Type": "primary cell", "Biosample_Summary": "natural killer cell male adult (33 years)", "url": "https://www.encodeproject.org/experiments/ENCSR373GMM/"}, {"id": "348", "Experiment_ID": "ENCSR286STX", "GEO_number": "GSE170227", "Biosample_Type": "tissue", "Biosample_Summary": "heart left ventricle tissue male adult (66 years)", "url": "https://www.encodeproject.org/experiments/ENCSR286STX/"}, {"id": "349", "Experiment_ID": "ENCSR769DGC", "GEO_number": "GSE215727", "Biosample_Type": "tissue", "Biosample_Summary": "heart left ventricle tissue male adult (73 years)", "url": "https://www.encodeproject.org/experiments/ENCSR769DGC/"}, {"id": "350", "Experiment_ID": "ENCSR220ASC", "GEO_number": "GSE114202", "Biosample_Type": "cell line", "Biosample_Summary": "A549", "url": "https://www.encodeproject.org/experiments/ENCSR220ASC/"}, {"id": "351", "Experiment_ID": "ENCSR970UNF", "GEO_number": "GSE170821", "Biosample_Type": "tissue", "Biosample_Summary": "colonic mucosa tissue female adult (41 years)", "url": "https://www.encodeproject.org/experiments/ENCSR970UNF/"}, {"id": "352", "Experiment_ID": "ENCSR386HAZ", "GEO_number": "GSE172929", "Biosample_Type": "tissue", "Biosample_Summary": "transverse colon tissue female adult (51 years)", "url": "https://www.encodeproject.org/experiments/ENCSR386HAZ/"}, {"id": "353", "Experiment_ID": "ENCSR846ZBX", "GEO_number": "GSE139763", "Biosample_Type": "tissue", "Biosample_Summary": "breast epithelium tissue female adult (51 years)", "url": "https://www.encodeproject.org/experiments/ENCSR846ZBX/"}, {"id": "354", "Experiment_ID": "ENCSR591PIX", "GEO_number": "GSE170824", "Biosample_Type": "cell line", "Biosample_Summary": "Panc1", "url": "https://www.encodeproject.org/experiments/ENCSR591PIX/"}, {"id": "355", "Experiment_ID": "ENCSR053SGP", "GEO_number": "GSE170073", "Biosample_Type": "tissue", "Biosample_Summary": "heart right ventricle tissue male adult (54 years)", "url": "https://www.encodeproject.org/experiments/ENCSR053SGP/"}, {"id": "356", "Experiment_ID": "ENCSR682ETE", "GEO_number": "GSE170968", "Biosample_Type": "tissue", "Biosample_Summary": "left lung tissue female child (16 years)", "url": "https://www.encodeproject.org/experiments/ENCSR682ETE/"}, {"id": "357", "Experiment_ID": "ENCSR374ZRW", "GEO_number": "GSE215729", "Biosample_Type": "tissue", "Biosample_Summary": "heart right ventricle tissue female adult (56 years)", "url": "https://www.encodeproject.org/experiments/ENCSR374ZRW/"}, {"id": "358", "Experiment_ID": "ENCSR210NKB", "GEO_number": "GSE172988", "Biosample_Type": "tissue", "Biosample_Summary": "testis tissue male adult (37 years)", "url": "https://www.encodeproject.org/experiments/ENCSR210NKB/"}, {"id": "359", "Experiment_ID": "ENCSR258JCL", "GEO_number": "GSE170045", "Biosample_Type": "tissue", "Biosample_Summary": "gastrocnemius medialis tissue male adult (37 years)", "url": "https://www.encodeproject.org/experiments/ENCSR258JCL/"}, {"id": "360", "Experiment_ID": "ENCSR563ZNI", "GEO_number": "GSE170721", "Biosample_Type": "tissue", "Biosample_Summary": "heart right ventricle tissue male adult (61 years)", "url": "https://www.encodeproject.org/experiments/ENCSR563ZNI/"}, {"id": "361", "Experiment_ID": "ENCSR373TDL", "GEO_number": "GSE172863", "Biosample_Type": "tissue", "Biosample_Summary": "right lobe of liver tissue female adult (53 years)", "url": "https://www.encodeproject.org/experiments/ENCSR373TDL/"}, {"id": "362", "Experiment_ID": "ENCSR765MXG", "GEO_number": "GSE170016", "Biosample_Type": "tissue", "Biosample_Summary": "body of pancreas tissue male adult (54 years)", "url": "https://www.encodeproject.org/experiments/ENCSR765MXG/"}, {"id": "363", "Experiment_ID": "ENCSR548QCP", "GEO_number": "GSE139801", "Biosample_Type": "tissue", "Biosample_Summary": "sigmoid colon tissue male adult (37 years)", "url": "https://www.encodeproject.org/experiments/ENCSR548QCP/"}, {"id": "364", "Experiment_ID": "ENCSR823ZCR", "GEO_number": "GSE172734", "Biosample_Type": "tissue", "Biosample_Summary": "gastrocnemius medialis tissue female adult (51 years)", "url": "https://www.encodeproject.org/experiments/ENCSR823ZCR/"}, {"id": "365", "Experiment_ID": "ENCSR491VKV", "GEO_number": "GSE215562", "Biosample_Type": "tissue", "Biosample_Summary": "heart right ventricle tissue male adult (73 years)", "url": "https://www.encodeproject.org/experiments/ENCSR491VKV/"}, {"id": "366", "Experiment_ID": "ENCSR499ASS", "GEO_number": "GSE170337", "Biosample_Type": "cell line", "Biosample_Summary": "PC-3", "url": "https://www.encodeproject.org/experiments/ENCSR499ASS/"}, {"id": "367", "Experiment_ID": "ENCSR382LBS", "GEO_number": "GSE172886", "Biosample_Type": "cell line", "Biosample_Summary": "NCI-H929", "url": "https://www.encodeproject.org/experiments/ENCSR382LBS/"}, {"id": "368", "Experiment_ID": "ENCSR485TLP", "GEO_number": "GSE170231", "Biosample_Type": "cell line", "Biosample_Summary": "GM23338", "url": "https://www.encodeproject.org/experiments/ENCSR485TLP/"}, {"id": "369", "Experiment_ID": "ENCSR587TRP", "GEO_number": "GSE172714", "Biosample_Type": "cell line", "Biosample_Summary": "SK-N-SH treated with 6 \u03bcM all-trans-retinoic acid for 48 hours", "url": "https://www.encodeproject.org/experiments/ENCSR587TRP/"}, {"id": "370", "Experiment_ID": "ENCSR337UIU", "GEO_number": "GSE170447", "Biosample_Type": "tissue", "Biosample_Summary": "stomach tissue female adult (53 years)", "url": "https://www.encodeproject.org/experiments/ENCSR337UIU/"}]
+[
+  {
+    "id": "1",
+    "Experiment_ID": "ENCSR409YCK",
+    "GEO_number": "GSE172962",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "GM19043",
+    "url": "https://www.encodeproject.org/experiments/ENCSR409YCK/"
+  },
+  {
+    "id": "2",
+    "Experiment_ID": "ENCSR357WQH",
+    "GEO_number": "GSE172805",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "GM18508",
+    "url": "https://www.encodeproject.org/experiments/ENCSR357WQH/"
+  },
+  {
+    "id": "3",
+    "Experiment_ID": "ENCSR580JBA",
+    "GEO_number": "GSE172696",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "GM18868",
+    "url": "https://www.encodeproject.org/experiments/ENCSR580JBA/"
+  },
+  {
+    "id": "4",
+    "Experiment_ID": "ENCSR359HFH",
+    "GEO_number": "GSE172814",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "HG03095",
+    "url": "https://www.encodeproject.org/experiments/ENCSR359HFH/"
+  },
+  {
+    "id": "5",
+    "Experiment_ID": "ENCSR376YMU",
+    "GEO_number": "GSE172867",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "HG03439",
+    "url": "https://www.encodeproject.org/experiments/ENCSR376YMU/"
+  },
+  {
+    "id": "6",
+    "Experiment_ID": "ENCSR063UNG",
+    "GEO_number": "GSE172646",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "HG03196",
+    "url": "https://www.encodeproject.org/experiments/ENCSR063UNG/"
+  },
+  {
+    "id": "7",
+    "Experiment_ID": "ENCSR706GDQ",
+    "GEO_number": "GSE173023",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "GM19455",
+    "url": "https://www.encodeproject.org/experiments/ENCSR706GDQ/"
+  },
+  {
+    "id": "8",
+    "Experiment_ID": "ENCSR839IAD",
+    "GEO_number": "GSE172768",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "GM19397",
+    "url": "https://www.encodeproject.org/experiments/ENCSR839IAD/"
+  },
+  {
+    "id": "9",
+    "Experiment_ID": "ENCSR641KNU",
+    "GEO_number": "GSE172841",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "GM21825",
+    "url": "https://www.encodeproject.org/experiments/ENCSR641KNU/"
+  },
+  {
+    "id": "10",
+    "Experiment_ID": "ENCSR624CTU",
+    "GEO_number": "GSE172804",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "HG03520",
+    "url": "https://www.encodeproject.org/experiments/ENCSR624CTU/"
+  },
+  {
+    "id": "11",
+    "Experiment_ID": "ENCSR253QLW",
+    "GEO_number": "GSE172518",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "GM18511",
+    "url": "https://www.encodeproject.org/experiments/ENCSR253QLW/"
+  },
+  {
+    "id": "12",
+    "Experiment_ID": "ENCSR404OEO",
+    "GEO_number": "GSE172952",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "HG02763",
+    "url": "https://www.encodeproject.org/experiments/ENCSR404OEO/"
+  },
+  {
+    "id": "13",
+    "Experiment_ID": "ENCSR038WVV",
+    "GEO_number": "GSE172634",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "HG02973",
+    "url": "https://www.encodeproject.org/experiments/ENCSR038WVV/"
+  },
+  {
+    "id": "14",
+    "Experiment_ID": "ENCSR260LAN",
+    "GEO_number": "GSE215625",
+    "Biosample_Type": "primary cell",
+    "Biosample_Summary": "naive thymus-derived CD4-positive, alpha-beta T cell male adult (48 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR260LAN/"
+  },
+  {
+    "id": "15",
+    "Experiment_ID": "ENCSR983HXF",
+    "GEO_number": "GSE187937",
+    "Biosample_Type": "primary cell",
+    "Biosample_Summary": "activated naive CD8-positive, alpha-beta T cell nuclear fraction male adult (30 years) treated with anti-CD3 and anti-CD28 coated beads for 7 days, 10 ng/mL Interleukin-2 for 5 days",
+    "url": "https://www.encodeproject.org/experiments/ENCSR983HXF/"
+  },
+  {
+    "id": "16",
+    "Experiment_ID": "ENCSR977LVI",
+    "GEO_number": "GSE187916",
+    "Biosample_Type": "primary cell",
+    "Biosample_Summary": "T-cell female adult (21 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR977LVI/"
+  },
+  {
+    "id": "17",
+    "Experiment_ID": "ENCSR102RXG",
+    "GEO_number": "GSE187329",
+    "Biosample_Type": "primary cell",
+    "Biosample_Summary": "T-cell female adult (33 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR102RXG/"
+  },
+  {
+    "id": "18",
+    "Experiment_ID": "ENCSR044ATC",
+    "GEO_number": "GSE187174",
+    "Biosample_Type": "primary cell",
+    "Biosample_Summary": "natural killer cell female adult (41 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR044ATC/"
+  },
+  {
+    "id": "19",
+    "Experiment_ID": "ENCSR685OFR",
+    "GEO_number": "GSE188165",
+    "Biosample_Type": "primary cell",
+    "Biosample_Summary": "naive B cell female adult (39 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR685OFR/"
+  },
+  {
+    "id": "20",
+    "Experiment_ID": "ENCSR305XRF",
+    "GEO_number": "GSE172679",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "HG03175",
+    "url": "https://www.encodeproject.org/experiments/ENCSR305XRF/"
+  },
+  {
+    "id": "21",
+    "Experiment_ID": "ENCSR492FJO",
+    "GEO_number": "GSE172566",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "GM18867",
+    "url": "https://www.encodeproject.org/experiments/ENCSR492FJO/"
+  },
+  {
+    "id": "22",
+    "Experiment_ID": "ENCSR322SBN",
+    "GEO_number": "GSE172720",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "HG03457",
+    "url": "https://www.encodeproject.org/experiments/ENCSR322SBN/"
+  },
+  {
+    "id": "23",
+    "Experiment_ID": "ENCSR214EIV",
+    "GEO_number": "GSE173002",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "GM21619",
+    "url": "https://www.encodeproject.org/experiments/ENCSR214EIV/"
+  },
+  {
+    "id": "24",
+    "Experiment_ID": "ENCSR487SOP",
+    "GEO_number": "GSE172559",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "HG03064",
+    "url": "https://www.encodeproject.org/experiments/ENCSR487SOP/"
+  },
+  {
+    "id": "25",
+    "Experiment_ID": "ENCSR608KJD",
+    "GEO_number": "GSE172760",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "HG03097",
+    "url": "https://www.encodeproject.org/experiments/ENCSR608KJD/"
+  },
+  {
+    "id": "26",
+    "Experiment_ID": "ENCSR144ZXR",
+    "GEO_number": "GSE172826",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "HG02759",
+    "url": "https://www.encodeproject.org/experiments/ENCSR144ZXR/"
+  },
+  {
+    "id": "27",
+    "Experiment_ID": "ENCSR835WBW",
+    "GEO_number": "GSE172757",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "HG03565",
+    "url": "https://www.encodeproject.org/experiments/ENCSR835WBW/"
+  },
+  {
+    "id": "28",
+    "Experiment_ID": "ENCSR422RPD",
+    "GEO_number": "GSE172979",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "GM21717",
+    "url": "https://www.encodeproject.org/experiments/ENCSR422RPD/"
+  },
+  {
+    "id": "29",
+    "Experiment_ID": "ENCSR408IVU",
+    "GEO_number": "GSE172959",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "GM21526",
+    "url": "https://www.encodeproject.org/experiments/ENCSR408IVU/"
+  },
+  {
+    "id": "30",
+    "Experiment_ID": "ENCSR092SRS",
+    "GEO_number": "GSE187298",
+    "Biosample_Type": "primary cell",
+    "Biosample_Summary": "activated T-cell male adult (42 years) treated with 50 U/mL Interleukin-2 for 4 hours, anti-CD3 and anti-CD28 coated beads for 4 hours",
+    "url": "https://www.encodeproject.org/experiments/ENCSR092SRS/"
+  },
+  {
+    "id": "31",
+    "Experiment_ID": "ENCSR712ZRY",
+    "GEO_number": "GSE173027",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "GM19463",
+    "url": "https://www.encodeproject.org/experiments/ENCSR712ZRY/"
+  },
+  {
+    "id": "32",
+    "Experiment_ID": "ENCSR821JHD",
+    "GEO_number": "GSE172722",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "HG02623",
+    "url": "https://www.encodeproject.org/experiments/ENCSR821JHD/"
+  },
+  {
+    "id": "33",
+    "Experiment_ID": "ENCSR660WSB",
+    "GEO_number": "GSE172903",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "DND-41",
+    "url": "https://www.encodeproject.org/experiments/ENCSR660WSB/"
+  },
+  {
+    "id": "34",
+    "Experiment_ID": "ENCSR411NFB",
+    "GEO_number": "GSE187468",
+    "Biosample_Type": "primary cell",
+    "Biosample_Summary": "activated T-cell female adult (33 years) treated with 50 U/mL Interleukin-2 for 4 hours, anti-CD3 and anti-CD28 coated beads for 4 hours",
+    "url": "https://www.encodeproject.org/experiments/ENCSR411NFB/"
+  },
+  {
+    "id": "35",
+    "Experiment_ID": "ENCSR080SNF",
+    "GEO_number": "GSE172699",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "RWPE2",
+    "url": "https://www.encodeproject.org/experiments/ENCSR080SNF/"
+  },
+  {
+    "id": "36",
+    "Experiment_ID": "ENCSR541KFY",
+    "GEO_number": "GSE187636",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "WTC11",
+    "url": "https://www.encodeproject.org/experiments/ENCSR541KFY/"
+  },
+  {
+    "id": "37",
+    "Experiment_ID": "ENCSR924SDV",
+    "GEO_number": "GSE172913",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "GM18498",
+    "url": "https://www.encodeproject.org/experiments/ENCSR924SDV/"
+  },
+  {
+    "id": "38",
+    "Experiment_ID": "ENCSR345NVR",
+    "GEO_number": "GSE172766",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "HG03460",
+    "url": "https://www.encodeproject.org/experiments/ENCSR345NVR/"
+  },
+  {
+    "id": "39",
+    "Experiment_ID": "ENCSR241VGH",
+    "GEO_number": "GSE173046",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "GM18502",
+    "url": "https://www.encodeproject.org/experiments/ENCSR241VGH/"
+  },
+  {
+    "id": "40",
+    "Experiment_ID": "ENCSR454UTH",
+    "GEO_number": "GSE173043",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "GM19452",
+    "url": "https://www.encodeproject.org/experiments/ENCSR454UTH/"
+  },
+  {
+    "id": "41",
+    "Experiment_ID": "ENCSR902CFR",
+    "GEO_number": "GSE172869",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "GM21423",
+    "url": "https://www.encodeproject.org/experiments/ENCSR902CFR/"
+  },
+  {
+    "id": "42",
+    "Experiment_ID": "ENCSR442OAV",
+    "GEO_number": "GSE173014",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "GM18517",
+    "url": "https://www.encodeproject.org/experiments/ENCSR442OAV/"
+  },
+  {
+    "id": "43",
+    "Experiment_ID": "ENCSR331JFZ",
+    "GEO_number": "GSE172731",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "HG03575",
+    "url": "https://www.encodeproject.org/experiments/ENCSR331JFZ/"
+  },
+  {
+    "id": "44",
+    "Experiment_ID": "ENCSR123WME",
+    "GEO_number": "GSE172797",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "HG02943",
+    "url": "https://www.encodeproject.org/experiments/ENCSR123WME/"
+  },
+  {
+    "id": "45",
+    "Experiment_ID": "ENCSR134OSR",
+    "GEO_number": "GSE172811",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "GM19438",
+    "url": "https://www.encodeproject.org/experiments/ENCSR134OSR/"
+  },
+  {
+    "id": "46",
+    "Experiment_ID": "ENCSR424KQH",
+    "GEO_number": "GSE172982",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "GM21447",
+    "url": "https://www.encodeproject.org/experiments/ENCSR424KQH/"
+  },
+  {
+    "id": "47",
+    "Experiment_ID": "ENCSR299LSN",
+    "GEO_number": "GSE187379",
+    "Biosample_Type": "primary cell",
+    "Biosample_Summary": "T-cell male adult (42 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR299LSN/"
+  },
+  {
+    "id": "48",
+    "Experiment_ID": "ENCSR858GTE",
+    "GEO_number": "GSE172806",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "HG03442",
+    "url": "https://www.encodeproject.org/experiments/ENCSR858GTE/"
+  },
+  {
+    "id": "49",
+    "Experiment_ID": "ENCSR248ZAC",
+    "GEO_number": "GSE215614",
+    "Biosample_Type": "primary cell",
+    "Biosample_Summary": "T-helper 17 cell male adult (42 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR248ZAC/"
+  },
+  {
+    "id": "50",
+    "Experiment_ID": "ENCSR392YGP",
+    "GEO_number": "GSE187421",
+    "Biosample_Type": "primary cell",
+    "Biosample_Summary": "effector memory CD8-positive, alpha-beta T cell male adult (33 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR392YGP/"
+  },
+  {
+    "id": "51",
+    "Experiment_ID": "ENCSR165FYY",
+    "GEO_number": "GSE215647",
+    "Biosample_Type": "primary cell",
+    "Biosample_Summary": "central memory CD8-positive, alpha-beta T cell male adult (36 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR165FYY/"
+  },
+  {
+    "id": "52",
+    "Experiment_ID": "ENCSR830ALP",
+    "GEO_number": "GSE188057",
+    "Biosample_Type": "primary cell",
+    "Biosample_Summary": "activated T-cell male adult (43 years) treated with anti-CD3 and anti-CD28 coated beads for 72 hours, 50 U/mL Interleukin-2 for 72 hours",
+    "url": "https://www.encodeproject.org/experiments/ENCSR830ALP/"
+  },
+  {
+    "id": "53",
+    "Experiment_ID": "ENCSR094QFZ",
+    "GEO_number": "GSE187312",
+    "Biosample_Type": "primary cell",
+    "Biosample_Summary": "activated CD4-positive, CD25-positive, alpha-beta regulatory T cell male adult (38 years) treated with anti-CD3 and anti-CD28 coated beads for 24 hours, 50 U/mL Interleukin-2 for 24 hours",
+    "url": "https://www.encodeproject.org/experiments/ENCSR094QFZ/"
+  },
+  {
+    "id": "54",
+    "Experiment_ID": "ENCSR614JAG",
+    "GEO_number": "GSE187659",
+    "Biosample_Type": "primary cell",
+    "Biosample_Summary": "naive thymus-derived CD8-positive, alpha-beta T cell male adult (36 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR614JAG/"
+  },
+  {
+    "id": "55",
+    "Experiment_ID": "ENCSR808HWS",
+    "GEO_number": "GSE188031",
+    "Biosample_Type": "primary cell",
+    "Biosample_Summary": "natural killer cell female adult (41 years) treated with 100 ng/mL Interleukin-18 for 72 hours, 100 ng/mL Interleukin-12 subunit beta for 72 hours, 100 ng/mL Interleukin-15 for 72 hours, 100 ng/mL Interleukin-12 subunit alpha for 72 hours",
+    "url": "https://www.encodeproject.org/experiments/ENCSR808HWS/"
+  },
+  {
+    "id": "56",
+    "Experiment_ID": "ENCSR305QTE",
+    "GEO_number": "GSE187426",
+    "Biosample_Type": "primary cell",
+    "Biosample_Summary": "natural killer cell male adult (47 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR305QTE/"
+  },
+  {
+    "id": "57",
+    "Experiment_ID": "ENCSR802GEV",
+    "GEO_number": "GSE170195",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "cerebellum tissue male adult (20 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR802GEV/"
+  },
+  {
+    "id": "58",
+    "Experiment_ID": "ENCSR854TTM",
+    "GEO_number": "GSE187753",
+    "Biosample_Type": "primary cell",
+    "Biosample_Summary": "natural killer cell male adult (47 years) treated with 100 ng/mL Interleukin-12 subunit alpha for 72 hours, 100 ng/mL Interleukin-15 for 72 hours, 100 ng/mL Interleukin-12 subunit beta for 72 hours, 100 ng/mL Interleukin-18 for 72 hours",
+    "url": "https://www.encodeproject.org/experiments/ENCSR854TTM/"
+  },
+  {
+    "id": "59",
+    "Experiment_ID": "ENCSR032MEH",
+    "GEO_number": "GSE215517",
+    "Biosample_Type": "primary cell",
+    "Biosample_Summary": "T-cell male adult (43 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR032MEH/"
+  },
+  {
+    "id": "60",
+    "Experiment_ID": "ENCSR379NMT",
+    "GEO_number": "GSE187378",
+    "Biosample_Type": "primary cell",
+    "Biosample_Summary": "stimulated activated naive B cell male adult (40 years) treated with 1 \u03bcg/mL anti-CD40 for 72 hours, 10 \u03bcg/mL anti-IgM for 72 hours, 100 ng/mL Interleukin-4 for 72 hours",
+    "url": "https://www.encodeproject.org/experiments/ENCSR379NMT/"
+  },
+  {
+    "id": "61",
+    "Experiment_ID": "ENCSR373NFA",
+    "GEO_number": "GSE187335",
+    "Biosample_Type": "primary cell",
+    "Biosample_Summary": "activated naive CD4-positive, alpha-beta T cell male adult (50 years) treated with anti-CD3 and anti-CD28 coated beads for 72 hours, 50 U/mL Interleukin-2 for 72 hours",
+    "url": "https://www.encodeproject.org/experiments/ENCSR373NFA/"
+  },
+  {
+    "id": "62",
+    "Experiment_ID": "ENCSR115OIV",
+    "GEO_number": "GSE187046",
+    "Biosample_Type": "primary cell",
+    "Biosample_Summary": "activated T-helper 17 cell male adult (50 years) treated with anti-CD3 and anti-CD28 coated beads for 72 hours, 50 U/mL Interleukin-2 for 72 hours",
+    "url": "https://www.encodeproject.org/experiments/ENCSR115OIV/"
+  },
+  {
+    "id": "63",
+    "Experiment_ID": "ENCSR903WVU",
+    "GEO_number": "GSE188076",
+    "Biosample_Type": "primary cell",
+    "Biosample_Summary": "naive B cell male adult (40 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR903WVU/"
+  },
+  {
+    "id": "64",
+    "Experiment_ID": "ENCSR863TVR",
+    "GEO_number": "GSE215522",
+    "Biosample_Type": "primary cell",
+    "Biosample_Summary": "stimulated activated naive CD8-positive, alpha-beta T cell male adult (33 years) treated with anti-CD3 and anti-CD28 coated beads for 72 hours, 100 ng/mL Interleukin-15 for 72 hours",
+    "url": "https://www.encodeproject.org/experiments/ENCSR863TVR/"
+  },
+  {
+    "id": "65",
+    "Experiment_ID": "ENCSR637OPZ",
+    "GEO_number": "GSE187710",
+    "Biosample_Type": "primary cell",
+    "Biosample_Summary": "stimulated activated naive CD8-positive, alpha-beta T cell male adult (36 years) treated with 100 ng/mL Interleukin-15 for 72 hours, anti-CD3 and anti-CD28 coated beads for 72 hours",
+    "url": "https://www.encodeproject.org/experiments/ENCSR637OPZ/"
+  },
+  {
+    "id": "66",
+    "Experiment_ID": "ENCSR302PTB",
+    "GEO_number": "GSE187422",
+    "Biosample_Type": "primary cell",
+    "Biosample_Summary": "stimulated activated memory B cell male adult (40 years) treated with 10 \u03bcg/mL anti-IgM for 72 hours, 1 \u03bcg/mL anti-CD40 for 72 hours, 100 ng/mL Interleukin-4 for 72 hours",
+    "url": "https://www.encodeproject.org/experiments/ENCSR302PTB/"
+  },
+  {
+    "id": "67",
+    "Experiment_ID": "ENCSR610AQP",
+    "GEO_number": "GSE187646",
+    "Biosample_Type": "primary cell",
+    "Biosample_Summary": "memory B cell male adult (40 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR610AQP/"
+  },
+  {
+    "id": "68",
+    "Experiment_ID": "ENCSR356KRQ",
+    "GEO_number": "GSE172802",
+    "Biosample_Type": "primary cell",
+    "Biosample_Summary": "foreskin keratinocyte male newborn (2-4 days)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR356KRQ/"
+  },
+  {
+    "id": "69",
+    "Experiment_ID": "ENCSR249FXU",
+    "GEO_number": "GSE173067",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "HG03045",
+    "url": "https://www.encodeproject.org/experiments/ENCSR249FXU/"
+  },
+  {
+    "id": "70",
+    "Experiment_ID": "ENCSR939EVW",
+    "GEO_number": "GSE172934",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "GM21528",
+    "url": "https://www.encodeproject.org/experiments/ENCSR939EVW/"
+  },
+  {
+    "id": "71",
+    "Experiment_ID": "ENCSR278JWM",
+    "GEO_number": "GSE172594",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "HG03558",
+    "url": "https://www.encodeproject.org/experiments/ENCSR278JWM/"
+  },
+  {
+    "id": "72",
+    "Experiment_ID": "ENCSR122NDR",
+    "GEO_number": "GSE172796",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "GM21576",
+    "url": "https://www.encodeproject.org/experiments/ENCSR122NDR/"
+  },
+  {
+    "id": "73",
+    "Experiment_ID": "ENCSR512YXO",
+    "GEO_number": "GSE172603",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "GM21381",
+    "url": "https://www.encodeproject.org/experiments/ENCSR512YXO/"
+  },
+  {
+    "id": "74",
+    "Experiment_ID": "ENCSR159GFS",
+    "GEO_number": "GSE187134",
+    "Biosample_Type": "primary cell",
+    "Biosample_Summary": "CD4-positive, CD25-positive, alpha-beta regulatory T cell male adult (42 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR159GFS/"
+  },
+  {
+    "id": "75",
+    "Experiment_ID": "ENCSR261PWP",
+    "GEO_number": "GSE187217",
+    "Biosample_Type": "primary cell",
+    "Biosample_Summary": "activated CD4-positive, CD25-positive, alpha-beta regulatory T cell male adult (42 years) treated with anti-CD3 and anti-CD28 coated beads for 24 hours, 50 U/mL Interleukin-2 for 24 hours",
+    "url": "https://www.encodeproject.org/experiments/ENCSR261PWP/"
+  },
+  {
+    "id": "76",
+    "Experiment_ID": "ENCSR775KMA",
+    "GEO_number": "GSE187915",
+    "Biosample_Type": "primary cell",
+    "Biosample_Summary": "activated T-cell male adult (38 years) treated with 50 U/mL Interleukin-2 for 4 hours, anti-CD3 and anti-CD28 coated beads for 4 hours",
+    "url": "https://www.encodeproject.org/experiments/ENCSR775KMA/"
+  },
+  {
+    "id": "77",
+    "Experiment_ID": "ENCSR905PWV",
+    "GEO_number": "GSE172879",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "HG02610",
+    "url": "https://www.encodeproject.org/experiments/ENCSR905PWV/"
+  },
+  {
+    "id": "78",
+    "Experiment_ID": "ENCSR024WOD",
+    "GEO_number": "GSE172620",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "GM21390",
+    "url": "https://www.encodeproject.org/experiments/ENCSR024WOD/"
+  },
+  {
+    "id": "79",
+    "Experiment_ID": "ENCSR163KRG",
+    "GEO_number": "GSE172888",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "HG03469",
+    "url": "https://www.encodeproject.org/experiments/ENCSR163KRG/"
+  },
+  {
+    "id": "80",
+    "Experiment_ID": "ENCSR635CAC",
+    "GEO_number": "GSE172833",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "GM19467",
+    "url": "https://www.encodeproject.org/experiments/ENCSR635CAC/"
+  },
+  {
+    "id": "81",
+    "Experiment_ID": "ENCSR854ZBA",
+    "GEO_number": "GSE172793",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "HG02840",
+    "url": "https://www.encodeproject.org/experiments/ENCSR854ZBA/"
+  },
+  {
+    "id": "82",
+    "Experiment_ID": "ENCSR025MEO",
+    "GEO_number": "GSE172623",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "HG03354",
+    "url": "https://www.encodeproject.org/experiments/ENCSR025MEO/"
+  },
+  {
+    "id": "83",
+    "Experiment_ID": "ENCSR312UCH",
+    "GEO_number": "GSE172700",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "GM18519",
+    "url": "https://www.encodeproject.org/experiments/ENCSR312UCH/"
+  },
+  {
+    "id": "84",
+    "Experiment_ID": "ENCSR096VEO",
+    "GEO_number": "GSE172761",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "HG03135",
+    "url": "https://www.encodeproject.org/experiments/ENCSR096VEO/"
+  },
+  {
+    "id": "85",
+    "Experiment_ID": "ENCSR372IGW",
+    "GEO_number": "GSE172856",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "GM19395",
+    "url": "https://www.encodeproject.org/experiments/ENCSR372IGW/"
+  },
+  {
+    "id": "86",
+    "Experiment_ID": "ENCSR275LCF",
+    "GEO_number": "GSE172592",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "GM21786",
+    "url": "https://www.encodeproject.org/experiments/ENCSR275LCF/"
+  },
+  {
+    "id": "87",
+    "Experiment_ID": "ENCSR189VFC",
+    "GEO_number": "GSE172954",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "HG02588",
+    "url": "https://www.encodeproject.org/experiments/ENCSR189VFC/"
+  },
+  {
+    "id": "88",
+    "Experiment_ID": "ENCSR084FHK",
+    "GEO_number": "GSE172702",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "GM18505",
+    "url": "https://www.encodeproject.org/experiments/ENCSR084FHK/"
+  },
+  {
+    "id": "89",
+    "Experiment_ID": "ENCSR315QWI",
+    "GEO_number": "GSE172710",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "GM21737",
+    "url": "https://www.encodeproject.org/experiments/ENCSR315QWI/"
+  },
+  {
+    "id": "90",
+    "Experiment_ID": "ENCSR554WGQ",
+    "GEO_number": "GSE172669",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "HG03280",
+    "url": "https://www.encodeproject.org/experiments/ENCSR554WGQ/"
+  },
+  {
+    "id": "91",
+    "Experiment_ID": "ENCSR231BZU",
+    "GEO_number": "GSE173041",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "GM19351",
+    "url": "https://www.encodeproject.org/experiments/ENCSR231BZU/"
+  },
+  {
+    "id": "92",
+    "Experiment_ID": "ENCSR105SCQ",
+    "GEO_number": "GSE172775",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "GM21360",
+    "url": "https://www.encodeproject.org/experiments/ENCSR105SCQ/"
+  },
+  {
+    "id": "93",
+    "Experiment_ID": "ENCSR604YEQ",
+    "GEO_number": "GSE172751",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "HG02884",
+    "url": "https://www.encodeproject.org/experiments/ENCSR604YEQ/"
+  },
+  {
+    "id": "94",
+    "Experiment_ID": "ENCSR637MUF",
+    "GEO_number": "GSE172839",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "GM19035",
+    "url": "https://www.encodeproject.org/experiments/ENCSR637MUF/"
+  },
+  {
+    "id": "95",
+    "Experiment_ID": "ENCSR762YFD",
+    "GEO_number": "GSE172575",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "GM18520",
+    "url": "https://www.encodeproject.org/experiments/ENCSR762YFD/"
+  },
+  {
+    "id": "96",
+    "Experiment_ID": "ENCSR917WJS",
+    "GEO_number": "GSE172890",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "GM18909",
+    "url": "https://www.encodeproject.org/experiments/ENCSR917WJS/"
+  },
+  {
+    "id": "97",
+    "Experiment_ID": "ENCSR011NJP",
+    "GEO_number": "GSE172553",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "GM18858",
+    "url": "https://www.encodeproject.org/experiments/ENCSR011NJP/"
+  },
+  {
+    "id": "98",
+    "Experiment_ID": "ENCSR648JJT",
+    "GEO_number": "GSE94202",
+    "Biosample_Type": "in vitro differentiated cells",
+    "Biosample_Summary": "dendritic cell treated with 100 ng/mL lipopolysaccharide for 30 minutes",
+    "url": "https://www.encodeproject.org/experiments/ENCSR648JJT/"
+  },
+  {
+    "id": "99",
+    "Experiment_ID": "ENCSR000RBT",
+    "GEO_number": "GSE172546",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "HG03571",
+    "url": "https://www.encodeproject.org/experiments/ENCSR000RBT/"
+  },
+  {
+    "id": "100",
+    "Experiment_ID": "ENCSR528YDD",
+    "GEO_number": "GSE172631",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "HG03342",
+    "url": "https://www.encodeproject.org/experiments/ENCSR528YDD/"
+  },
+  {
+    "id": "101",
+    "Experiment_ID": "ENCSR615YIL",
+    "GEO_number": "GSE172772",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "HG03139",
+    "url": "https://www.encodeproject.org/experiments/ENCSR615YIL/"
+  },
+  {
+    "id": "102",
+    "Experiment_ID": "ENCSR940YDN",
+    "GEO_number": "GSE172949",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "HG03159",
+    "url": "https://www.encodeproject.org/experiments/ENCSR940YDN/"
+  },
+  {
+    "id": "103",
+    "Experiment_ID": "ENCSR833ACP",
+    "GEO_number": "GSE172752",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "HG03103",
+    "url": "https://www.encodeproject.org/experiments/ENCSR833ACP/"
+  },
+  {
+    "id": "104",
+    "Experiment_ID": "ENCSR821QHC",
+    "GEO_number": "GSE172727",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "HG02642",
+    "url": "https://www.encodeproject.org/experiments/ENCSR821QHC/"
+  },
+  {
+    "id": "105",
+    "Experiment_ID": "ENCSR208HAP",
+    "GEO_number": "GSE172977",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "HG02981",
+    "url": "https://www.encodeproject.org/experiments/ENCSR208HAP/"
+  },
+  {
+    "id": "106",
+    "Experiment_ID": "ENCSR400ISH",
+    "GEO_number": "GSE172945",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "HG02571",
+    "url": "https://www.encodeproject.org/experiments/ENCSR400ISH/"
+  },
+  {
+    "id": "107",
+    "Experiment_ID": "ENCSR954BDA",
+    "GEO_number": "GSE172966",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "GM21529",
+    "url": "https://www.encodeproject.org/experiments/ENCSR954BDA/"
+  },
+  {
+    "id": "108",
+    "Experiment_ID": "ENCSR920FQJ",
+    "GEO_number": "GSE172894",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "HG02938",
+    "url": "https://www.encodeproject.org/experiments/ENCSR920FQJ/"
+  },
+  {
+    "id": "109",
+    "Experiment_ID": "ENCSR410DWV",
+    "GEO_number": "GSE187462",
+    "Biosample_Type": "in vitro differentiated cells",
+    "Biosample_Summary": "from a donor with amyotrophic lateral sclerosis; motor neuron",
+    "url": "https://www.encodeproject.org/experiments/ENCSR410DWV/"
+  },
+  {
+    "id": "110",
+    "Experiment_ID": "ENCSR095QNB",
+    "GEO_number": "GSE170245",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "GM12878",
+    "url": "https://www.encodeproject.org/experiments/ENCSR095QNB/"
+  },
+  {
+    "id": "111",
+    "Experiment_ID": "ENCSR459PVP",
+    "GEO_number": "GSE187876",
+    "Biosample_Type": "in vitro differentiated cells",
+    "Biosample_Summary": "from a donor with amyotrophic lateral sclerosis; motor neuron",
+    "url": "https://www.encodeproject.org/experiments/ENCSR459PVP/"
+  },
+  {
+    "id": "112",
+    "Experiment_ID": "ENCSR812ZKP",
+    "GEO_number": "GSE188037",
+    "Biosample_Type": "in vitro differentiated cells",
+    "Biosample_Summary": "from a donor with amyotrophic lateral sclerosis; motor neuron",
+    "url": "https://www.encodeproject.org/experiments/ENCSR812ZKP/"
+  },
+  {
+    "id": "113",
+    "Experiment_ID": "ENCSR634WYX",
+    "GEO_number": "GSE187695",
+    "Biosample_Type": "in vitro differentiated cells",
+    "Biosample_Summary": "from a donor with amyotrophic lateral sclerosis; motor neuron",
+    "url": "https://www.encodeproject.org/experiments/ENCSR634WYX/"
+  },
+  {
+    "id": "114",
+    "Experiment_ID": "ENCSR335LHS",
+    "GEO_number": "GSE187195",
+    "Biosample_Type": "primary cell",
+    "Biosample_Summary": "stimulated activated effector memory CD8-positive, alpha-beta T cell male adult (33 years) treated with 100 ng/mL Interleukin-12 subunit alpha for 72 hours, 100 ng/mL Interleukin-12 subunit beta for 72 hours, anti-CD3 and anti-CD28 coated beads for 72 hours",
+    "url": "https://www.encodeproject.org/experiments/ENCSR335LHS/"
+  },
+  {
+    "id": "115",
+    "Experiment_ID": "ENCSR558ZSN",
+    "GEO_number": "GSE187697",
+    "Biosample_Type": "primary cell",
+    "Biosample_Summary": "activated T-cell female adult (21 years) treated with anti-CD3 and anti-CD28 coated beads for 72 hours, 50 U/mL Interleukin-2 for 72 hours",
+    "url": "https://www.encodeproject.org/experiments/ENCSR558ZSN/"
+  },
+  {
+    "id": "116",
+    "Experiment_ID": "ENCSR283LPH",
+    "GEO_number": "GSE187330",
+    "Biosample_Type": "primary cell",
+    "Biosample_Summary": "naive thymus-derived CD8-positive, alpha-beta T cell nuclear fraction male adult (30 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR283LPH/"
+  },
+  {
+    "id": "117",
+    "Experiment_ID": "ENCSR915MTG",
+    "GEO_number": "GSE188102",
+    "Biosample_Type": "primary cell",
+    "Biosample_Summary": "activated CD8-positive, alpha-beta memory T cell nuclear fraction male adult (30 years) treated with anti-CD3 and anti-CD28 coated beads for 7 days, 10 ng/mL Interleukin-2 for 5 days",
+    "url": "https://www.encodeproject.org/experiments/ENCSR915MTG/"
+  },
+  {
+    "id": "118",
+    "Experiment_ID": "ENCSR545UJP",
+    "GEO_number": "GSE187647",
+    "Biosample_Type": "primary cell",
+    "Biosample_Summary": "activated CD8-positive, alpha-beta T cell nuclear fraction male adult (21 years) treated with anti-CD3 and anti-CD28 coated beads for 7 days, 10 ng/mL Interleukin-2 for 5 days",
+    "url": "https://www.encodeproject.org/experiments/ENCSR545UJP/"
+  },
+  {
+    "id": "119",
+    "Experiment_ID": "ENCSR670REK",
+    "GEO_number": "GSE170959",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "gastroesophageal sphincter tissue female adult (53 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR670REK/"
+  },
+  {
+    "id": "120",
+    "Experiment_ID": "ENCSR934AWQ",
+    "GEO_number": "GSE188147",
+    "Biosample_Type": "primary cell",
+    "Biosample_Summary": "T-cell male adult (38 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR934AWQ/"
+  },
+  {
+    "id": "121",
+    "Experiment_ID": "ENCSR839UOB",
+    "GEO_number": "GSE172773",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "HG03432",
+    "url": "https://www.encodeproject.org/experiments/ENCSR839UOB/"
+  },
+  {
+    "id": "122",
+    "Experiment_ID": "ENCSR859USB",
+    "GEO_number": "GSE215513",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "K562",
+    "url": "https://www.encodeproject.org/experiments/ENCSR859USB/"
+  },
+  {
+    "id": "123",
+    "Experiment_ID": "ENCSR956DNB",
+    "GEO_number": "GSE215595",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "K562",
+    "url": "https://www.encodeproject.org/experiments/ENCSR956DNB/"
+  },
+  {
+    "id": "124",
+    "Experiment_ID": "ENCSR509JPT",
+    "GEO_number": "GSE172593",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "GM21367",
+    "url": "https://www.encodeproject.org/experiments/ENCSR509JPT/"
+  },
+  {
+    "id": "125",
+    "Experiment_ID": "ENCSR993XED",
+    "GEO_number": "GSE187976",
+    "Biosample_Type": "primary cell",
+    "Biosample_Summary": "activated T-cell male adult (38 years) treated with 50 U/mL Interleukin-2 for 4 hours, anti-CD3 and anti-CD28 coated beads for 4 hours",
+    "url": "https://www.encodeproject.org/experiments/ENCSR993XED/"
+  },
+  {
+    "id": "126",
+    "Experiment_ID": "ENCSR258RSH",
+    "GEO_number": "GSE187196",
+    "Biosample_Type": "primary cell",
+    "Biosample_Summary": "T-cell male adult (38 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR258RSH/"
+  },
+  {
+    "id": "127",
+    "Experiment_ID": "ENCSR960KGO",
+    "GEO_number": "GSE172986",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "GM21515",
+    "url": "https://www.encodeproject.org/experiments/ENCSR960KGO/"
+  },
+  {
+    "id": "128",
+    "Experiment_ID": "ENCSR635AIF",
+    "GEO_number": "GSE172829",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "GM19468",
+    "url": "https://www.encodeproject.org/experiments/ENCSR635AIF/"
+  },
+  {
+    "id": "129",
+    "Experiment_ID": "ENCSR304ZDQ",
+    "GEO_number": "GSE172674",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "GM18873",
+    "url": "https://www.encodeproject.org/experiments/ENCSR304ZDQ/"
+  },
+  {
+    "id": "130",
+    "Experiment_ID": "ENCSR628PLS",
+    "GEO_number": "GSE172816",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "GM18861",
+    "url": "https://www.encodeproject.org/experiments/ENCSR628PLS/"
+  },
+  {
+    "id": "131",
+    "Experiment_ID": "ENCSR470ZNM",
+    "GEO_number": "GSE172538",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "HG03060",
+    "url": "https://www.encodeproject.org/experiments/ENCSR470ZNM/"
+  },
+  {
+    "id": "132",
+    "Experiment_ID": "ENCSR621JYI",
+    "GEO_number": "GSE172788",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "HG02885",
+    "url": "https://www.encodeproject.org/experiments/ENCSR621JYI/"
+  },
+  {
+    "id": "133",
+    "Experiment_ID": "ENCSR524CPZ",
+    "GEO_number": "GSE172626",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "HG02798",
+    "url": "https://www.encodeproject.org/experiments/ENCSR524CPZ/"
+  },
+  {
+    "id": "134",
+    "Experiment_ID": "ENCSR335JVB",
+    "GEO_number": "GSE172735",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "GM19372",
+    "url": "https://www.encodeproject.org/experiments/ENCSR335JVB/"
+  },
+  {
+    "id": "135",
+    "Experiment_ID": "ENCSR040PBN",
+    "GEO_number": "GSE172638",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "HG03066",
+    "url": "https://www.encodeproject.org/experiments/ENCSR040PBN/"
+  },
+  {
+    "id": "136",
+    "Experiment_ID": "ENCSR700HPA",
+    "GEO_number": "GSE173011",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "GM18499",
+    "url": "https://www.encodeproject.org/experiments/ENCSR700HPA/"
+  },
+  {
+    "id": "137",
+    "Experiment_ID": "ENCSR419UYY",
+    "GEO_number": "GSE172970",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "GM19025",
+    "url": "https://www.encodeproject.org/experiments/ENCSR419UYY/"
+  },
+  {
+    "id": "138",
+    "Experiment_ID": "ENCSR425WQW",
+    "GEO_number": "GSE172990",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "GM19324",
+    "url": "https://www.encodeproject.org/experiments/ENCSR425WQW/"
+  },
+  {
+    "id": "139",
+    "Experiment_ID": "ENCSR233HSC",
+    "GEO_number": "GSE173044",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "GM21723",
+    "url": "https://www.encodeproject.org/experiments/ENCSR233HSC/"
+  },
+  {
+    "id": "140",
+    "Experiment_ID": "ENCSR857MCZ",
+    "GEO_number": "GSE172803",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "HG02970",
+    "url": "https://www.encodeproject.org/experiments/ENCSR857MCZ/"
+  },
+  {
+    "id": "141",
+    "Experiment_ID": "ENCSR594TMY",
+    "GEO_number": "GSE172719",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "HG03521",
+    "url": "https://www.encodeproject.org/experiments/ENCSR594TMY/"
+  },
+  {
+    "id": "142",
+    "Experiment_ID": "ENCSR420RVW",
+    "GEO_number": "GSE172976",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "HG02870",
+    "url": "https://www.encodeproject.org/experiments/ENCSR420RVW/"
+  },
+  {
+    "id": "143",
+    "Experiment_ID": "ENCSR512FHU",
+    "GEO_number": "GSE172598",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "GM19023",
+    "url": "https://www.encodeproject.org/experiments/ENCSR512FHU/"
+  },
+  {
+    "id": "144",
+    "Experiment_ID": "ENCSR452COS",
+    "GEO_number": "GSE187858",
+    "Biosample_Type": "primary cell",
+    "Biosample_Summary": "naive thymus-derived CD4-positive, alpha-beta T cell male adult (50 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR452COS/"
+  },
+  {
+    "id": "145",
+    "Experiment_ID": "ENCSR803FKU",
+    "GEO_number": "GSE215470",
+    "Biosample_Type": "primary cell",
+    "Biosample_Summary": "T-helper 17 cell male adult (38 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR803FKU/"
+  },
+  {
+    "id": "146",
+    "Experiment_ID": "ENCSR653VSR",
+    "GEO_number": "GSE187780",
+    "Biosample_Type": "primary cell",
+    "Biosample_Summary": "stimulated activated naive B cell female adult (39 years) treated with 1 \u03bcg/mL anti-CD40 for 72 hours, 10 \u03bcg/mL anti-IgM for 72 hours, 100 ng/mL Interleukin-4 for 72 hours",
+    "url": "https://www.encodeproject.org/experiments/ENCSR653VSR/"
+  },
+  {
+    "id": "147",
+    "Experiment_ID": "ENCSR477YSU",
+    "GEO_number": "GSE187942",
+    "Biosample_Type": "primary cell",
+    "Biosample_Summary": "activated naive CD8-positive, alpha-beta T cell male adult (42 years) treated with anti-CD3 and anti-CD28 coated beads for 24 hours, 50 U/mL Interleukin-2 for 24 hours",
+    "url": "https://www.encodeproject.org/experiments/ENCSR477YSU/"
+  },
+  {
+    "id": "148",
+    "Experiment_ID": "ENCSR019XCN",
+    "GEO_number": "GSE215490",
+    "Biosample_Type": "primary cell",
+    "Biosample_Summary": "effector memory CD8-positive, alpha-beta T cell male adult (36 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR019XCN/"
+  },
+  {
+    "id": "149",
+    "Experiment_ID": "ENCSR901IEQ",
+    "GEO_number": "GSE94216",
+    "Biosample_Type": "in vitro differentiated cells",
+    "Biosample_Summary": "dendritic cell treated with 100 ng/mL lipopolysaccharide for 4 hours",
+    "url": "https://www.encodeproject.org/experiments/ENCSR901IEQ/"
+  },
+  {
+    "id": "150",
+    "Experiment_ID": "ENCSR628SXX",
+    "GEO_number": "GSE94201",
+    "Biosample_Type": "in vitro differentiated cells",
+    "Biosample_Summary": "dendritic cell treated with 100 ng/mL lipopolysaccharide for 2 hours",
+    "url": "https://www.encodeproject.org/experiments/ENCSR628SXX/"
+  },
+  {
+    "id": "151",
+    "Experiment_ID": "ENCSR566LZT",
+    "GEO_number": "GSE94196",
+    "Biosample_Type": "in vitro differentiated cells",
+    "Biosample_Summary": "dendritic cell treated with lipopolysaccharide",
+    "url": "https://www.encodeproject.org/experiments/ENCSR566LZT/"
+  },
+  {
+    "id": "152",
+    "Experiment_ID": "ENCSR326ESM",
+    "GEO_number": "GSE187043",
+    "Biosample_Type": "primary cell",
+    "Biosample_Summary": "stimulated activated naive CD8-positive, alpha-beta T cell male adult (42 years) treated with anti-CD3 and anti-CD28 coated beads for 24 hours, 50 U/mL Interleukin-2 for 24 hours, 100 ng/mL Interleukin-15 for 24 hours",
+    "url": "https://www.encodeproject.org/experiments/ENCSR326ESM/"
+  },
+  {
+    "id": "153",
+    "Experiment_ID": "ENCSR329XFZ",
+    "GEO_number": "GSE94179",
+    "Biosample_Type": "in vitro differentiated cells",
+    "Biosample_Summary": "dendritic cell treated with 100 ng/mL lipopolysaccharide for 30 minutes",
+    "url": "https://www.encodeproject.org/experiments/ENCSR329XFZ/"
+  },
+  {
+    "id": "154",
+    "Experiment_ID": "ENCSR611BQR",
+    "GEO_number": "GSE187657",
+    "Biosample_Type": "primary cell",
+    "Biosample_Summary": "T-helper 17 cell male adult (50 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR611BQR/"
+  },
+  {
+    "id": "155",
+    "Experiment_ID": "ENCSR335XRZ",
+    "GEO_number": "GSE215706",
+    "Biosample_Type": "primary cell",
+    "Biosample_Summary": "stimulated activated effector memory CD8-positive, alpha-beta T cell male adult (36 years) treated with 100 ng/mL Interleukin-12 subunit alpha for 72 hours, 100 ng/mL Interleukin-12 subunit beta for 72 hours, anti-CD3 and anti-CD28 coated beads for 72 hours",
+    "url": "https://www.encodeproject.org/experiments/ENCSR335XRZ/"
+  },
+  {
+    "id": "156",
+    "Experiment_ID": "ENCSR504OUW",
+    "GEO_number": "GSE187518",
+    "Biosample_Type": "primary cell",
+    "Biosample_Summary": "CD4-positive, CD25-positive, alpha-beta regulatory T cell male adult (38 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR504OUW/"
+  },
+  {
+    "id": "157",
+    "Experiment_ID": "ENCSR204FCV",
+    "GEO_number": "GSE94173",
+    "Biosample_Type": "in vitro differentiated cells",
+    "Biosample_Summary": "dendritic cell treated with lipopolysaccharide",
+    "url": "https://www.encodeproject.org/experiments/ENCSR204FCV/"
+  },
+  {
+    "id": "158",
+    "Experiment_ID": "ENCSR174SUM",
+    "GEO_number": "GSE187201",
+    "Biosample_Type": "primary cell",
+    "Biosample_Summary": "activated naive CD4-positive, alpha-beta T cell male adult (48 years) treated with anti-CD3 and anti-CD28 coated beads for 72 hours, 50 U/mL Interleukin-2 for 72 hours",
+    "url": "https://www.encodeproject.org/experiments/ENCSR174SUM/"
+  },
+  {
+    "id": "159",
+    "Experiment_ID": "ENCSR605EGR",
+    "GEO_number": "GSE94200",
+    "Biosample_Type": "in vitro differentiated cells",
+    "Biosample_Summary": "dendritic cell treated with 100 ng/mL lipopolysaccharide for 30 minutes",
+    "url": "https://www.encodeproject.org/experiments/ENCSR605EGR/"
+  },
+  {
+    "id": "160",
+    "Experiment_ID": "ENCSR962ITF",
+    "GEO_number": "GSE173003",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "HG03108",
+    "url": "https://www.encodeproject.org/experiments/ENCSR962ITF/"
+  },
+  {
+    "id": "161",
+    "Experiment_ID": "ENCSR368FYV",
+    "GEO_number": "GSE172846",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "HG02852",
+    "url": "https://www.encodeproject.org/experiments/ENCSR368FYV/"
+  },
+  {
+    "id": "162",
+    "Experiment_ID": "ENCSR383RDZ",
+    "GEO_number": "GSE172904",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "GM19328",
+    "url": "https://www.encodeproject.org/experiments/ENCSR383RDZ/"
+  },
+  {
+    "id": "163",
+    "Experiment_ID": "ENCSR381LJX",
+    "GEO_number": "GSE172878",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "HG03039",
+    "url": "https://www.encodeproject.org/experiments/ENCSR381LJX/"
+  },
+  {
+    "id": "164",
+    "Experiment_ID": "ENCSR824DUE",
+    "GEO_number": "GSE172739",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "HG03378",
+    "url": "https://www.encodeproject.org/experiments/ENCSR824DUE/"
+  },
+  {
+    "id": "165",
+    "Experiment_ID": "ENCSR673ZMQ",
+    "GEO_number": "GSE172939",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "HG03025",
+    "url": "https://www.encodeproject.org/experiments/ENCSR673ZMQ/"
+  },
+  {
+    "id": "166",
+    "Experiment_ID": "ENCSR684KUG",
+    "GEO_number": "GSE172975",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "GM18870",
+    "url": "https://www.encodeproject.org/experiments/ENCSR684KUG/"
+  },
+  {
+    "id": "167",
+    "Experiment_ID": "ENCSR487QSB",
+    "GEO_number": "GSE172556",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "GM18907",
+    "url": "https://www.encodeproject.org/experiments/ENCSR487QSB/"
+  },
+  {
+    "id": "168",
+    "Experiment_ID": "ENCSR180HEL",
+    "GEO_number": "GSE172925",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "HG02678",
+    "url": "https://www.encodeproject.org/experiments/ENCSR180HEL/"
+  },
+  {
+    "id": "169",
+    "Experiment_ID": "ENCSR491VXJ",
+    "GEO_number": "GSE170280",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "mucosa of descending colon tissue male adult (26 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR491VXJ/"
+  },
+  {
+    "id": "170",
+    "Experiment_ID": "ENCSR533WFB",
+    "GEO_number": "GSE215665",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "sciatic nerve tissue female adult (41 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR533WFB/"
+  },
+  {
+    "id": "171",
+    "Experiment_ID": "ENCSR295TFY",
+    "GEO_number": "GSE215643",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "aorta tissue female child (16 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR295TFY/"
+  },
+  {
+    "id": "172",
+    "Experiment_ID": "ENCSR325NFE",
+    "GEO_number": "GSE215700",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "bile duct tissue female child (16 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR325NFE/"
+  },
+  {
+    "id": "173",
+    "Experiment_ID": "ENCSR237VSF",
+    "GEO_number": "GSE94177",
+    "Biosample_Type": "in vitro differentiated cells",
+    "Biosample_Summary": "dendritic cell treated with lipopolysaccharide",
+    "url": "https://www.encodeproject.org/experiments/ENCSR237VSF/"
+  },
+  {
+    "id": "174",
+    "Experiment_ID": "ENCSR630REB",
+    "GEO_number": "GSE170909",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "tibial artery tissue male adult (54 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR630REB/"
+  },
+  {
+    "id": "175",
+    "Experiment_ID": "ENCSR955JSO",
+    "GEO_number": "GSE172981",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "breast epithelium tissue male adult (54 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR955JSO/"
+  },
+  {
+    "id": "176",
+    "Experiment_ID": "ENCSR260ZIV",
+    "GEO_number": "GSE172558",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "gastroesophageal sphincter tissue female adult (51 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR260ZIV/"
+  },
+  {
+    "id": "177",
+    "Experiment_ID": "ENCSR926GDT",
+    "GEO_number": "GSE94219",
+    "Biosample_Type": "in vitro differentiated cells",
+    "Biosample_Summary": "dendritic cell treated with 100 ng/mL lipopolysaccharide for 4 hours",
+    "url": "https://www.encodeproject.org/experiments/ENCSR926GDT/"
+  },
+  {
+    "id": "178",
+    "Experiment_ID": "ENCSR729FNL",
+    "GEO_number": "GSE169891",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "posterior cingulate cortex tissue male adult (20 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR729FNL/"
+  },
+  {
+    "id": "179",
+    "Experiment_ID": "ENCSR513EVP",
+    "GEO_number": "GSE215621",
+    "Biosample_Type": "primary cell",
+    "Biosample_Summary": "naive thymus-derived CD8-positive, alpha-beta T cell male adult (42 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR513EVP/"
+  },
+  {
+    "id": "180",
+    "Experiment_ID": "ENCSR705RZX",
+    "GEO_number": "GSE215635",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "uterus tissue female adult (46 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR705RZX/"
+  },
+  {
+    "id": "181",
+    "Experiment_ID": "ENCSR913OWV",
+    "GEO_number": "GSE188100",
+    "Biosample_Type": "in vitro differentiated cells",
+    "Biosample_Summary": "from a donor with amyotrophic lateral sclerosis; motor neuron",
+    "url": "https://www.encodeproject.org/experiments/ENCSR913OWV/"
+  },
+  {
+    "id": "182",
+    "Experiment_ID": "ENCSR704VZY",
+    "GEO_number": "GSE187737",
+    "Biosample_Type": "in vitro differentiated cells",
+    "Biosample_Summary": "from a donor with amyotrophic lateral sclerosis; motor neuron",
+    "url": "https://www.encodeproject.org/experiments/ENCSR704VZY/"
+  },
+  {
+    "id": "183",
+    "Experiment_ID": "ENCSR133WJY",
+    "GEO_number": "GSE170444",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "left ventricle myocardium superior tissue male adult (60 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR133WJY/"
+  },
+  {
+    "id": "184",
+    "Experiment_ID": "ENCSR872MAO",
+    "GEO_number": "GSE215530",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "ovary tissue female adult (41 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR872MAO/"
+  },
+  {
+    "id": "185",
+    "Experiment_ID": "ENCSR330WUK",
+    "GEO_number": "GSE215704",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "left cardiac atrium tissue male adult (60 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR330WUK/"
+  },
+  {
+    "id": "186",
+    "Experiment_ID": "ENCSR918TVE",
+    "GEO_number": "GSE170632",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "pancreas tissue female adult (47 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR918TVE/"
+  },
+  {
+    "id": "187",
+    "Experiment_ID": "ENCSR647AOY",
+    "GEO_number": "GSE172864",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "lung tissue female adult (47 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR647AOY/"
+  },
+  {
+    "id": "188",
+    "Experiment_ID": "ENCSR745CGG",
+    "GEO_number": "GSE215720",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "heart left ventricle tissue male adult (54 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR745CGG/"
+  },
+  {
+    "id": "189",
+    "Experiment_ID": "ENCSR940QJU",
+    "GEO_number": "GSE94222",
+    "Biosample_Type": "in vitro differentiated cells",
+    "Biosample_Summary": "dendritic cell treated with lipopolysaccharide",
+    "url": "https://www.encodeproject.org/experiments/ENCSR940QJU/"
+  },
+  {
+    "id": "190",
+    "Experiment_ID": "ENCSR131CHJ",
+    "GEO_number": "GSE94168",
+    "Biosample_Type": "in vitro differentiated cells",
+    "Biosample_Summary": "dendritic cell treated with 100 ng/mL lipopolysaccharide for 2 hours",
+    "url": "https://www.encodeproject.org/experiments/ENCSR131CHJ/"
+  },
+  {
+    "id": "191",
+    "Experiment_ID": "ENCSR535NOD",
+    "GEO_number": "GSE94193",
+    "Biosample_Type": "in vitro differentiated cells",
+    "Biosample_Summary": "dendritic cell treated with 100 ng/mL lipopolysaccharide for 2 hours",
+    "url": "https://www.encodeproject.org/experiments/ENCSR535NOD/"
+  },
+  {
+    "id": "192",
+    "Experiment_ID": "ENCSR290AUK",
+    "GEO_number": "GSE94178",
+    "Biosample_Type": "in vitro differentiated cells",
+    "Biosample_Summary": "dendritic cell treated with 100 ng/mL lipopolysaccharide for 4 hours",
+    "url": "https://www.encodeproject.org/experiments/ENCSR290AUK/"
+  },
+  {
+    "id": "193",
+    "Experiment_ID": "ENCSR156FDX",
+    "GEO_number": "GSE94170",
+    "Biosample_Type": "in vitro differentiated cells",
+    "Biosample_Summary": "dendritic cell treated with 100 ng/mL lipopolysaccharide for 30 minutes",
+    "url": "https://www.encodeproject.org/experiments/ENCSR156FDX/"
+  },
+  {
+    "id": "195",
+    "Experiment_ID": "ENCSR370QWN",
+    "GEO_number": "GSE94182",
+    "Biosample_Type": "in vitro differentiated cells",
+    "Biosample_Summary": "dendritic cell treated with lipopolysaccharide",
+    "url": "https://www.encodeproject.org/experiments/ENCSR370QWN/"
+  },
+  {
+    "id": "196",
+    "Experiment_ID": "ENCSR679NRJ",
+    "GEO_number": "GSE94206",
+    "Biosample_Type": "in vitro differentiated cells",
+    "Biosample_Summary": "dendritic cell treated with 100 ng/mL lipopolysaccharide for 1 hour",
+    "url": "https://www.encodeproject.org/experiments/ENCSR679NRJ/"
+  },
+  {
+    "id": "197",
+    "Experiment_ID": "ENCSR327DCG",
+    "GEO_number": "GSE215703",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "heart right ventricle tissue male adult (46 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR327DCG/"
+  },
+  {
+    "id": "198",
+    "Experiment_ID": "ENCSR490MSG",
+    "GEO_number": "GSE172563",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "ovary tissue female adult (53 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR490MSG/"
+  },
+  {
+    "id": "199",
+    "Experiment_ID": "ENCSR571JFO",
+    "GEO_number": "GSE215690",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "ovary tissue female child (16 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR571JFO/"
+  },
+  {
+    "id": "200",
+    "Experiment_ID": "ENCSR496PPU",
+    "GEO_number": "GSE170309",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "mucosa of descending colon tissue female adult (61 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR496PPU/"
+  },
+  {
+    "id": "201",
+    "Experiment_ID": "ENCSR895SEG",
+    "GEO_number": "GSE215552",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "upper lobe of left lung tissue male adult (60 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR895SEG/"
+  },
+  {
+    "id": "202",
+    "Experiment_ID": "ENCSR996ZCR",
+    "GEO_number": "GSE170869",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "ovary tissue female adult (46 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR996ZCR/"
+  },
+  {
+    "id": "203",
+    "Experiment_ID": "ENCSR392UJM",
+    "GEO_number": "GSE170765",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "ovary tissue female adult (61 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR392UJM/"
+  },
+  {
+    "id": "204",
+    "Experiment_ID": "ENCSR167SYF",
+    "GEO_number": "GSE215650",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "cardiac septum tissue female adult (41 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR167SYF/"
+  },
+  {
+    "id": "205",
+    "Experiment_ID": "ENCSR774NXA",
+    "GEO_number": "GSE170039",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "psoas muscle tissue female adult (61 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR774NXA/"
+  },
+  {
+    "id": "206",
+    "Experiment_ID": "ENCSR476WNA",
+    "GEO_number": "GSE215548",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "ovary tissue female adult (47 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR476WNA/"
+  },
+  {
+    "id": "207",
+    "Experiment_ID": "ENCSR923VTG",
+    "GEO_number": "GSE215567",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "lower lobe of right lung tissue male adult (60 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR923VTG/"
+  },
+  {
+    "id": "208",
+    "Experiment_ID": "ENCSR926TFY",
+    "GEO_number": "GSE94220",
+    "Biosample_Type": "in vitro differentiated cells",
+    "Biosample_Summary": "dendritic cell treated with 100 ng/mL lipopolysaccharide for 4 hours",
+    "url": "https://www.encodeproject.org/experiments/ENCSR926TFY/"
+  },
+  {
+    "id": "209",
+    "Experiment_ID": "ENCSR589ROM",
+    "GEO_number": "GSE94198",
+    "Biosample_Type": "in vitro differentiated cells",
+    "Biosample_Summary": "dendritic cell treated with 100 ng/mL lipopolysaccharide for 4 hours",
+    "url": "https://www.encodeproject.org/experiments/ENCSR589ROM/"
+  },
+  {
+    "id": "210",
+    "Experiment_ID": "ENCSR459AYS",
+    "GEO_number": "GSE94187",
+    "Biosample_Type": "in vitro differentiated cells",
+    "Biosample_Summary": "dendritic cell treated with 100 ng/mL lipopolysaccharide for 2 hours",
+    "url": "https://www.encodeproject.org/experiments/ENCSR459AYS/"
+  },
+  {
+    "id": "211",
+    "Experiment_ID": "ENCSR204PZT",
+    "GEO_number": "GSE215477",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "heart left ventricle tissue female adult (41 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR204PZT/"
+  },
+  {
+    "id": "212",
+    "Experiment_ID": "ENCSR846VPV",
+    "GEO_number": "GSE172783",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "heart left ventricle tissue female adult (66 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR846VPV/"
+  },
+  {
+    "id": "213",
+    "Experiment_ID": "ENCSR200OML",
+    "GEO_number": "GSE169767",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "IMR-90 nuclear fraction and unspecified fraction",
+    "url": "https://www.encodeproject.org/experiments/ENCSR200OML/"
+  },
+  {
+    "id": "214",
+    "Experiment_ID": "ENCSR065CER",
+    "GEO_number": "GSE187257",
+    "Biosample_Type": "in vitro differentiated cells",
+    "Biosample_Summary": "from a donor with amyotrophic lateral sclerosis; motor neuron",
+    "url": "https://www.encodeproject.org/experiments/ENCSR065CER/"
+  },
+  {
+    "id": "215",
+    "Experiment_ID": "ENCSR659SFK",
+    "GEO_number": "GSE187830",
+    "Biosample_Type": "primary cell",
+    "Biosample_Summary": "activated B cell male adult (22 years) treated with 0.5 \u03bcM CpG ODN for 24 hours",
+    "url": "https://www.encodeproject.org/experiments/ENCSR659SFK/"
+  },
+  {
+    "id": "216",
+    "Experiment_ID": "ENCSR603LVR",
+    "GEO_number": "GSE187631",
+    "Biosample_Type": "primary cell",
+    "Biosample_Summary": "B cell male adult (22 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR603LVR/"
+  },
+  {
+    "id": "217",
+    "Experiment_ID": "ENCSR689SDA",
+    "GEO_number": "GSE172991",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "gastrocnemius medialis tissue female adult (53 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR689SDA/"
+  },
+  {
+    "id": "218",
+    "Experiment_ID": "ENCSR096BPX",
+    "GEO_number": "GSE172741",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "esophagus squamous epithelium tissue female adult (51 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR096BPX/"
+  },
+  {
+    "id": "219",
+    "Experiment_ID": "ENCSR238VHV",
+    "GEO_number": "GSE215600",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "fallopian tube tissue female adult (46 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR238VHV/"
+  },
+  {
+    "id": "220",
+    "Experiment_ID": "ENCSR452OSK",
+    "GEO_number": "GSE173031",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "right cardiac atrium tissue male adult (40 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR452OSK/"
+  },
+  {
+    "id": "221",
+    "Experiment_ID": "ENCSR705KEB",
+    "GEO_number": "GSE169809",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "pancreas tissue female adult (59 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR705KEB/"
+  },
+  {
+    "id": "222",
+    "Experiment_ID": "ENCSR851EBF",
+    "GEO_number": "GSE172786",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "heart left ventricle tissue female adult (53 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR851EBF/"
+  },
+  {
+    "id": "223",
+    "Experiment_ID": "ENCSR133CMC",
+    "GEO_number": "GSE170433",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "heart right ventricle tissue male adult (69 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR133CMC/"
+  },
+  {
+    "id": "224",
+    "Experiment_ID": "ENCSR154UWN",
+    "GEO_number": "GSE215642",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "psoas muscle tissue female child (16 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR154UWN/"
+  },
+  {
+    "id": "225",
+    "Experiment_ID": "ENCSR654UYP",
+    "GEO_number": "GSE172884",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "breast epithelium tissue female adult (53 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR654UYP/"
+  },
+  {
+    "id": "226",
+    "Experiment_ID": "ENCSR979TCG",
+    "GEO_number": "GSE215656",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "spleen tissue female adult (47 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR979TCG/"
+  },
+  {
+    "id": "227",
+    "Experiment_ID": "ENCSR952SPO",
+    "GEO_number": "GSE170761",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "right lobe of liver tissue female child (16 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR952SPO/"
+  },
+  {
+    "id": "228",
+    "Experiment_ID": "ENCSR555ZDH",
+    "GEO_number": "GSE170676",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "lower lobe of left lung tissue male adult (60 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR555ZDH/"
+  },
+  {
+    "id": "229",
+    "Experiment_ID": "ENCSR437OOJ",
+    "GEO_number": "GSE170010",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "heart right ventricle tissue female adult (59 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR437OOJ/"
+  },
+  {
+    "id": "230",
+    "Experiment_ID": "ENCSR072UYN",
+    "GEO_number": "GSE170146",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "sciatic nerve tissue female child (16 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR072UYN/"
+  },
+  {
+    "id": "231",
+    "Experiment_ID": "ENCSR651SOJ",
+    "GEO_number": "GSE170937",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "adrenal gland tissue female adult (47 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR651SOJ/"
+  },
+  {
+    "id": "232",
+    "Experiment_ID": "ENCSR548SSP",
+    "GEO_number": "GSE215678",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "mucosa of urinary bladder tissue female adult (47 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR548SSP/"
+  },
+  {
+    "id": "233",
+    "Experiment_ID": "ENCSR848TMJ",
+    "GEO_number": "GSE215505",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "heart left ventricle tissue male adult (69 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR848TMJ/"
+  },
+  {
+    "id": "234",
+    "Experiment_ID": "ENCSR177JWR",
+    "GEO_number": "GSE170630",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "right cardiac atrium tissue female adult (59 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR177JWR/"
+  },
+  {
+    "id": "235",
+    "Experiment_ID": "ENCSR593YFB",
+    "GEO_number": "GSE215697",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "heart left ventricle tissue female adult (42 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR593YFB/"
+  },
+  {
+    "id": "236",
+    "Experiment_ID": "ENCSR552QUA",
+    "GEO_number": "GSE170616",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "posterior vena cava tissue female adult (47 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR552QUA/"
+  },
+  {
+    "id": "237",
+    "Experiment_ID": "ENCSR814RGG",
+    "GEO_number": "GSE215482",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "ureter tissue female adult (47 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR814RGG/"
+  },
+  {
+    "id": "238",
+    "Experiment_ID": "ENCSR415LEB",
+    "GEO_number": "GSE215497",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "jejunum tissue female adult (59 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR415LEB/"
+  },
+  {
+    "id": "239",
+    "Experiment_ID": "ENCSR017RQC",
+    "GEO_number": "GSE172595",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "Peyer's patch tissue female adult (53 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR017RQC/"
+  },
+  {
+    "id": "240",
+    "Experiment_ID": "ENCSR855BMI",
+    "GEO_number": "GSE170321",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "Right ventricle myocardium inferior tissue male adult (60 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR855BMI/"
+  },
+  {
+    "id": "241",
+    "Experiment_ID": "ENCSR344ZTM",
+    "GEO_number": "GSE172765",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "thoracic aorta tissue male adult (54 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR344ZTM/"
+  },
+  {
+    "id": "242",
+    "Experiment_ID": "ENCSR685ZMP",
+    "GEO_number": "GSE170971",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "right lobe of liver tissue female adult (41 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR685ZMP/"
+  },
+  {
+    "id": "243",
+    "Experiment_ID": "ENCSR222SCA",
+    "GEO_number": "GSE94175",
+    "Biosample_Type": "in vitro differentiated cells",
+    "Biosample_Summary": "dendritic cell treated with 100 ng/mL lipopolysaccharide for 4 hours",
+    "url": "https://www.encodeproject.org/experiments/ENCSR222SCA/"
+  },
+  {
+    "id": "244",
+    "Experiment_ID": "ENCSR886VCC",
+    "GEO_number": "GSE170491",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "psoas muscle tissue female adult (47 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR886VCC/"
+  },
+  {
+    "id": "245",
+    "Experiment_ID": "ENCSR117PYB",
+    "GEO_number": "GSE172792",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "heart left ventricle tissue female adult (51 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR117PYB/"
+  },
+  {
+    "id": "246",
+    "Experiment_ID": "ENCSR925LGW",
+    "GEO_number": "GSE170652",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "heart left ventricle tissue female adult (59 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR925LGW/"
+  },
+  {
+    "id": "247",
+    "Experiment_ID": "ENCSR913FZQ",
+    "GEO_number": "GSE215558",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "posterior vena cava tissue female child (16 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR913FZQ/"
+  },
+  {
+    "id": "248",
+    "Experiment_ID": "ENCSR731ODJ",
+    "GEO_number": "GSE173039",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "left cardiac atrium tissue female adult (58 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR731ODJ/"
+  },
+  {
+    "id": "249",
+    "Experiment_ID": "ENCSR775SYU",
+    "GEO_number": "GSE170053",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "uterus tissue female adult (59 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR775SYU/"
+  },
+  {
+    "id": "250",
+    "Experiment_ID": "ENCSR158KCS",
+    "GEO_number": "GSE215645",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "spleen tissue female adult (61 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR158KCS/"
+  },
+  {
+    "id": "251",
+    "Experiment_ID": "ENCSR551CSY",
+    "GEO_number": "GSE170604",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "mesenteric fat pad tissue male adult (26 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR551CSY/"
+  },
+  {
+    "id": "252",
+    "Experiment_ID": "ENCSR310RJN",
+    "GEO_number": "GSE170318",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "heart left ventricle tissue male adult (43 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR310RJN/"
+  },
+  {
+    "id": "253",
+    "Experiment_ID": "ENCSR946MAI",
+    "GEO_number": "GSE215582",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "left ventricle myocardium inferior tissue male adult (60 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR946MAI/"
+  },
+  {
+    "id": "254",
+    "Experiment_ID": "ENCSR607BTF",
+    "GEO_number": "GSE170876",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "right lobe of liver tissue male adult (45 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR607BTF/"
+  },
+  {
+    "id": "255",
+    "Experiment_ID": "ENCSR522FGI",
+    "GEO_number": "GSE170470",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "heart right ventricle tissue male adult (43 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR522FGI/"
+  },
+  {
+    "id": "256",
+    "Experiment_ID": "ENCSR624ODL",
+    "GEO_number": "GSE170899",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "left lobe of liver tissue female adult (61 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR624ODL/"
+  },
+  {
+    "id": "257",
+    "Experiment_ID": "ENCSR153IUB",
+    "GEO_number": "GSE170508",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "mucosa of urinary bladder tissue male adult (26 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR153IUB/"
+  },
+  {
+    "id": "258",
+    "Experiment_ID": "ENCSR710SMN",
+    "GEO_number": "GSE169829",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "heart right ventricle tissue female adult (58 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR710SMN/"
+  },
+  {
+    "id": "259",
+    "Experiment_ID": "ENCSR241OBO",
+    "GEO_number": "GSE169983",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "adrenal gland tissue female adult (59 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR241OBO/"
+  },
+  {
+    "id": "260",
+    "Experiment_ID": "ENCSR773USD",
+    "GEO_number": "GSE172607",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "body of pancreas tissue female adult (51 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR773USD/"
+  },
+  {
+    "id": "261",
+    "Experiment_ID": "ENCSR864ADD",
+    "GEO_number": "GSE170353",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "adrenal gland tissue female adult (41 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR864ADD/"
+  },
+  {
+    "id": "262",
+    "Experiment_ID": "ENCSR120MOY",
+    "GEO_number": "GSE170354",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "sciatic nerve tissue male adult (26 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR120MOY/"
+  },
+  {
+    "id": "263",
+    "Experiment_ID": "ENCSR653ZWW",
+    "GEO_number": "GSE215524",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "bile duct tissue female adult (47 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR653ZWW/"
+  },
+  {
+    "id": "264",
+    "Experiment_ID": "ENCSR152PSA",
+    "GEO_number": "GSE172855",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "body of pancreas tissue male adult (37 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR152PSA/"
+  },
+  {
+    "id": "265",
+    "Experiment_ID": "ENCSR515CDW",
+    "GEO_number": "GSE172605",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "body of pancreas tissue female adult (53 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR515CDW/"
+  },
+  {
+    "id": "266",
+    "Experiment_ID": "ENCSR182VGJ",
+    "GEO_number": "GSE215668",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "spleen tissue female adult (59 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR182VGJ/"
+  },
+  {
+    "id": "267",
+    "Experiment_ID": "ENCSR846VLJ",
+    "GEO_number": "GSE170300",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "sigmoid colon tissue female adult (53 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR846VLJ/"
+  },
+  {
+    "id": "268",
+    "Experiment_ID": "ENCSR297VGU",
+    "GEO_number": "GSE215649",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "kidney tissue female adult (47 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR297VGU/"
+  },
+  {
+    "id": "269",
+    "Experiment_ID": "ENCSR788TRR",
+    "GEO_number": "GSE172635",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "omental fat pad tissue female adult (51 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR788TRR/"
+  },
+  {
+    "id": "270",
+    "Experiment_ID": "ENCSR213DBU",
+    "GEO_number": "GSE215494",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "posterior vena cava tissue male adult (26 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR213DBU/"
+  },
+  {
+    "id": "271",
+    "Experiment_ID": "ENCSR040DJK",
+    "GEO_number": "GSE169990",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "psoas muscle tissue female adult (59 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR040DJK/"
+  },
+  {
+    "id": "272",
+    "Experiment_ID": "ENCSR619LHF",
+    "GEO_number": "GSE215492",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "sciatic nerve tissue female adult (47 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR619LHF/"
+  },
+  {
+    "id": "273",
+    "Experiment_ID": "ENCSR831KAH",
+    "GEO_number": "GSE172747",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "tibial nerve tissue female adult (51 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR831KAH/"
+  },
+  {
+    "id": "274",
+    "Experiment_ID": "ENCSR822BAD",
+    "GEO_number": "GSE215493",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "right cardiac atrium tissue female adult (46 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR822BAD/"
+  },
+  {
+    "id": "275",
+    "Experiment_ID": "ENCSR540BML",
+    "GEO_number": "GSE172647",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "subcutaneous adipose tissue tissue female adult (53 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR540BML/"
+  },
+  {
+    "id": "276",
+    "Experiment_ID": "ENCSR032RGS",
+    "GEO_number": "GSE169955",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "A549",
+    "url": "https://www.encodeproject.org/experiments/ENCSR032RGS/"
+  },
+  {
+    "id": "277",
+    "Experiment_ID": "ENCSR483RKN",
+    "GEO_number": "GSE170214",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "K562",
+    "url": "https://www.encodeproject.org/experiments/ENCSR483RKN/"
+  },
+  {
+    "id": "278",
+    "Experiment_ID": "ENCSR516CPW",
+    "GEO_number": "GSE170430",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "right lobe of liver tissue female adult (47 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR516CPW/"
+  },
+  {
+    "id": "279",
+    "Experiment_ID": "ENCSR390SLL",
+    "GEO_number": "GSE170758",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "left cardiac atrium tissue female adult (42 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR390SLL/"
+  },
+  {
+    "id": "280",
+    "Experiment_ID": "ENCSR544YXV",
+    "GEO_number": "GSE94195",
+    "Biosample_Type": "in vitro differentiated cells",
+    "Biosample_Summary": "dendritic cell treated with 100 ng/mL lipopolysaccharide for 1 hour",
+    "url": "https://www.encodeproject.org/experiments/ENCSR544YXV/"
+  },
+  {
+    "id": "281",
+    "Experiment_ID": "ENCSR399OSE",
+    "GEO_number": "GSE170791",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "heart left ventricle tissue female adult (47 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR399OSE/"
+  },
+  {
+    "id": "282",
+    "Experiment_ID": "ENCSR890DWH",
+    "GEO_number": "GSE170518",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "psoas muscle tissue female adult (41 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR890DWH/"
+  },
+  {
+    "id": "283",
+    "Experiment_ID": "ENCSR208NBF",
+    "GEO_number": "GSE94174",
+    "Biosample_Type": "in vitro differentiated cells",
+    "Biosample_Summary": "dendritic cell treated with 100 ng/mL lipopolysaccharide for 2 hours",
+    "url": "https://www.encodeproject.org/experiments/ENCSR208NBF/"
+  },
+  {
+    "id": "284",
+    "Experiment_ID": "ENCSR174MLD",
+    "GEO_number": "GSE215655",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "bile duct tissue female adult (41 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR174MLD/"
+  },
+  {
+    "id": "285",
+    "Experiment_ID": "ENCSR042AWH",
+    "GEO_number": "GSE170012",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "HepG2",
+    "url": "https://www.encodeproject.org/experiments/ENCSR042AWH/"
+  },
+  {
+    "id": "286",
+    "Experiment_ID": "ENCSR059IHA",
+    "GEO_number": "GSE94163",
+    "Biosample_Type": "in vitro differentiated cells",
+    "Biosample_Summary": "dendritic cell treated with 100 ng/mL lipopolysaccharide for 30 minutes",
+    "url": "https://www.encodeproject.org/experiments/ENCSR059IHA/"
+  },
+  {
+    "id": "287",
+    "Experiment_ID": "ENCSR904UKR",
+    "GEO_number": "GSE94217",
+    "Biosample_Type": "in vitro differentiated cells",
+    "Biosample_Summary": "dendritic cell treated with 100 ng/mL lipopolysaccharide for 6 hours",
+    "url": "https://www.encodeproject.org/experiments/ENCSR904UKR/"
+  },
+  {
+    "id": "288",
+    "Experiment_ID": "ENCSR694OWY",
+    "GEO_number": "GSE215622",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "spleen tissue male adult (26 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR694OWY/"
+  },
+  {
+    "id": "289",
+    "Experiment_ID": "ENCSR213YPO",
+    "GEO_number": "GSE169805",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "right cardiac atrium tissue male adult (60 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR213YPO/"
+  },
+  {
+    "id": "290",
+    "Experiment_ID": "ENCSR990NNX",
+    "GEO_number": "GSE170862",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "upper lobe of right lung tissue male adult (60 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR990NNX/"
+  },
+  {
+    "id": "291",
+    "Experiment_ID": "ENCSR074WMH",
+    "GEO_number": "GSE172675",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "Right ventricle myocardium superior tissue male adult (60 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR074WMH/"
+  },
+  {
+    "id": "292",
+    "Experiment_ID": "ENCSR124NNL",
+    "GEO_number": "GSE215589",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "liver tissue male adult (67 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR124NNL/"
+  },
+  {
+    "id": "293",
+    "Experiment_ID": "ENCSR310UDW",
+    "GEO_number": "GSE170327",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "left cardiac atrium tissue male adult (40 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR310UDW/"
+  },
+  {
+    "id": "294",
+    "Experiment_ID": "ENCSR242QRV",
+    "GEO_number": "GSE215609",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "upper lobe of left lung tissue female adult (61 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR242QRV/"
+  },
+  {
+    "id": "295",
+    "Experiment_ID": "ENCSR204SMO",
+    "GEO_number": "GSE169772",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "heart right ventricle tissue male adult (46 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR204SMO/"
+  },
+  {
+    "id": "296",
+    "Experiment_ID": "ENCSR718HWW",
+    "GEO_number": "GSE187823",
+    "Biosample_Type": "primary cell",
+    "Biosample_Summary": "activated CD8-positive, alpha-beta T cell male adult (21 years) treated with anti-CD3 and anti-CD28 coated beads for 36 hours",
+    "url": "https://www.encodeproject.org/experiments/ENCSR718HWW/"
+  },
+  {
+    "id": "297",
+    "Experiment_ID": "ENCSR736CIN",
+    "GEO_number": "GSE215713",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "left cardiac atrium tissue female adult (66 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR736CIN/"
+  },
+  {
+    "id": "298",
+    "Experiment_ID": "ENCSR991PBP",
+    "GEO_number": "GSE187973",
+    "Biosample_Type": "primary cell",
+    "Biosample_Summary": "activated CD4-positive, alpha-beta T cell male adult (20 years) treated with anti-CD3 and anti-CD28 coated beads for 36 hours",
+    "url": "https://www.encodeproject.org/experiments/ENCSR991PBP/"
+  },
+  {
+    "id": "299",
+    "Experiment_ID": "ENCSR291GJU",
+    "GEO_number": "GSE170251",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "HepG2",
+    "url": "https://www.encodeproject.org/experiments/ENCSR291GJU/"
+  },
+  {
+    "id": "300",
+    "Experiment_ID": "ENCSR565DSD",
+    "GEO_number": "GSE215687",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "fallopian tube tissue female adult (61 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR565DSD/"
+  },
+  {
+    "id": "301",
+    "Experiment_ID": "ENCSR637XSC",
+    "GEO_number": "GSE170918",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "GM12878",
+    "url": "https://www.encodeproject.org/experiments/ENCSR637XSC/"
+  },
+  {
+    "id": "302",
+    "Experiment_ID": "ENCSR157OSO",
+    "GEO_number": "GSE170517",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "heart right ventricle tissue female adult (47 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR157OSO/"
+  },
+  {
+    "id": "303",
+    "Experiment_ID": "ENCSR303PWB",
+    "GEO_number": "GSE170282",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "esophagus mucosa tissue female adult (47 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR303PWB/"
+  },
+  {
+    "id": "304",
+    "Experiment_ID": "ENCSR553LAZ",
+    "GEO_number": "GSE170643",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "adrenal gland tissue female child (16 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR553LAZ/"
+  },
+  {
+    "id": "305",
+    "Experiment_ID": "ENCSR227FVE",
+    "GEO_number": "GSE169879",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "ovary tissue female adult (59 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR227FVE/"
+  },
+  {
+    "id": "306",
+    "Experiment_ID": "ENCSR404LLJ",
+    "GEO_number": "GSE169798",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "transverse colon tissue female adult (53 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR404LLJ/"
+  },
+  {
+    "id": "307",
+    "Experiment_ID": "ENCSR851SBY",
+    "GEO_number": "GSE172791",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "stomach tissue male adult (54 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR851SBY/"
+  },
+  {
+    "id": "308",
+    "Experiment_ID": "ENCSR422SUG",
+    "GEO_number": "GSE169929",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "MCF-7",
+    "url": "https://www.encodeproject.org/experiments/ENCSR422SUG/"
+  },
+  {
+    "id": "309",
+    "Experiment_ID": "ENCSR201FIW",
+    "GEO_number": "GSE169771",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "thyroid gland tissue female adult (51 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR201FIW/"
+  },
+  {
+    "id": "310",
+    "Experiment_ID": "ENCSR530XBF",
+    "GEO_number": "GSE170507",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "pancreas tissue female child (16 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR530XBF/"
+  },
+  {
+    "id": "311",
+    "Experiment_ID": "ENCSR841LHT",
+    "GEO_number": "GSE215502",
+    "Biosample_Type": "primary cell",
+    "Biosample_Summary": "CD4-positive, alpha-beta T cell male adult (20 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR841LHT/"
+  },
+  {
+    "id": "312",
+    "Experiment_ID": "ENCSR476VJY",
+    "GEO_number": "GSE187933",
+    "Biosample_Type": "primary cell",
+    "Biosample_Summary": "CD8-positive, alpha-beta T cell male adult (21 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR476VJY/"
+  },
+  {
+    "id": "313",
+    "Experiment_ID": "ENCSR868FGK",
+    "GEO_number": "GSE170378",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "K562",
+    "url": "https://www.encodeproject.org/experiments/ENCSR868FGK/"
+  },
+  {
+    "id": "314",
+    "Experiment_ID": "ENCSR225FZH",
+    "GEO_number": "GSE215583",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "heart left ventricle tissue male adult (55 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR225FZH/"
+  },
+  {
+    "id": "315",
+    "Experiment_ID": "ENCSR251POP",
+    "GEO_number": "GSE170023",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "pancreas tissue female adult (61 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR251POP/"
+  },
+  {
+    "id": "316",
+    "Experiment_ID": "ENCSR308HPZ",
+    "GEO_number": "GSE170304",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "gastrocnemius medialis tissue male adult (54 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR308HPZ/"
+  },
+  {
+    "id": "317",
+    "Experiment_ID": "ENCSR914DTI",
+    "GEO_number": "GSE172883",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "thyroid gland tissue female adult (53 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR914DTI/"
+  },
+  {
+    "id": "318",
+    "Experiment_ID": "ENCSR761TKU",
+    "GEO_number": "GSE172574",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "transverse colon tissue male adult (54 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR761TKU/"
+  },
+  {
+    "id": "319",
+    "Experiment_ID": "ENCSR212LYK",
+    "GEO_number": "GSE173000",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "heart right ventricle tissue female adult (46 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR212LYK/"
+  },
+  {
+    "id": "320",
+    "Experiment_ID": "ENCSR439TZT",
+    "GEO_number": "GSE170014",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "heart right ventricle tissue male adult (66 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR439TZT/"
+  },
+  {
+    "id": "321",
+    "Experiment_ID": "ENCSR212LAZ",
+    "GEO_number": "GSE169789",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "fallopian tube tissue female adult (59 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR212LAZ/"
+  },
+  {
+    "id": "322",
+    "Experiment_ID": "ENCSR899YEP",
+    "GEO_number": "GSE215555",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "heart left ventricle tissue male adult (61 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR899YEP/"
+  },
+  {
+    "id": "323",
+    "Experiment_ID": "ENCSR999NKW",
+    "GEO_number": "GSE173068",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "prostate gland tissue male adult (54 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR999NKW/"
+  },
+  {
+    "id": "324",
+    "Experiment_ID": "ENCSR872WGW",
+    "GEO_number": "GSE170407",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "HCT116",
+    "url": "https://www.encodeproject.org/experiments/ENCSR872WGW/"
+  },
+  {
+    "id": "325",
+    "Experiment_ID": "ENCSR451JSB",
+    "GEO_number": "GSE215518",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "heart left ventricle tissue female adult (56 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR451JSB/"
+  },
+  {
+    "id": "326",
+    "Experiment_ID": "ENCSR474XFV",
+    "GEO_number": "GSE170176",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "thyroid gland tissue male adult (54 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR474XFV/"
+  },
+  {
+    "id": "327",
+    "Experiment_ID": "ENCSR609GST",
+    "GEO_number": "GSE172764",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "esophagus muscularis mucosa tissue male adult (54 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR609GST/"
+  },
+  {
+    "id": "328",
+    "Experiment_ID": "ENCSR113MBR",
+    "GEO_number": "GSE170314",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "adrenal gland tissue male adult (54 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR113MBR/"
+  },
+  {
+    "id": "329",
+    "Experiment_ID": "ENCSR548KIL",
+    "GEO_number": "GSE170578",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "adrenal gland tissue male adult (37 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR548KIL/"
+  },
+  {
+    "id": "330",
+    "Experiment_ID": "ENCSR668VCT",
+    "GEO_number": "GSE172936",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "transverse colon tissue male adult (37 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR668VCT/"
+  },
+  {
+    "id": "331",
+    "Experiment_ID": "ENCSR542RNG",
+    "GEO_number": "GSE170550",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "adrenal gland tissue male adult (26 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR542RNG/"
+  },
+  {
+    "id": "332",
+    "Experiment_ID": "ENCSR403GBR",
+    "GEO_number": "GSE215478",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "heart right ventricle tissue male adult (55 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR403GBR/"
+  },
+  {
+    "id": "333",
+    "Experiment_ID": "ENCSR414DVK",
+    "GEO_number": "GSE172963",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "adrenal gland tissue female adult (51 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR414DVK/"
+  },
+  {
+    "id": "334",
+    "Experiment_ID": "ENCSR584AXZ",
+    "GEO_number": "GSE172701",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "coronary artery tissue female adult (51 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR584AXZ/"
+  },
+  {
+    "id": "335",
+    "Experiment_ID": "ENCSR948MQC",
+    "GEO_number": "GSE170747",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "lower lobe of right lung tissue female adult (65 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR948MQC/"
+  },
+  {
+    "id": "336",
+    "Experiment_ID": "ENCSR062SVK",
+    "GEO_number": "GSE139692",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "right atrium auricular region tissue female adult (51 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR062SVK/"
+  },
+  {
+    "id": "337",
+    "Experiment_ID": "ENCSR836FIL",
+    "GEO_number": "GSE170250",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "right lobe of liver tissue male adult (40 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR836FIL/"
+  },
+  {
+    "id": "338",
+    "Experiment_ID": "ENCSR600ZHS",
+    "GEO_number": "GSE170848",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "left colon tissue female adult (46 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR600ZHS/"
+  },
+  {
+    "id": "339",
+    "Experiment_ID": "ENCSR078EBD",
+    "GEO_number": "GSE172685",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "spleen tissue female adult (51 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR078EBD/"
+  },
+  {
+    "id": "340",
+    "Experiment_ID": "ENCSR355SGJ",
+    "GEO_number": "GSE172790",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "sigmoid colon tissue female adult (51 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR355SGJ/"
+  },
+  {
+    "id": "341",
+    "Experiment_ID": "ENCSR086OGH",
+    "GEO_number": "GSE172711",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "sigmoid colon tissue male adult (54 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR086OGH/"
+  },
+  {
+    "id": "342",
+    "Experiment_ID": "ENCSR695FLC",
+    "GEO_number": "GSE170988",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "mucosa of gallbladder tissue female child (16 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR695FLC/"
+  },
+  {
+    "id": "343",
+    "Experiment_ID": "ENCSR709QRD",
+    "GEO_number": "GSE187790",
+    "Biosample_Type": "in vitro differentiated cells",
+    "Biosample_Summary": "from a donor with amyotrophic lateral sclerosis; motor neuron",
+    "url": "https://www.encodeproject.org/experiments/ENCSR709QRD/"
+  },
+  {
+    "id": "344",
+    "Experiment_ID": "ENCSR131HOY",
+    "GEO_number": "GSE187084",
+    "Biosample_Type": "in vitro differentiated cells",
+    "Biosample_Summary": "from a donor with amyotrophic lateral sclerosis; motor neuron",
+    "url": "https://www.encodeproject.org/experiments/ENCSR131HOY/"
+  },
+  {
+    "id": "345",
+    "Experiment_ID": "ENCSR516YAD",
+    "GEO_number": "GSE187543",
+    "Biosample_Type": "in vitro differentiated cells",
+    "Biosample_Summary": "from a donor with amyotrophic lateral sclerosis; motor neuron",
+    "url": "https://www.encodeproject.org/experiments/ENCSR516YAD/"
+  },
+  {
+    "id": "346",
+    "Experiment_ID": "ENCSR808ZMK",
+    "GEO_number": "GSE170216",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "pancreas tissue female adult (41 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR808ZMK/"
+  },
+  {
+    "id": "347",
+    "Experiment_ID": "ENCSR373GMM",
+    "GEO_number": "GSE187325",
+    "Biosample_Type": "primary cell",
+    "Biosample_Summary": "natural killer cell male adult (33 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR373GMM/"
+  },
+  {
+    "id": "348",
+    "Experiment_ID": "ENCSR286STX",
+    "GEO_number": "GSE170227",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "heart left ventricle tissue male adult (66 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR286STX/"
+  },
+  {
+    "id": "349",
+    "Experiment_ID": "ENCSR769DGC",
+    "GEO_number": "GSE215727",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "heart left ventricle tissue male adult (73 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR769DGC/"
+  },
+  {
+    "id": "350",
+    "Experiment_ID": "ENCSR220ASC",
+    "GEO_number": "GSE114202",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "A549",
+    "url": "https://www.encodeproject.org/experiments/ENCSR220ASC/"
+  },
+  {
+    "id": "351",
+    "Experiment_ID": "ENCSR970UNF",
+    "GEO_number": "GSE170821",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "colonic mucosa tissue female adult (41 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR970UNF/"
+  },
+  {
+    "id": "352",
+    "Experiment_ID": "ENCSR386HAZ",
+    "GEO_number": "GSE172929",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "transverse colon tissue female adult (51 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR386HAZ/"
+  },
+  {
+    "id": "353",
+    "Experiment_ID": "ENCSR846ZBX",
+    "GEO_number": "GSE139763",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "breast epithelium tissue female adult (51 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR846ZBX/"
+  },
+  {
+    "id": "354",
+    "Experiment_ID": "ENCSR591PIX",
+    "GEO_number": "GSE170824",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "Panc1",
+    "url": "https://www.encodeproject.org/experiments/ENCSR591PIX/"
+  },
+  {
+    "id": "355",
+    "Experiment_ID": "ENCSR053SGP",
+    "GEO_number": "GSE170073",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "heart right ventricle tissue male adult (54 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR053SGP/"
+  },
+  {
+    "id": "356",
+    "Experiment_ID": "ENCSR682ETE",
+    "GEO_number": "GSE170968",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "left lung tissue female child (16 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR682ETE/"
+  },
+  {
+    "id": "357",
+    "Experiment_ID": "ENCSR374ZRW",
+    "GEO_number": "GSE215729",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "heart right ventricle tissue female adult (56 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR374ZRW/"
+  },
+  {
+    "id": "358",
+    "Experiment_ID": "ENCSR210NKB",
+    "GEO_number": "GSE172988",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "testis tissue male adult (37 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR210NKB/"
+  },
+  {
+    "id": "359",
+    "Experiment_ID": "ENCSR258JCL",
+    "GEO_number": "GSE170045",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "gastrocnemius medialis tissue male adult (37 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR258JCL/"
+  },
+  {
+    "id": "360",
+    "Experiment_ID": "ENCSR563ZNI",
+    "GEO_number": "GSE170721",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "heart right ventricle tissue male adult (61 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR563ZNI/"
+  },
+  {
+    "id": "361",
+    "Experiment_ID": "ENCSR373TDL",
+    "GEO_number": "GSE172863",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "right lobe of liver tissue female adult (53 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR373TDL/"
+  },
+  {
+    "id": "362",
+    "Experiment_ID": "ENCSR765MXG",
+    "GEO_number": "GSE170016",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "body of pancreas tissue male adult (54 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR765MXG/"
+  },
+  {
+    "id": "363",
+    "Experiment_ID": "ENCSR548QCP",
+    "GEO_number": "GSE139801",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "sigmoid colon tissue male adult (37 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR548QCP/"
+  },
+  {
+    "id": "364",
+    "Experiment_ID": "ENCSR823ZCR",
+    "GEO_number": "GSE172734",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "gastrocnemius medialis tissue female adult (51 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR823ZCR/"
+  },
+  {
+    "id": "365",
+    "Experiment_ID": "ENCSR491VKV",
+    "GEO_number": "GSE215562",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "heart right ventricle tissue male adult (73 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR491VKV/"
+  },
+  {
+    "id": "366",
+    "Experiment_ID": "ENCSR499ASS",
+    "GEO_number": "GSE170337",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "PC-3",
+    "url": "https://www.encodeproject.org/experiments/ENCSR499ASS/"
+  },
+  {
+    "id": "367",
+    "Experiment_ID": "ENCSR382LBS",
+    "GEO_number": "GSE172886",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "NCI-H929",
+    "url": "https://www.encodeproject.org/experiments/ENCSR382LBS/"
+  },
+  {
+    "id": "368",
+    "Experiment_ID": "ENCSR485TLP",
+    "GEO_number": "GSE170231",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "GM23338",
+    "url": "https://www.encodeproject.org/experiments/ENCSR485TLP/"
+  },
+  {
+    "id": "369",
+    "Experiment_ID": "ENCSR587TRP",
+    "GEO_number": "GSE172714",
+    "Biosample_Type": "cell line",
+    "Biosample_Summary": "SK-N-SH treated with 6 \u03bcM all-trans-retinoic acid for 48 hours",
+    "url": "https://www.encodeproject.org/experiments/ENCSR587TRP/"
+  },
+  {
+    "id": "370",
+    "Experiment_ID": "ENCSR337UIU",
+    "GEO_number": "GSE170447",
+    "Biosample_Type": "tissue",
+    "Biosample_Summary": "stomach tissue female adult (53 years)",
+    "url": "https://www.encodeproject.org/experiments/ENCSR337UIU/"
+  }
+]

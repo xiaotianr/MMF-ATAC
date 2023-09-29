@@ -7,7 +7,7 @@ parser.add_argument('--genome', default='hg38',type=str,help='The hash of the ta
 args = parser.parse_args()
 
 def getfasta(name,genome):
-    file_name = "./save/"+name+"/fasta_file/"
+    file_name = "./download/"+name+"/motif_fasta/"
     if not os.path.exists(file_name):
         os.mkdir(file_name)
     for root in os.listdir("./save/"+name+"/fimo_out"):

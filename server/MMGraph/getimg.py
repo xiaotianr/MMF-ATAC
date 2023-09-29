@@ -8,13 +8,13 @@ parser.add_argument('--hash', default='fbd7c1da229c4007bf2d7b8a1ba1cf03',type=st
 parser.add_argument('--genome', default='hg38',type=str,help='The hash of the task')
 args = parser.parse_args()
 def getimg(name):
-    motiflogopath='./download/'+name+'/motiflogo'
+    motiflogopath='./download/'+name+'/motif_logo'
     if not os.path.exists(motiflogopath):
         os.mkdir(motiflogopath)
 
-    for f_name in os.listdir('./save/'+name+'/fasta_file'):
-        x=f_name[:f_name.find('_')]
-        os.system('weblogo --format PNG --size large --resolution 1200 < ./save/'+name+'/fasta_file/'+str(f_name) +' > ./download/'+name+'/motiflogo/'+x+'.png  --number-interval 1 --fineprint "" --errorbars NO --color-scheme "classic" --text-font "TimesNewRoman" --title-font "TimesNewRoman"')
+    for f_name in os.listdir('./download/'+name+'/motif_fasta'):
+        x=f_name[:f_name.find('.fa')]
+        os.system('weblogo --format PNG --size large --resolution 1200 < ./download/'+name+'/motif_fasta/'+str(f_name) +' > ./download/'+name+'/motif_logo/'+x+'.png  --number-interval 1 --fineprint "" --errorbars NO --color-scheme "classic" --text-font "TimesNewRoman" --title-font "TimesNewRoman"')
         
 if __name__=='__main__':
     name=args.hash

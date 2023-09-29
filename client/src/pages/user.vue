@@ -72,7 +72,7 @@
             v-model="state"
             :fetch-suggestions="querySearch"
             clearable
-            placeholder="Enter the GSE ID of ATAC-seq data (such as GSE170214)"
+            placeholder="Enter the GEO number of ATAC-seq data (such as GSE170214)"
             :trigger-on-focus="false"
             select-when-unmatched
             @select="Select"

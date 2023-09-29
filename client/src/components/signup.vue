@@ -2,7 +2,7 @@
   <el-row class="h-[650px]" id="signup">
     <el-col :lg="6"></el-col>
     <el-col :lg="12" class="flex items-center justify-center flex-col">
-      <h2 class="font-bold text-5xl text-gray-800 my-[50px]">Welcome to MMGraph</h2>
+      <h2 class="font-bold text-5xl text-gray-800 my-[50px]">Welcome to MMF-ATAC</h2>
       <el-form :model="form" class="w-[400px]" status-icon :rules="rules" ref="formref">
         <el-form-item prop="username">
           <div class="signup_input text-2xl">

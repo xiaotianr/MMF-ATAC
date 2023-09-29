@@ -8,23 +8,22 @@
       <h4 class="mume-header" id="1what-is-mmf-atac">1.What is MMF-ATAC?</h4>
 
       <p>
-        Motif finding in Assay for Transposase-Accessible Chromatin using sequencing (ATAC-seq) data 
-        is crucial for understanding Transcription Factor Binding Sites (TFBSs) and 
-        their roles in gene regulation. To facilitate this process for experimental biologists, 
+        Motif finding in Assay for Transposase-Accessible Chromatin using sequencing (ATAC-seq) data
+        is crucial for understanding Transcription Factor Binding Sites (TFBSs) and
+        their roles in gene regulation. To facilitate this process for experimental biologists,
         MMF-ATAC has been developed as a user-friendly web server that enables efficient f
-        inding multiple motifs in ATAC-seq data using a graph neural network-based tool. 
-        The web server is designed with a focus on usability and provides several key features, 
-        including ATAC-seq data querying, TFBSs prediction and motif finding job submission. 
-        Moreover, MMF-ATAC provides motif finding results and visualizations of 459 ENCODE ATAC-seq datasets. 
-        Overall, MMF-ATAC serves as a valuable resource for experimental biologists 
+        inding multiple motifs in ATAC-seq data using a graph neural network-based tool.
+        The web server is designed with a focus on usability and provides several key features,
+        including ATAC-seq data querying, TFBSs prediction and motif finding job submission.
+        Moreover, MMF-ATAC provides motif finding results and visualizations of 459 ENCODE ATAC-seq datasets.
+        Overall, MMF-ATAC serves as a valuable resource for experimental biologists
         seeking a user-friendly tool to find motif from ATAC-seq data without the need for programming expertise.
       </p>
       <h4 class="mume-header" id="2what-is-mmgraph">2.What is MMGraph?</h4>
 
       <p>
-        MMGraph (<a href="https://doi.org/10.1093/bioinformatics/btac572"
-          >Zhang, S. et al, Bioinformatics, 2022</a
-        >) comprises three main components: a heterogeneous graph, a three-layer GNN model
+        MMGraph (<a href="https://doi.org/10.1093/bioinformatics/btac572">Zhang, S. et al, Bioinformatics, 2022</a>)
+        comprises three main components: a heterogeneous graph, a three-layer GNN model
         to obtain embeddings of k-mers and sequences, and a coexisting probability
         calculation for finding multiple motifs. The heterogeneous graph consists of three
         edge types: similarity edges, coexisting edges, and inclusive edges.
@@ -32,31 +31,26 @@
       <p>These edges are calculated using different formulas:</p>
       <p>
         Similarity edges use the Hamming distance to measure mismatch between k-mer nodes:
-        <math-formula
-          formula="$$w_{sim}(p,q) = w_{sim}(q,p) = \textrm{Hamming}(k(p), k(q))$$"
-          class="flex items-center justify-center"
-        ></math-formula>
+        <math-formula formula="$$w_{sim}(p,q) = w_{sim}(q,p) = \textrm{Hamming}(k(p), k(q))$$"
+          class="flex items-center justify-center"></math-formula>
       </p>
       <p>
         Coexisting edges measure the coexisting probability between k-mer nodes using a
         log-odds ratio:
         <math-formula
           formula="$$w_{co}(p,q) = w_{co}(q,p) = -\log\left(\frac{Q(k(p),k(q))}{P(k(p)) \times P(k(q))}\right)$$"
-          class="flex items-center justify-center"
-        ></math-formula>
+          class="flex items-center justify-center"></math-formula>
         where
         <math-formula
           formula="$$P(k(p)) = \frac{\textrm{num}(k(p))}{n},Q(k(p),k(q)) = \frac{\textrm{nums}(k(p),k(q))}{n}$$"
-          class="flex items-center justify-center"
-        ></math-formula>
+          class="flex items-center justify-center"></math-formula>
       </p>
       <p>
         Inclusive edges transfer the concept of term frequency-inverse document frequency
         (TF-IDF) to measure the dependency degree between k-mers and sequences:
         <math-formula
           formula="$$w_{inclu}(p,i) = \textrm{tf}(k(p),s(i)) \times \log\left(\frac{n}{\textrm{num}(k(p))}\right)$$"
-          class="flex items-center justify-center"
-        ></math-formula>
+          class="flex items-center justify-center"></math-formula>
       </p>
       <p>
         By constructing the heterogeneous graph and using the GNN model, MMGraph is able
@@ -69,15 +63,13 @@
       <p>
         ATAC-seq is used for investigating the chromatin accessibility of the entire
         genome and generates DNA fragments suitable for sequencing by inserting the Tn5
-        transposase into open chromatin regions (<a
-          href="https://doi.org/10.1042/BST20210834"
-          >Louise, S. et al, Biochemical Society Transactions, 2022</a
-        >). When a TF binds to DNA, it blocks the Tn5 transposase from cutting the DNA
+        transposase into open chromatin regions (<a href="https://doi.org/10.1042/BST20210834">Louise, S. et al,
+          Biochemical Society Transactions, 2022</a>). When a TF binds to DNA, it blocks the Tn5 transposase from cutting
+        the DNA
         sequence in that specific region, resulting in a protected area known as an
-        ATAC-seq footprint (<a href="https://doi.org/10.1007/978-1-4939-6518-2_5"
-          >Doganli, C. et al, Eukaryotic Transcriptional and Post-Transcriptional Gene
-          Expression Regulation, 2017</a
-        >). By detecting these footprints, multiple regions where TFs are bound to the
+        ATAC-seq footprint (<a href="https://doi.org/10.1007/978-1-4939-6518-2_5">Doganli, C. et al, Eukaryotic
+          Transcriptional and Post-Transcriptional Gene
+          Expression Regulation, 2017</a>). By detecting these footprints, multiple regions where TFs are bound to the
         genome can be identified, all from one ATAC-seq experiment. Compared with other
         techniques such as ChIP-seq and Dnase-seq, ATAC-seq can obtain all open regions of
         the genome and is more efficient in identifying TFBSs.
@@ -87,16 +79,13 @@
       <p>
         Transcription factors (TFs) bind to specific DNA sequences called transcription
         factor binding sites (TFBSs), which are involved in the gene transcription (<a
-          href="https://doi.org/10.1371/journal.pcbi.1009941"
-          >Zhang, Q. et al, PLoS computational biology, 2022</a
-        >). TFBSs are typically short, ranging from 6 to 20 base pairs in length, and are
-        specifically recognized by certain transcription factors (<a
-          href="https://doi.org/10.1038/srep08465"
-          >Chen, H. et al, Scientific reports, 2015</a
-        >). The TFBSs of a TF are conserved at the sequence level, which is referred to as
-        a motif (<a href="https://doi.org/10.1093/bib/bbab374"
-          >Zhang, S. et al, Briefings in Bioinformatics, 2022</a
-        >). Motif finding aims to find some short and conserved TFBSs from high-throughput
+          href="https://doi.org/10.1371/journal.pcbi.1009941">Zhang, Q. et al, PLoS computational biology, 2022</a>).
+        TFBSs are typically short, ranging from 6 to 20 base pairs in length, and are
+        specifically recognized by certain transcription factors (<a href="https://doi.org/10.1038/srep08465">Chen, H. et
+          al, Scientific reports, 2015</a>). The TFBSs of a TF are conserved at the sequence level, which is referred to
+        as
+        a motif (<a href="https://doi.org/10.1093/bib/bbab374">Zhang, S. et al, Briefings in Bioinformatics, 2022</a>).
+        Motif finding aims to find some short and conserved TFBSs from high-throughput
         sequencing data such as Chromatin immunoprecipitation followed by sequencing
         (ChIP-seq), ATAC-seq, and DNase I hypersensitive sites sequencing (Dnase-seq).
       </p>
@@ -106,7 +95,7 @@
       <p class="flex items-center justify-center">
         <img src="../../src/images/Server_flow_chat.png" width="60%" />
       </p>
-      
+
       <h3 class="mume-header" id="input-files">Inputs</h3>
       <p class="flex items-center justify-center">
         <img src="/images/upload.png" width="45%" />
@@ -117,15 +106,38 @@
         ENCODE, which is essential for the processing and analysis of the data.
       </p>
       <h4 class="mume-header" id="1atac-seq-bed-narrowpeak-file-required">
-        1.ATAC-seq bed narrowPeak file (required)
+        1.ATAC-seq peak file (required)
       </h4>
       <p>
-        This file contains the ATAC-seq data in the BED narrowPeak format. The narrowPeak
+        The peak file should contain at least 3 columns,
+        with the first column representing the chromosome name,
+        the second column representing the start position of the region,
+        and the third column representing the end position of the region.
+      </p>
+      <p>
+        This peak file we recommended contains the ATAC-seq data in the BED narrowPeak format. The narrowPeak
         format is a specialized version of the BED format designed to display the
         locations and scores of experimentally determined transcription factor binding
         sites. In the context of ATAC-seq data, this file provides the locations of
         accessible chromatin regions in the genome.
+        <a href="https://www.encodeproject.org/files/ENCFF770QET/@@download/ENCFF770QET.bed.gz">Click this link to
+          download and view a sample ATAC-seq peak file</a>
       </p>
+      <!-- <p>
+        Here is an example of a bed narrowPeak input file, where the first column represents the chromosome name or identity, the second column represents the start position of the peak, the third column represents the end position of the peak, the fourth column represents the name or identity of the peak, the fifth column represents the quality score of the peak for the intensity of the peak, and the sixth column represents the direction of the peak. The seventh column represents the relative signal intensity of the peak, the eighth column represents the corrected p-value, the ninth column represents the corrected q-value, and the tenth column represents the distance of the peak from the starting position.
+      </p>
+      <el-table :data="bedtable" style="width: 100%">
+        <el-table-column label="chrom" prop="chrom" header-align="center" align="center"></el-table-column>
+        <el-table-column label="chromStart" prop="start" width="120" header-align="center" align="center"></el-table-column>
+        <el-table-column label="chromEnd" prop="end" width="120" header-align="center" align="center"></el-table-column>
+        <el-table-column label="name" prop="name" header-align="center" align="center"></el-table-column>
+        <el-table-column label="score" prop="score" header-align="center" align="center"></el-table-column>
+        <el-table-column label="strand" prop="strand" header-align="center" align="center"></el-table-column>
+        <el-table-column label="signal value" prop="signalvalue" width="150" header-align="center" align="center"></el-table-column>
+        <el-table-column label="-log10(pvalue)" prop="pvalue" width="150" header-align="center" align="center"></el-table-column>
+        <el-table-column label="-log10(qvalue)" prop="qvalue" width="150" header-align="center" align="center"></el-table-column>
+        <el-table-column label="peak" prop="peak" header-align="center" align="center"></el-table-column>
+      </el-table> -->
       <h4 class="mume-header" id="2atac-seq-bam-file-required">
         2.ATAC-seq bam file (required)
       </h4>
@@ -135,17 +147,17 @@
         representation of the Sequence Alignment/Map (SAM) format, which stores large
         nucleotide sequence alignments. The ATAC-seq bam file is essential for downstream
         analyses, including peak calling, data visualization, and data interpretation.
+        <a href="https://www.encodeproject.org/files/ENCFF240QKT/@@download/ENCFF240QKT.bam">
+          Click this link to download and view a sample ATAC-seq bam file</a>
       </p>
       <h3 class="mume-header" id="parameters-select">Parameters setting</h3>
 
       <h4 class="mume-header" id="1tool">1.Tools</h4>
       <p>
         Choose the tool you want to use for your analysis: MMGraph, HINT-ATAC (<a
-          href="https://doi.org/10.1186/s13059-019-1642-2"
-          >Li, Z. et al, Genome biology, 2017</a
-        >), or TOBIAS (<a href="https://doi.org/10.1038/s41467-020-18035-1"
-          >Bentsen, M. et al, Nature communications, 2020</a
-        >). Note that MMGraph can identify unknown motifs, while HINT-ATAC and TOBIAS
+          href="https://doi.org/10.1186/s13059-019-1642-2">Li, Z. et al, Genome biology, 2017</a>), or TOBIAS (<a
+          href="https://doi.org/10.1038/s41467-020-18035-1">Bentsen, M. et al, Nature communications, 2020</a>). Note that
+        MMGraph can identify unknown motifs, while HINT-ATAC and TOBIAS
         excel at motif scanning based on known databases.
       </p>
       <h4 class="mume-header" id="2species-assembly">2.Species assembly</h4>
@@ -153,7 +165,9 @@
         Select the appropriate species assembly for your data. When selecting a species,
         different organisms will be used for analysis depending on the chosen species.
         Therefore, please make sure to select the correct species corresponding to the
-        uploaded ATAC-seq data.
+        uploaded ATAC-seq data. We mainly support human and mouse species,
+        although we also open danio rerio as an extension option,
+        but there is not as much experimental support as human and mouse.
       </p>
       <h4 class="mume-header" id="3submit-task">3.Tasks</h4>
       <p>
@@ -175,7 +189,20 @@
         Provide an email address to receive the results via email without any waiting time
         on the current page.
       </p>
-      
+      <h4 class="mume-header" id="6time">6.Running time</h4>
+      <p>
+        The following are the expected running times for some samples.
+        If you don't want to wait on the submission page,
+        it is recommended to fill in the email and just wait for the results to be sent to the email
+      </p>
+      <el-table :data="RunningTime" style="width: 100%">
+        <el-table-column label="Sample Number" prop="sampleNumber" width="150"></el-table-column>
+        <el-table-column label="GEO Number" prop="geoNumber" width="150"></el-table-column>
+        <el-table-column label="Bed NarrowPeak File Size" prop="bedSize" width="230"></el-table-column>
+        <el-table-column label="Bam File Size" prop="bamSize" width="150"></el-table-column>
+        <el-table-column label="Expected Running Times" prop="expectedTime"></el-table-column>
+      </el-table>
+
       <h3 class="mume-header" id="output-results">Outputs</h3>
       <p class="flex items-center justify-center">
         <img src="/images/download.png" width="45%" />
@@ -190,10 +217,23 @@
         identifying whether the sequence contains TFBSs, and encompasses precision,
         recall, F1_score, accuracy (ACC), specificity, Matthews correlation coefficient
         (MCC), the area under the receiver operating characteristic (ROC) curve (AUC), and
-        the area under the precision-recall curve (PRC). The 'motifs' subfolder contains
-        all the TFBSs found by MMGraph within the input ATAC-seq data, and stores them in
-        FASTA format for ease of use in subsequent motif analyses.
+        the area under the precision-recall curve (PRC) (<a href="https://doi.org/10.1093/bib/bbab374">Zhang, S. et al,
+          Briefings in Bioinformatics, 2022</a>). The 'motifs' subfolder contains
+        all the TFBSs found by MMGraph within the input ATAC-seq data.
+        The Fimo (<a href="https://doi.org/10.1093/bioinformatics/btr064">Grant, C. et al, Bioinformatics, 2011</a>) tool
+        then scans the found TFBSs for individual matches for each motif,
+        Finally, all motifs were integrated in the corresponding folders in the formats of fasta,
+        motif logo and Letter-probability matrix, respectively.
+        The tomtom (<a href="https://doi.org/10.1186/gb-2007-8-2-r24">Gupta, S. et al, Genome Biol, 2007</a>) tool was
+        then used to calculate the p-value value
+        by comparing the found motifs with the hocomoco motif database.
+        A smaller p-value value indicated a more conservative motif found,
+        and the comparison results were saved in the 'tomtom-out' folder.
+        <a href="#" @click="motif_click">
+          Example Results Download
+        </a>
       </p>
+
       <h4 class="mume-header" id="2taskmultiple-motifs-finding">2.HINT-ATAC</h4>
       <p>
         The output of HINT-ATAC is a BED file containing the coordinates and related
@@ -221,6 +261,89 @@
         from the current page. If an email address was provided, the server will send the
         results via email, eliminating any waiting time on the current page.
       </p>
+
+
+
+      <h3 class="mume-header" id="motif-enrichment-analysis">Motif Enrichment Analysis</h3>
+      <p>
+        Motif Enrichment Analysis seeks to determine which DNA-binding transcription factors
+        control the transcription of a set of genes by detecting enrichment of
+        known binding motifs in the genes' regulatory regions (<a href="https://doi.org/10.1186/1471-2105-11-165">McLeay,
+          R. et al, BMC Bioinformatics, 2010</a>).
+      </p>
+      <h4 class="mume-header" id="1tool_enrich">1.Tool</h4>
+      <p>
+        AME (Analysis of Motif Enrichment) scores a set of sequences with a motif,
+        treating each subsequence (and its reverse complement for complementable alphabets)
+        in the sequence as a possible match to the motif (<a href="https://doi.org/10.1186/1471-2105-11-165">McLeay, R. et
+          al, BMC Bioinformatics, 2010</a>). At present, only AME is supported for motif enrichment analysis,
+        and motif enrichment analysis tools will be gradually expanded in the future.
+      </p>
+      <h4 class="mume-header" id="2species_enrich">2.Species</h4>
+      <p>
+        Select the appropriate species assembly for your data. When selecting a species,
+        different organisms will be used for analysis depending on the chosen species.
+        Therefore, please make sure to select the correct species corresponding to the
+        uploaded data. We mainly support human and mouse species,
+        although we also open danio rerio as an extension option,
+        but there is not as much experimental support as human and mouse.
+      </p>
+      <h4 class="mume-header" id="3input-file_enrich">3.Input</h4>
+      <p>
+        Input the sequences in which you want to find enriched motifs.
+        Input files are currently only supported in fasta format.
+        It is recommended to use as input the TFBSs found by MMGraph
+        in the TFBS prediction and motif finding tasks,
+        whose location is under the 'motifs' subfolder.
+      </p>
+      <h4 class="mume-header" id="4output-results_enrich">4.Outputs</h4>
+      <p>
+        In all output files, only results for significantly enriched motifs are reported.
+        The format of output results refer to <a href="https://meme-suite.org/meme/doc/ame-output-format.html">AME output
+          format.</a><a href="#" @click="ame_click">
+          Example Results Download
+        </a>
+      </p>
+      <button>
+      </button>
+
+
+
+      <h3 class="mume-header" id="motif-function-analysis">Genome Ontology Enrichment Analysis</h3>
+      <h4 class="mume-header" id="1tool_func">1.Tool</h4>
+      <p>
+        GOMo (Gene Ontology for Motifs) scans all promoters using nucleotide motifs you provide to determine
+        if any motif is significantly associated with genes linked to one or more Genome Ontology (GO) terms.
+        The significant GO terms can suggest the biological roles of the motifs. (<a
+          href="https://doi.org/10.1093/bioinformatics/btq049">Buske, F. et al,Bioinformatics, 2010</a>).
+      </p>
+      <h4 class="mume-header" id="2species_func">2.Species</h4>
+      <p>
+        Select the appropriate species assembly for your data. When selecting a species,
+        different organisms will be used for analysis depending on the chosen species.
+        Therefore, please make sure to select the correct species corresponding to the
+        uploaded data. We mainly support human and mouse species,
+        although we also open danio rerio as an extension option,
+        but there is not as much experimental support as human and mouse.
+        At present, only AME is supported for motif function analysis,
+        and motif enrichment analysis tools will be gradually expanded in the future.
+      </p>
+      <h4 class="mume-header" id="3input-file_func">3.Input</h4>
+      <p>
+        Input nucleotide motifs to analyze for association with GO terms.
+        Input files are currently only supported in meme format.
+        It is recommended to use as input the motifs found by MMGraph
+        in the TFBS prediction and motif finding tasks,
+        whose location is under the 'letter-probability-matrix' subfolder.
+      </p>
+      <h4 class="mume-header" id="4output-results_func">4.Outputs</h4>
+      <p>
+        The format of output results refer to
+        <a href="https://meme-suite.org/meme/doc/gomo-output-format.html">GOMo output format.</a><a href="#" @click="gomo_click">
+          Example Results Download
+        </a>
+      </p>
+
       <h3 class="mume-header" id="dataset-table-and-search-functionality">
         Dataset table and search functionality
       </h3>
@@ -323,6 +446,24 @@
           unravels kinetics of transcription factor binding during zygotic genome
           activation. <span class="italic">Nat Commun</span> 11, 4267 (2020).
         </li>
+        <li>
+          [9] Grant CE, Bailey TL, Noble WS. FIMO: scanning for occurrences of a given motif.
+          <span class="italic">Bioinformatics</span> 27(7):1017-8 (2011).
+        </li>
+        <li>
+          [10] Gupta, S., Stamatoyannopoulos, J.A., Bailey, T.L. et al.
+          Quantifying similarity between motifs. <span class="italic">Genome Biol</span> 8, R24 (2007).
+        </li>
+        <li>
+          [11] McLeay, R.C., Bailey, T.L.
+          Motif Enrichment Analysis: a unified framework and an evaluation on ChIP data.
+          <span class="italic">BMC Bioinformatics</span> 11, 165 (2010).
+        </li>
+        <li>
+          [12] Buske F A, Bodén M, Bauer D C, et al.
+          Assigning roles to DNA regulatory motifs using comparative genomics.
+          <span class="italic">Bioinformatics</span> 26(7): 860-866 (2010).
+        </li>
       </ol>
     </div>
     <div class="md-sidebar-toc">
@@ -345,14 +486,10 @@
               <a href="#input-files">Inputs</a>
               <ul>
                 <li>
-                  <a href="#1atac-seq-bed-narrowpeak-file-required"
-                    >1.ATAC-seq bed narrowPeak file (required)</a
-                  >
+                  <a href="#1atac-seq-bed-narrowpeak-file-required">1.ATAC-seq peak file (required)</a>
                 </li>
                 <li>
-                  <a href="#2atac-seq-bam-file-required"
-                    >2.ATAC-seq bam file (required)</a
-                  >
+                  <a href="#2atac-seq-bam-file-required">2.ATAC-seq bam file (required)</a>
                 </li>
               </ul>
             </li>
@@ -366,6 +503,7 @@
                   <a href="#4select-motif-database">4.Select Motif database</a>
                 </li>
                 <li><a href="#5e-mail">5.E-mail</a></li>
+                <li><a href="#6time">6.Running time</a></li>
               </ul>
             </li>
             <li>
@@ -383,10 +521,39 @@
                 <li><a href="#4how-to-get-result">4.How to get result?</a></li>
               </ul>
             </li>
+
             <li>
-              <a href="#dataset-table-and-search-functionality"
-                >Dataset table and search functionality</a
-              >
+              <a href="#motif-enrichment-analysis">Motif Enrichment Analysis</a>
+              <ul>
+                <li>
+                  <a href="#1tool_enrich">1.Tool</a>
+                </li>
+                <li>
+                  <a href="#2species_enrich">2.Species</a>
+                </li>
+                <li>
+                  <a href="#3input-file_enrich">3.Input</a>
+                </li>
+                <li><a href="#4output-results_enrich">4.Outputs</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#motif-function-analysis">Genome Ontology Enrichment Analysis</a>
+              <ul>
+                <li>
+                  <a href="#1tool_func">1.Tool</a>
+                </li>
+                <li>
+                  <a href="#2species_func">2.Species</a>
+                </li>
+                <li>
+                  <a href="#3input-file_func">3.Input</a>
+                </li>
+                <li><a href="#4output-results_func">4.Outputs</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#dataset-table-and-search-functionality">Dataset table and search functionality</a>
               <ul>
                 <li>
                   <a href="#1-precise-query-function">1. Precise query function</a>
@@ -400,9 +567,7 @@
               </ul>
             </li>
             <li>
-              <a href="#using-the-table-and-search-functionality"
-                >Using the table and search functionality</a
-              >
+              <a href="#using-the-table-and-search-functionality">Using the table and search functionality</a>
             </li>
             <li>
               <a href="#citation">Citation</a>
@@ -413,8 +578,7 @@
     </div>
   </div>
 </template>
-<style>
-</style>
+<style></style>
 <style scoped>
 @import url("https://fonts.googleapis.com/css?family=Roboto+Mono|Source+Sans+Pro:300,400,600");
 /* @import url('/node_modules/katex/dist/katex.min.css'); */
@@ -577,7 +741,7 @@
   cursor: help;
 }
 
-.markdown-preview pre > code,
+.markdown-preview pre>code,
 .markdown-preview pre[class*="language"] {
   -moz-osx-font-smoothing: initial;
   -webkit-font-smoothing: initial;
@@ -595,7 +759,7 @@
   white-space: pre;
 }
 
-.markdown-preview pre > code {
+.markdown-preview pre>code {
   padding-left: 0;
   padding-right: 0;
 }
@@ -649,11 +813,9 @@ pre[data-line] .line-highlight {
   padding: inherit 0;
   margin-top: 1em;
   background: rgba(153, 122, 102, 0.08);
-  background: linear-gradient(
-    to right,
-    rgba(153, 122, 102, 0.1) 70%,
-    rgba(153, 122, 102, 0)
-  );
+  background: linear-gradient(to right,
+      rgba(153, 122, 102, 0.1) 70%,
+      rgba(153, 122, 102, 0));
   pointer-events: none;
   line-height: inherit;
   white-space: pre;
@@ -688,8 +850,7 @@ pre[data-line] .line-highlight[data-end]:after {
   font-style: normal;
   font-weight: 400;
   src: local("Roboto Mono"), local("RobotoMono-Regular"),
-    url(https://fonts.gstatic.com/s/robotomono/v7/L0x5DF4xlVMF-BfR8bXMIjhLq3o.ttf)
-      format("truetype");
+    url(https://fonts.gstatic.com/s/robotomono/v7/L0x5DF4xlVMF-BfR8bXMIjhLq3o.ttf) format("truetype");
 }
 
 @font-face {
@@ -697,8 +858,7 @@ pre[data-line] .line-highlight[data-end]:after {
   font-style: normal;
   font-weight: 300;
   src: local("Source Sans Pro Light"), local("SourceSansPro-Light"),
-    url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwlxdr.ttf)
-      format("truetype");
+    url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwlxdr.ttf) format("truetype");
 }
 
 @font-face {
@@ -706,8 +866,7 @@ pre[data-line] .line-highlight[data-end]:after {
   font-style: normal;
   font-weight: 400;
   src: local("Source Sans Pro Regular"), local("SourceSansPro-Regular"),
-    url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7g.ttf)
-      format("truetype");
+    url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7g.ttf) format("truetype");
 }
 
 @font-face {
@@ -715,8 +874,7 @@ pre[data-line] .line-highlight[data-end]:after {
   font-style: normal;
   font-weight: 600;
   src: local("Source Sans Pro SemiBold"), local("SourceSansPro-SemiBold"),
-    url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwlxdr.ttf)
-      format("truetype");
+    url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwlxdr.ttf) format("truetype");
 }
 
 * {
@@ -733,7 +891,7 @@ pre[data-line] .line-highlight[data-end]:after {
 }
 
 #help:not(.ready) .app-nav,
-#help:not(.ready) > nav,
+#help:not(.ready)>nav,
 #help:not(.ready) [data-cloak] {
   display: none;
 }
@@ -834,7 +992,7 @@ li input[type="checkbox"] {
   margin: 0;
 }
 
-.app-nav > a {
+.app-nav>a {
   margin: 0 16px;
   margin: 0 1rem;
   padding: 5px 0;
@@ -978,7 +1136,7 @@ main {
   z-index: 3;
 }
 
-.sidebar > h1 {
+.sidebar>h1 {
   margin: 0 auto 16px;
   margin: 0 auto 1rem;
   font-size: 24px;
@@ -987,12 +1145,12 @@ main {
   text-align: center;
 }
 
-.sidebar > h1 a {
+.sidebar>h1 a {
   color: inherit;
   text-decoration: none;
 }
 
-.sidebar > h1 .app-nav {
+.sidebar>h1 .app-nav {
   display: block;
   position: static;
 }
@@ -1007,7 +1165,7 @@ main {
   padding: 0;
 }
 
-.sidebar li > p {
+.sidebar li>p {
   font-weight: 700;
   margin: 0;
 }
@@ -1087,12 +1245,12 @@ main {
   transition: left 0.25s ease;
 }
 
-.markdown-preview > * {
+.markdown-preview>* {
   box-sizing: border-box;
   font-size: inherit;
 }
 
-.markdown-preview > :first-child {
+.markdown-preview> :first-child {
   margin-top: 0 !important;
 }
 
@@ -1186,6 +1344,7 @@ main {
 }
 
 @media print {
+
   .app-nav,
   .github-corner,
   .sidebar,
@@ -1195,6 +1354,7 @@ main {
 }
 
 @media screen and (max-width: 768px) {
+
   .github-corner,
   .sidebar,
   .sidebar-toggle {
@@ -1278,6 +1438,7 @@ main {
 }
 
 @-webkit-keyframes a {
+
   0%,
   to {
     -webkit-transform: rotate(0);
@@ -1298,6 +1459,7 @@ main {
 }
 
 @keyframes a {
+
   0%,
   to {
     -webkit-transform: rotate(0);
@@ -1389,7 +1551,7 @@ section.cover ul {
   padding: 0;
 }
 
-section.cover .cover-main > p:last-child a {
+section.cover .cover-main>p:last-child a {
   border-color: #42b983;
   border: 1px solid var(--theme-color, #42b983);
   border-radius: 2rem;
@@ -1409,29 +1571,29 @@ section.cover .cover-main > p:last-child a {
   transition: all 0.15s ease;
 }
 
-section.cover .cover-main > p:last-child a:last-child {
+section.cover .cover-main>p:last-child a:last-child {
   background-color: #42b983;
   background-color: var(--theme-color, #42b983);
   color: #fff;
   margin-right: 0;
 }
 
-section.cover .cover-main > p:last-child a:last-child:hover {
+section.cover .cover-main>p:last-child a:last-child:hover {
   color: inherit;
   opacity: 0.8;
 }
 
-section.cover .cover-main > p:last-child a:hover {
+section.cover .cover-main>p:last-child a:hover {
   color: inherit;
 }
 
-section.cover blockquote > p > a {
+section.cover blockquote>p>a {
   border-bottom: 2px solid #42b983;
   border-bottom: 2px solid var(--theme-color, #42b983);
   transition: color 0.3s;
 }
 
-section.cover blockquote > p > a:hover {
+section.cover blockquote>p>a:hover {
   color: #42b983;
   color: var(--theme-color, #42b983);
 }
@@ -1481,7 +1643,7 @@ section.cover.has-mask .mask {
   padding: 0;
 }
 
-.sidebar ul li.active > a {
+.sidebar ul li.active>a {
   border-right: 2px solid;
   color: #42b983;
   color: var(--theme-color, #42b983);
@@ -1609,7 +1771,7 @@ section.cover.has-mask .mask {
   counter-reset: linenumber;
 }
 
-.markdown-preview pre.line-numbers > code {
+.markdown-preview pre.line-numbers>code {
   position: relative;
 }
 
@@ -1628,13 +1790,13 @@ section.cover.has-mask .mask {
   user-select: none;
 }
 
-.markdown-preview pre.line-numbers .line-numbers-rows > span {
+.markdown-preview pre.line-numbers .line-numbers-rows>span {
   pointer-events: none;
   display: block;
   counter-increment: linenumber;
 }
 
-.markdown-preview pre.line-numbers .line-numbers-rows > span:before {
+.markdown-preview pre.line-numbers .line-numbers-rows>span:before {
   content: counter(linenumber);
   color: #999;
   display: block;
@@ -1709,8 +1871,7 @@ section.cover.has-mask .mask {
   }
 }
 
-#help[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc]
-  .md-sidebar-toc {
+#help[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc {
   position: absolute;
   top: 0;
   left: 0;
@@ -1728,52 +1889,40 @@ section.cover.has-mask .mask {
   background-image: inherit;
 }
 
-#help[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc]
-  .md-sidebar-toc::-webkit-scrollbar {
+#help[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar {
   width: 8px;
 }
 
-#help[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc]
-  .md-sidebar-toc::-webkit-scrollbar-track {
+#help[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track {
   border-radius: 10px;
   background-color: transparent;
 }
 
-#help[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc]
-  .md-sidebar-toc::-webkit-scrollbar-thumb {
+#help[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb {
   border-radius: 5px;
   background-color: rgba(150, 150, 150, 0.66);
   border: 4px solid rgba(150, 150, 150, 0.66);
   background-clip: content-box;
 }
 
-#help[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc]
-  .md-sidebar-toc
-  a {
+#help[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a {
   text-decoration: none;
 }
 
-#help[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc]
-  .md-sidebar-toc
-  ul {
+#help[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc ul {
   padding: 0 1.6em;
   margin-top: 0.8em;
 }
 
-#help[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc]
-  .md-sidebar-toc
-  li {
+#help[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc li {
   margin-bottom: 0.8em;
 }
 
-#help[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc]
-  .md-sidebar-toc
-  ul {
+#help[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc ul {
   list-style-type: none;
 }
 
-#help[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc]
-  .markdown-preview {
+#help[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview {
   left: 300px;
   width: calc(100% - 300px);
   padding: 2em calc(50% - 550px - 150px);
@@ -1782,27 +1931,23 @@ section.cover.has-mask .mask {
 }
 
 @media screen and (max-width: 1274px) {
-  #help[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc]
-    .markdown-preview {
+  #help[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview {
     padding: 2em;
   }
 }
 
 @media screen and (max-width: 450px) {
-  #help[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc]
-    .markdown-preview {
+  #help[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview {
     width: 100%;
   }
 }
 
-#help[for="html-export"]:not([data-presentation-mode]):not([html-show-sidebar-toc])
-  .markdown-preview {
+#help[for="html-export"]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview {
   left: 50%;
   transform: translateX(-50%);
 }
 
-#help[for="html-export"]:not([data-presentation-mode]):not([html-show-sidebar-toc])
-  .md-sidebar-toc {
+#help[for="html-export"]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc {
   display: none;
 }
 
@@ -1812,9 +1957,69 @@ section.cover.has-mask .mask {
 
 <script>
 import MathFormula from "./MathFormula.vue";
+import axios from "axios";
+import qs from "qs";
 export default {
   components: {
     MathFormula,
+  },
+  data() {
+    return {
+      RunningTime: [
+        {
+          sampleNumber: "Sample 1",
+          geoNumber: "GSE215704",
+          bedSize: "3.81 MB",
+          bamSize: "1.94 GB",
+          expectedTime: "2 hours and 11 minutes",
+        },
+        {
+          sampleNumber: "Sample 2",
+          geoNumber: "GSE215595",
+          bedSize: "2.29 MB",
+          bamSize: "2.65 GB",
+          expectedTime: "1 hour and 12 minutes",
+        },
+      ],
+      // bedtable: [
+      //   {
+      //     chrom: "chr22",
+      //     start: "21641904",
+      //     end: "21642586",
+      //     name: ".",
+      //     score: "1000",
+      //     strand: ".",
+      //     signalvalue: "17.81314",
+      //     pvalue: "781.11261",
+      //     qvalue: "773.77698",
+      //     peak: "245",
+      //   },
+      //   {
+      //     chrom: "chr22",
+      //     start: "20916753",
+      //     end: "20917550",
+      //     name: ".",
+      //     score: "1000",
+      //     strand: ".",
+      //     signalvalue: "19.42583",
+      //     pvalue: "683.03735",
+      //     qvalue: "676.21100",
+      //     peak: "556",
+      //   },
+      //   {
+      //     chrom: "chr22",
+      //     start: "21735446",
+      //     end: "21736444",
+      //     name: ".",
+      //     score: "1000",
+      //     strand: ".",
+      //     signalvalue: "17.29705",
+      //     pvalue: "630.56628",
+      //     qvalue: "623.92041",
+      //     peak: "526",
+      //   },
+      // ],
+    };
   },
   mounted() {
     let goto = this.$route.query.goto;
@@ -1859,6 +2064,128 @@ export default {
     // };
 
     // setInterval(createSnowFlake, 40);
+  },
+  methods: {
+    motif_click(event) {
+      event.preventDefault();
+      // 在这里添加点击事件的处理逻辑
+      return new Promise((resolve, reject) => {
+        axios
+          .post("/api/download", qs.stringify({ name: 'GSE187636_motif' }), {
+            responseType: "blob",
+          })
+          .then((res) => {
+            if (!res) return;
+            const fileName = res.headers["content-disposition"].split("filename=")[1];
+            const response = res.data;
+            // 兼容ie11
+            if (window.navigator.msSaveOrOpenBlob) {
+              try {
+                const blobObject = new Blob([response]);
+                window.navigator.msSaveOrOpenBlob(blobObject, fileName);
+              } catch (e) {
+                console.log(e);
+                reject(e);
+              }
+              return;
+            }
+            const url = window.URL.createObjectURL(new Blob([response]));
+            const link = document.createElement("a");
+            link.style.display = "none";
+            link.href = url;
+            link.setAttribute("download", fileName.replace(new RegExp('"', "g"), ""));
+            console.log(link);
+            document.body.appendChild(link);
+            link.click();
+            link.remove();
+          })
+          .catch((error) => {
+            console.log(error);
+            alert('File to expire')
+            reject(error);
+          });
+      });
+    },
+    ame_click(event) {
+      event.preventDefault();
+      // 在这里添加点击事件的处理逻辑
+      return new Promise((resolve, reject) => {
+        axios
+          .post("/api/download", qs.stringify({ name: 'GSE187636_AME' }), {
+            responseType: "blob",
+          })
+          .then((res) => {
+            if (!res) return;
+            const fileName = res.headers["content-disposition"].split("filename=")[1];
+            const response = res.data;
+            // 兼容ie11
+            if (window.navigator.msSaveOrOpenBlob) {
+              try {
+                const blobObject = new Blob([response]);
+                window.navigator.msSaveOrOpenBlob(blobObject, fileName);
+              } catch (e) {
+                console.log(e);
+                reject(e);
+              }
+              return;
+            }
+            const url = window.URL.createObjectURL(new Blob([response]));
+            const link = document.createElement("a");
+            link.style.display = "none";
+            link.href = url;
+            link.setAttribute("download", fileName.replace(new RegExp('"', "g"), ""));
+            console.log(link);
+            document.body.appendChild(link);
+            link.click();
+            link.remove();
+          })
+          .catch((error) => {
+            console.log(error);
+            alert('File to expire')
+            reject(error);
+          });
+      });
+    },
+    gomo_click(event) {
+      event.preventDefault();
+      // 在这里添加点击事件的处理逻辑
+      return new Promise((resolve, reject) => {
+        axios
+          .post("/api/download", qs.stringify({ name: 'GSE187636_GOMo' }), {
+            responseType: "blob",
+          })
+          .then((res) => {
+            if (!res) return;
+            const fileName = res.headers["content-disposition"].split("filename=")[1];
+            const response = res.data;
+            // 兼容ie11
+            if (window.navigator.msSaveOrOpenBlob) {
+              try {
+                const blobObject = new Blob([response]);
+                window.navigator.msSaveOrOpenBlob(blobObject, fileName);
+              } catch (e) {
+                console.log(e);
+                reject(e);
+              }
+              return;
+            }
+            const url = window.URL.createObjectURL(new Blob([response]));
+            const link = document.createElement("a");
+            link.style.display = "none";
+            link.href = url;
+            link.setAttribute("download", fileName.replace(new RegExp('"', "g"), ""));
+            console.log(link);
+            document.body.appendChild(link);
+            link.click();
+            link.remove();
+          })
+          .catch((error) => {
+            console.log(error);
+            alert('File to expire')
+            reject(error);
+          });
+      });
+    },
   },
 };
 </script>

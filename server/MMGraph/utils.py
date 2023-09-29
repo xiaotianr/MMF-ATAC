@@ -3,9 +3,8 @@ import numpy as np
 import scipy.sparse as sp
 from scipy.sparse.linalg.eigen.arpack import eigsh
 import pandas as pd
-import seaborn as sns
 import re
-from matplotlib import pyplot as plt
+# from matplotlib import pyplot as plt
 from sklearn import metrics
 ## compute aAUC
 def com_auc(test_l,pred,mask):
@@ -37,15 +36,17 @@ def sample_mask(idx, n):
 	mask[idx] = 1
 	return np.array(mask, dtype=np.bool)
 ####### constructing dict to update hyper-parameter
-def construct_feed_dict(feature0, feature1,feature2, support0, support1, labels, labels_mask, placeholders):
+def construct_feed_dict(feature0, feature1, feature2, feature3,support0, support1, support2, labels, labels_mask, placeholders):
 	feed_dict = dict()
 	feed_dict.update({placeholders['labels']:labels})
 	feed_dict.update({placeholders['labels_mask']:labels_mask})
 	feed_dict.update({placeholders['support0'][i]:support0[i] for i in range(len(support0))})
 	feed_dict.update({placeholders['support1'][i]:support1[i] for i in range(len(support1))})
+	feed_dict.update({placeholders['support2'][i]:support1[i] for i in range(len(support2))})
 	feed_dict.update({placeholders['feature0']:feature0})
 	feed_dict.update({placeholders['feature1']:feature1})
 	feed_dict.update({placeholders['feature2']:feature2})
+	feed_dict.update({placeholders['feature3']:feature3})
 	return feed_dict
 ############################### normalizing adjacy matrices 
 def normalize_adj(adj):
@@ -62,6 +63,8 @@ def preprocess_features(features):
 	r_inv[np.isinf(r_inv)] = 0.0
 	r_mat_inv = sp.diags(r_inv)
 	features = r_mat_inv.dot(features)
+	# print("features:")
+	# print(features)
 	return sparse_to_tuple(features)
 
 

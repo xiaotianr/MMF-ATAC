@@ -4,7 +4,7 @@
       <div class="text-2xl rounded-xl card_cite w-[100%] model-overview">
         <p>
           Assay for Transposase-Accessible Chromatin using sequencing (ATAC-seq) 
-          is employed for investigating the chromatin accessibility of the entire genome, 
+          is used for investigating the chromatin accessibility of the entire genome, 
           generating DNA fragments suitable for sequencing by inserting the Tn5 transposase into open 
           chromatin regions. When a TF binds to DNA, it prevents the Tn5 transposase from cutting the 
           DNA sequence in that specific region, resulting in a protected area known as an ATAC-seq footprint. 
@@ -12,7 +12,7 @@
           can be found from a single ATAC-seq dataset.
         </p>
         <p>
-          We have developed a fully automated public web server called MMF-ATAC, 
+          We have developed a public web server called MMF-ATAC, 
           by inputting the ATAC-seq peak bed file and corresponding bam file, 
           MMF-ATAC will find motifs of various lengths and return them in multiple formats.
           Results can be downloaded directly from the web page or sent to users' email. 
@@ -20,10 +20,8 @@
           and download historical submission results.
         </p>
         <p>
-        Motif finding experiments were conducted on all 459 ATAC-seq datasets available on ENCODE. 
-        Subsequently, the experimental results were analyzed by using FIMO and TOMTOM tools, 
-        and the identified motifs were visualized on our server in the form of motif logos 
-        and Position Probability Matrices (PPMs) based on these analyses.
+        MMF-ATAC visualizes the results of motif finding on 459 ATAC-seq datasets 
+        in the form of motif logos and position probability matrices (PPMs).
         </p>
         <!-- <p>If you use the system, please cite:</p>
         <p>

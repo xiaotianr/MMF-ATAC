@@ -12,9 +12,7 @@ from com_mi import calc_MI, cal_IC
 import sys
 import argparse
 from numpy.random import seed
-seed(1)
 from tensorflow import set_random_seed
-set_random_seed(2)
 ################
 parser = argparse.ArgumentParser(description="Process ATAC-seq data.")
 parser.add_argument('--hash', default='fbd7c1da229c4007bf2d7b8a1ba1cf03',type=str,help='The The hash of the task')
@@ -22,12 +20,10 @@ parser.add_argument('--path', default='./save/',type=str,help='Path to the bed f
 parser.add_argument('--dataset', default='GSE11420x_encode',type=str,help='The prefix name of the dataset')
 args = parser.parse_args()
 # ##############################
-
 def construct_vocab(seqs, size, thresh = 3):#
     word_vocab = {}
     word_freq = {}
     n_sqs = len(seqs)
-    # print(n_sqs)
     for i in range(n_sqs):
         subseqs=[]
         seq=seqs[i]
@@ -40,7 +36,6 @@ def construct_vocab(seqs, size, thresh = 3):#
             else:
                 word_freq[subseq]+=1
         subseqs=[]
-    # print(len(word_freq))
     return word_vocab,word_freq
 def kmer_seq(word_vocab,word_freq,seqs):
     keys=list(word_freq.keys())#KMERS
@@ -49,7 +44,7 @@ def kmer_seq(word_vocab,word_freq,seqs):
         kseqs = [seq for seq  in seqs if kmer in word_vocab[seq]]
         keys_seqs[kmer]=kseqs
     return keys_seqs
-###
+###################################
 def tf_ks(seq,size=5):
     sword_freq = {}
     for i in range(0,len(seq)-size+1,1):
@@ -67,7 +62,7 @@ def standardization(data):
 	nor_data = (data-mu)/sigma 
 	nor_data = list(nor_data)
 	return nor_data
-###################co-occurrence edge######################
+###################co edge###########
 def Acoo_value(nums,K12,K1,K2):    
     if K12>0:
         pk1k2 = K12/nums
@@ -78,7 +73,7 @@ def Acoo_value(nums,K12,K1,K2):
         Acoo_k1k2 = 0
     weight = Acoo_k1k2
     return weight
-    
+########################################   
 def Acoo(seqs,word_freq,word_vocab,threshholds=0):
     keys=list(word_freq.keys())#KMERS
     rows_cols = [[i,j] for i in range(len(keys)) for j in range(i, len(keys))]
@@ -98,37 +93,49 @@ def Acoo(seqs,word_freq,word_vocab,threshholds=0):
         weights[t] = weight
         rows[t]= rows_cols[t][0]
         cols[t] = rows_cols[t][1]
-
     node_size = len(keys)
     weights = standardization(weights) #
     adj = scipy.sparse.csr_matrix((weights, (list(rows), list(cols))),shape=(node_size, node_size))
-    # adj = adj.T+adj
     Acoo = adj + adj.T.multiply(adj.T > adj) - adj.multiply(adj.T > adj)
     return Acoo
 #############################################
 def generateAdjs(tfids,Kmers=5):
     threshholds = Kmers
-    test_seqs = load_encode_test(tfid)
-    train_seqs = load_encode_train(tfid)
-    seqs = train_seqs + test_seqs
-    seqs = [seq[0] for seq in seqs]
-    pos_seqs = [t[0]  for t in test_seqs]
-
-    
-    
+    # test_seqs = load_encode_test(tfid)
+    # train_seqs = load_encode_train(tfid)
+    # seqs = train_seqs + test_seqs
+    # seqs = [seq[0] for seq in seqs]
+    # pos_seqs = [t[0]  for t in test_seqs]
+    pos_test_seqs, neg_test_seqs, test_seqs = load_encode_test(tfid)
+    pos_train_seqs, neg_train_seqs,train_seqs = load_encode_train(tfid)
     motif_seqs = load_motif_seq(tfid)
-    neg_seqs = [t for t in pos_seqs if t not in motif_seqs ] 
+    seqs = train_seqs + test_seqs
+    pos_seqs = pos_train_seqs + pos_test_seqs
+    neg_seqs = neg_train_seqs + neg_test_seqs
+    pos_seqs = [seq[0] for seq in pos_seqs]
+    neg_seqs = [seq[0] for seq in neg_seqs]
+    seqs = [seq[0] for seq in seqs]
+    word_vocab, word_freq = construct_vocab(seqs, size=Kmers)
+    neg_word_vocab, neg_word_freq = construct_vocab(neg_seqs, size=Kmers)
+    word_vocab, word_freq = construct_vocab(seqs, size=Kmers)
+    
+    # motif_seqs = load_motif_seq(tfid)
+    # neg_seqs = [t for t in pos_seqs if t not in motif_seqs ] 
 
-    word_vocab,word_freq = construct_vocab(seqs, size=Kmers)
+    # word_vocab,word_freq = construct_vocab(seqs, size=Kmers)
     strsize=str(Kmers)
-    ext = ".npz"
-    filename = "./save/"+tfids+"/adjs/"+tfids + "_encode_" + strsize + "_" + "adj_coo" + ext
-    if os.path.exists(filename):
-        filename = "./save/"+tfids+"/adjs/"+tfids + "_encode_" + strsize + "_" + "adj_coo" + ext
-        adj_coo = scipy.sparse.load_npz(filename)
-    else:
-        adj_coo = Acoo(seqs, word_freq, word_vocab, threshholds=0)
-    return  adj_coo.toarray(), word_vocab, word_freq,motif_seqs,neg_seqs
+    adj_coo = Acoo(pos_seqs, word_freq, word_vocab, threshholds=0)
+    neg_adj_coo = Acoo(neg_seqs, neg_word_freq, neg_word_vocab, threshholds=0)
+    return  adj_coo.toarray(),neg_adj_coo.toarray(), word_vocab, word_freq, neg_word_freq, motif_seqs, neg_seqs
+
+    # ext = ".npz"
+    # filename = "./save/"+tfids+"/adjs/"+tfids + "_encode_" + strsize + "_" + "adj_coo" + ext
+    # if os.path.exists(filename):
+    #     filename = "./save/"+tfids+"/adjs/"+tfids + "_encode_" + strsize + "_" + "adj_coo" + ext
+    #     adj_coo = scipy.sparse.load_npz(filename)
+    # else:
+    #     adj_coo = Acoo(seqs, word_freq, word_vocab, threshholds=0)
+    # return  adj_coo.toarray(), word_vocab, word_freq,motif_seqs,neg_seqs
 
 def load_embed(name,Kmers):
     seq_path = './save/'+name+'/TFBS/'+name+'_encode'+str(Kmers)+'_seq.npy'
@@ -148,10 +155,10 @@ def Merges(tfid):
     FileR = open(inputname,"r")
     # if not os.path.exists("out"):
     #     os.makedirs("out")
-    out_path = './download/'+tfid+'/motifs'
+    out_path = './download/'+tfid+'/TFBSs'
     if not os.path.exists(out_path):
         os.mkdir(out_path)
-    out_name = './download/'+tfid+'/motifs/'+tfid+'_encode_merge.fa'
+    out_name = './download/'+tfid+'/TFBSs/'+tfid+'_encode_merge.fa'
     FileW = open(out_name,"w+")
     done = 0
     x = FileR.readline()
@@ -189,8 +196,11 @@ def Merges(tfid):
 #######
 def TFBSs(tfid, Kmers):
     seq_embed,kmer_embed = load_embed(tfid, Kmers)
-    adj_coo, word_vocab, word_freq, motif_seqs,neg_seqs = generateAdjs(tfid,Kmers)
+    # adj_coo, word_vocab, word_freq, motif_seqs,neg_seqs = generateAdjs(tfid,Kmers)
+    # all_kmers = list(word_freq.keys())
+    adj_coo,neg_coo, word_vocab, word_freq,neg_word_freq, motif_seqs,neg_seqs = generateAdjs(tfid,Kmers)
     all_kmers = list(word_freq.keys())
+    neg_all_kmers = list(neg_word_freq.keys())
     #calculate the MI between sequence node and k-mer node.
     kmer_s=list(word_freq.keys())
     seqs=list(word_vocab.keys())
@@ -237,13 +247,26 @@ def TFBSs(tfid, Kmers):
                         kr_index = all_kmers.index(motif_seqs[i][cp_index:right_frag]) #kr(p,i)
                         kl_index = all_kmers.index(motif_seqs[i][left_frag:cp_index]) #kl(p,i)
                         coexisting_proba = adj_coo[kl_index, kr_index] ##coexisting probability of kl(p,i) and kr(p,i)
-                        if coexisting_proba > 0.5:
+                        kr_index = neg_all_kmers.index(motif_seqs[i][cp_index:right_frag]) #kr(p,i)
+                        kl_index = neg_all_kmers.index(motif_seqs[i][left_frag:cp_index]) #kl(p,i)
+                        neg_proba = neg_coo[kl_index, kr_index] # negative coexisting probability of kl(p,i) and kr(p,i)
+                        if coexisting_proba > neg_proba:
                             seq = motif_seqs[i][left_frag:right_frag]
                             file1.writelines(seq+'\n')
                             strs='>'+'seq'+'_'+str(i)+'_'+str(left_frag)+'_'+str(right_frag)+'\n'
                             file2.writelines(strs)
                             file2.writelines(seq+'\n')
                             count += 1
+                        # kr_index = all_kmers.index(motif_seqs[i][cp_index:right_frag]) #kr(p,i)
+                        # kl_index = all_kmers.index(motif_seqs[i][left_frag:cp_index]) #kl(p,i)
+                        # coexisting_proba = adj_coo[kl_index, kr_index] ##coexisting probability of kl(p,i) and kr(p,i)
+                        # if coexisting_proba > 0.5:
+                        #     seq = motif_seqs[i][left_frag:right_frag]
+                        #     file1.writelines(seq+'\n')
+                        #     strs='>'+'seq'+'_'+str(i)+'_'+str(left_frag)+'_'+str(right_frag)+'\n'
+                        #     file2.writelines(strs)
+                        #     file2.writelines(seq+'\n')
+                        #     count += 1
         file1.close()
         file2.close()
         Merges(tfid) ##### merge overlaped TFBSs to a longer TFBS.

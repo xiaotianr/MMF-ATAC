@@ -90,9 +90,9 @@ def run2(name,genome,database):
         os.mkdir(savepath)
     print('motifanalysis begin')
     if database == "hocomoco" or database=="HOCOMOCO":
-        if genome=="hg38":
+        if genome=="hg38" or genome=="hg19":
             motif_database="./motif_database/hocomoco/HOCOMOCOv11_core_HUMAN_mono_jaspar_format.txt"
-        elif genome=="mm10":
+        elif genome=="mm10" or genome=="mm10":
             motif_database="./motif_database/hocomoco/HOCOMOCOv11_core_MOUSE_mono_jaspar_format.txt"
     elif database=="JASPAR" or database=="jaspar":
         motif_database="./motif_database/jaspar/JASPAR2022_CORE_vertebrates_non-redundant_pfms_jaspar.txt"
@@ -111,6 +111,14 @@ def main():
     genome = 'hg38'
     if species == 'mus':
         genome = 'mm10'
+    elif species == 'homo_hg19':
+        genome='hg19'
+    elif species == 'mus_mm9':
+        genome=='mm9'
+    elif species == 'danio_zv10':
+        genome='zv10'
+    elif species == 'danio_zv10':
+        genome=='zv9'
     if schedule == '1':
         run1(name,genome)
     else:

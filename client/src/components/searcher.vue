@@ -129,41 +129,6 @@ export default {
         } catch (e) {
             console.log(e);
         }
-    },
-    // mounted() {
-    //     const createSnowFlake = () => {
-    //         const snowflake_search = document.createElement("span");
-    //         snowflake_search.classList.add("material-symbols-outlined");
-    //         snowflake_search.textContent = "ac_unit";
-    //         snowflake_search.classList.add(`snowflake_search`);
-    //         // let pre = document.getElementsByClassName('predict')
-    //         // document.body.appendChild(snowflake_login);
-    //         if (document.getElementById('search')) {
-    //             document.getElementById("search").appendChild(snowflake_search);
-    //         }
-    //         // document.getElementById("login").appendChild(snowflake_login);
-    //         const winWidth = window.innerWidth;
-
-    //         let randomLeft = getRandomNumber(0, winWidth-50);
-    //         let randomOpacity = getRandomNumber(0, 1);
-    //         let randomSize = getRandomNumber(0.6, 2);
-
-    //         snowflake_search.style.left = randomLeft + "px";
-    //         snowflake_search.style.animationDuration = Math.random() * 3 + 2 + "s";
-    //         snowflake_search.style.opacity = randomOpacity;
-    //         snowflake_search.style.fontSize = randomSize + "rem";
-
-    //         setTimeout(() => {
-    //             // remove snowflake after 5s
-    //             snowflake_search.remove();
-    //         }, 5000);
-    //     };
-
-    //     const getRandomNumber = (min, max) => {
-    //         return Math.random() * (max - min) + min;
-    //     };
-
-    //     setInterval(createSnowFlake, 40); // Create snowflake every 50ms (lower interval more snowflakes)
-    // }
+    }
 }
 </script>

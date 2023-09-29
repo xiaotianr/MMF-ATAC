@@ -19,6 +19,8 @@ def modifystr(str, size=0):
 def load_encode_train(tfid, limit=5000,):
 	seq_suffix =".seq"
 	filename = "./save/%s/data/encode_101/%s_encode_AC%s" % (tfid,tfid, seq_suffix)
+	pos_sequences=[]
+	neg_sequences=[]
 	sequences=[]
 	targets=[]
 	header=True
@@ -37,13 +39,17 @@ def load_encode_train(tfid, limit=5000,):
 			seq = modifystr(seq)
 			target = float(line[-1])
 			nseq = dinucshuffle(seq)
+			pos_sequences.append([seq, 1])
+			neg_sequences.append([nseq, 0])
 			sequences.append([seq, 1])
-			sequences.append([nseq, 0])		
-	return sequences
+			sequences.append([nseq, 0])						
+	return pos_sequences,neg_sequences,sequences
 ###########################load testing data (B)#############
 def load_encode_test(tfid):
 	seq_suffix =".seq"
 	filename = "./save/%s/data/encode_101/%s_encode_B%s" % (tfid,tfid, seq_suffix)
+	pos_sequences=[]
+	neg_sequences=[]
 	sequences=[]
 	targets=[]
 	header=True
@@ -59,9 +65,11 @@ def load_encode_test(tfid):
 			seq = line[2]
 			seq = modifystr(seq)
 			nseq = dinucshuffle(seq)
+			pos_sequences.append([seq, 1])
+			neg_sequences.append([nseq, 0])
 			sequences.append([seq, 1])
-			sequences.append([nseq, 0])
-	return sequences
+			sequences.append([nseq, 0])	
+	return pos_sequences, neg_sequences, sequences
 
 def load_motif_seq(tfid):
 	seq_suffix =".seq"

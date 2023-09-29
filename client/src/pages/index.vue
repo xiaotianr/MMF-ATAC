@@ -32,7 +32,7 @@
                   fill="currentColor"
                 ></path>
               </svg>
-              <span>Log in</span>
+              <span>Sign in</span>
             </button>
           </el-col>
           <el-col :span="6" class="flex items-end justify-center ml-[-10px]">
@@ -93,7 +93,7 @@
             v-model="state"
             :fetch-suggestions="querySearch"
             clearable
-            placeholder="Enter the GSE ID of ATAC-seq data (such as GSE170214)"
+            placeholder="Enter the GEO number of ATAC-seq data (such as GSE170214)"
             :trigger-on-focus="false"
             select-when-unmatched
             @select="Select"

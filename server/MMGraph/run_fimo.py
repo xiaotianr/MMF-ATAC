@@ -7,8 +7,10 @@ parser.add_argument('--genome', default='hg38',type=str,help='The hash of the ta
 args = parser.parse_args()
 def getfimo(name,genome):
     memes = "./hocomoco_meme"
-    if genome=='mm10':
+    if genome=='mm10' or genome=="mm9":
         memes="./hocomoco_meme_mus"
+    elif genome=='zv10' or genome=='zv9':
+        memes='./jaspar_meme'
     # test_files = "./download/"+name+"/motifs/"+name+"_encode_merge.fa"
     meme = os.walk(memes)
     # test = os.walk(test_files)
@@ -37,7 +39,7 @@ def getfimo(name,genome):
     for i in range(len(file_name_list)):
         file_name = file_name_list[i]
         input1 = input1_list[i]
-        input2 = "./download/"+name+"/motifs/"+file_name2
+        input2 = "./download/"+name+"/TFBSs/"+file_name2
         cmd = prefix +  file_name[:-5]+" " +input1 +" "+input2
         os.system(cmd)
         target = "./save/"+name+"/fimo_out/"+file_name[:-5]+"/fimo.html"

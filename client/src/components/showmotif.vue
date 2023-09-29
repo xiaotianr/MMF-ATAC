@@ -50,7 +50,7 @@
           <div
             class="h-[40px] text-2xl flex items-center justify-center px-[20px] py-[15px]"
           >
-            Position Probability Matrix
+            Position Probability Matrix (total sequence counts={{nsites}})
           </div>
           <div class="table-container">
             <table>
@@ -127,6 +127,7 @@ export default {
       alphabet: "ACGT",
       ppm: [],
       tableData: null,
+      nsites:0
     };
   },
   computed: {
@@ -191,6 +192,7 @@ export default {
         );
         this.alphabet = res.data.alphabet;
         this.ppm = res.data.ppm;
+        this.nsites=res.data.nsites;
         this.tableData = [];
         let r = [""];
         for (let i = 1; i <= this.ppm.length; ++i) {
