@@ -805,6 +805,7 @@ export default {
         index++;
         // 当所有切片都上传成功，我们合并切片
         if (index < count) return;
+        if(this.per>=5) return; 
         this.per = 5;
         try {
           axios
