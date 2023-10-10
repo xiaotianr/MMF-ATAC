@@ -36,16 +36,14 @@ def sample_mask(idx, n):
 	mask[idx] = 1
 	return np.array(mask, dtype=np.bool)
 ####### constructing dict to update hyper-parameter
-def construct_feed_dict(feature0, feature1, feature2, feature3,support0, support1, support2, labels, labels_mask, placeholders):
+def construct_feed_dict(feature0, feature1, feature3,support0, support1, labels, labels_mask, placeholders):
 	feed_dict = dict()
 	feed_dict.update({placeholders['labels']:labels})
 	feed_dict.update({placeholders['labels_mask']:labels_mask})
 	feed_dict.update({placeholders['support0'][i]:support0[i] for i in range(len(support0))})
 	feed_dict.update({placeholders['support1'][i]:support1[i] for i in range(len(support1))})
-	feed_dict.update({placeholders['support2'][i]:support1[i] for i in range(len(support2))})
 	feed_dict.update({placeholders['feature0']:feature0})
 	feed_dict.update({placeholders['feature1']:feature1})
-	feed_dict.update({placeholders['feature2']:feature2})
 	feed_dict.update({placeholders['feature3']:feature3})
 	return feed_dict
 ############################### normalizing adjacy matrices 
